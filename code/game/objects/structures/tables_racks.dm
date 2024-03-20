@@ -465,6 +465,16 @@
 	buildstack = null
 	max_integrity = 70
 
+/obj/structure/table/wood/clean
+	name = "wooden table"
+	desc = "A stylish wooden table with a circular design."
+	icon = 'icons/obj/structures.dmi'
+	icon_state = "woodtable_clean"
+	canSmoothWith = null
+	buildstack = null
+	max_integrity = 70
+
+
 /obj/structure/table/wood/poker //No specialties, Just a mapping object.
 	name = "gambling table"
 	desc = "A seedy table for seedy dealings in seedy places."

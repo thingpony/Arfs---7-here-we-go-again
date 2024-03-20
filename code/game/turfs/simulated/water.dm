@@ -102,3 +102,56 @@
 	for(var/atom/movable/AM in contents)
 		AM.water_act(amount)
 
+/turf/open/water/seadeep
+	name = "water"
+	desc = "deep sea water."
+	icon = 'content_arfs/icons/beach.dmi'
+	icon_state = "seadeep"
+
+/turf/open/water/seashallow
+	name = "water"
+	desc = "shallow sea water."
+	icon = 'content_arfs/icons/beach.dmi'
+	icon_state = "seashallow"
+
+/turf/open/water/watershallow
+	name = "water"
+	desc = "shallow water."
+	icon = 'content_arfs/icons/beach.dmi'
+	icon_state = "water_shallow"
+
+/turf/open/water/beachcorner
+	name = "water"
+	desc = "life is a beach."
+	icon = 'content_arfs/icons/beach.dmi'
+	icon_state = "beachcorner"
+
+/turf/open/water/beach
+	name = "water"
+	desc = "life is a beach."
+	icon = 'content_arfs/icons/beach.dmi'
+	icon_state = "beach"
+
+/turf/open/water/shoreline
+	name = "water"
+	desc = "life is a beach."
+	icon = 'content_arfs/icons/beach.dmi'
+	icon_state = "shoreline"
+
+/turf/open/water/shorelinecorner
+	name = "water"
+	desc = "life is a beach."
+	icon = 'content_arfs/icons/beach.dmi'
+	icon_state = "shorelinecorner"
+
+/turf/open/water/shorelinecorner
+	name = "water"
+	desc = "life is a beach."
+	icon = 'content_arfs/icons/beach.dmi'
+	icon_state = "shorelinecorner"
+
+/turf/open/floor/plating/dirt/virgosand
+	name = "beach sand"
+	desc = "life is a beach."
+	icon = 'content_arfs/icons/beach.dmi'
+	icon_state = "desert"
