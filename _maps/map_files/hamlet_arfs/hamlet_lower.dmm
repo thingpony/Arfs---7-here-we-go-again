@@ -1,8 +1,11 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ac" = (
 /obj/structure/cave/stalagmite/four,
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 8
+	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "ag" = (
 /obj/structure/table/abductor,
 /obj/item/reagent_containers/food/drinks/ale,
@@ -11,11 +14,11 @@
 /obj/item/reagent_containers/food/drinks/bottle/amaretto,
 /obj/item/reagent_containers/food/drinks/bottle/applejack,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "ai" = (
 /obj/machinery/computer/arcade/amputation,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "al" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
@@ -27,53 +30,60 @@
 	name = "cobblestone";
 	color = "D3D3D3"
 	},
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "an" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 6
 	},
 /obj/effect/turf_decal/weather/grassedgevirgo,
 /turf/open/indestructible/ground/outside/civ/grassdark,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "av" = (
 /turf/open/water/beachcorner,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "aI" = (
 /obj/structure/flora/big_bush,
 /obj/effect/decal/cleanable/glitter/blue,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"bu" = (
-/obj/structure/glowshroom/shadowshroom,
+/area/f13/building/tribal/cave)
+"aR" = (
+/obj/machinery/autolathe,
+/turf/open/indestructible/ground/outside/civ/woodalt{
+	color = "#b8884e"
+	},
+/area/crew_quarters/cafeteria)
+"aY" = (
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 8
+	},
+/obj/structure/hammock_kbraid_s,
+/turf/open/floor/plating/dirt/virgosand,
+/area/f13/building/tribal/cave)
+"bj" = (
+/obj/effect/turf_decal/weather/grassedgevirgo,
+/obj/structure/pondlily_small,
+/turf/open/water/seashallow,
+/area/f13/building/tribal/cave)
+"br" = (
+/obj/effect/decal/cleanable/glitter/blue,
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 1
 	},
-/turf/open/indestructible/ground/outside/civ/grassdark,
-/area/f13/wasteland)
-"bC" = (
-/obj/effect/turf_decal/weather/grassedgevirgocorner{
-	dir = 10
-	},
-/turf/open/indestructible/ground/outside/roaddirt{
-	icon = 'icons/turf/f13floors2.dmi';
-	icon_state = "khanstone";
-	name = "cobblestone";
-	color = "D3D3D3"
-	},
-/area/f13/wasteland)
-"bZ" = (
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 1
-	},
-/turf/closed/indestructible/rock,
-/area/f13/wasteland)
-"ch" = (
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
+"by" = (
 /obj/structure/flora/wasteplant/fever_blossom,
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 4
 	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"bR" = (
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 1
+	},
+/turf/closed/indestructible/rock,
+/area/f13/building/tribal/cave)
 "ck" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 6
@@ -82,33 +92,17 @@
 	color = "#b8884e"
 	},
 /area/f13/wasteland)
-"cu" = (
-/obj/structure/flora/wasteplant/fever_blossom,
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 1
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+"cr" = (
+/turf/closed/indestructible/rock,
+/area/f13/building/tribal/cave)
+"cv" = (
+/obj/effect/overlay/palmtree_l,
+/turf/open/floor/plating/dirt/virgosand,
+/area/f13/building/tribal/cave)
 "cw" = (
 /obj/structure/glowshroom,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"cI" = (
-/obj/effect/turf_decal/weather/grassedgevirgocorner{
-	dir = 10
-	},
-/obj/effect/turf_decal/weather/grassedgevirgocorner{
-	dir = 6
-	},
-/turf/open/water/seashallow,
-/area/f13/wasteland)
-"cJ" = (
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 8
-	},
-/obj/structure/hammock_kbraid_s,
-/turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "cK" = (
 /obj/structure/table/abductor,
 /obj/item/toy/plush/bubbleplush,
@@ -117,60 +111,72 @@
 /obj/effect/spawner/lootdrop/f13/trash_toys,
 /obj/effect/spawner/lootdrop/f13/uncommon_toys,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "cO" = (
 /turf/closed/indestructible/rock,
 /area/f13/wasteland)
 "dd" = (
 /obj/machinery/computer/arcade/orion_trail,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "dN" = (
 /obj/effect/turf_decal/weather/grassedgevirgocorner{
 	dir = 6
 	},
 /turf/open/indestructible/ground/outside/civ/grassdark,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "dX" = (
 /obj/structure/glowshroom,
 /turf/closed/indestructible/rock,
-/area/f13/wasteland)
-"ek" = (
-/obj/structure/bed/chair/hammock_kbraid_n,
-/turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
-"ev" = (
-/obj/structure/hammock_kbraid_s,
-/turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"em" = (
+/obj/effect/decal/cleanable/glitter/blue,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 8
+	},
+/obj/effect/turf_decal/weather/grassedgevirgo,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
+"er" = (
+/turf/open/indestructible/ground/outside/civ/grassdark,
+/area/f13/building/tribal/cave)
 "eN" = (
 /obj/machinery/vending/bigredvend,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
+"eZ" = (
+/obj/structure/glowshroom/shadowshroom,
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
 "fg" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"fs" = (
-/obj/effect/turf_decal/weather/grassedgevirgo,
-/turf/open/water/seashallow,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"fC" = (
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 8
+	},
+/turf/open/floor/plating/dirt/virgosand,
+/area/f13/building/tribal/cave)
 "fO" = (
 /obj/effect/turf_decal/weather/grassedgevirgocorner{
 	dir = 5
 	},
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "fQ" = (
 /obj/structure/cave/stalagmite/one,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "gt" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "gE" = (
 /obj/structure/sink/cupboard{
 	pixel_y = 12
@@ -180,38 +186,41 @@
 	light_color = "#e8eaff"
 	},
 /turf/open/floor/plasteel/freezer,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "gG" = (
 /obj/structure/flora/ausbushes/leafybush,
 /obj/structure/glowshroom,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"gN" = (
-/obj/effect/overlay/palmtree_r,
-/turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "hb" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
 	},
 /turf/open/water/seashallow,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "hj" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 4
 	},
 /turf/open/indestructible/ground/outside/civ/grassdark,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "hl" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 9
 	},
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "hr" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"hz" = (
+/obj/structure/cave/stalagmite/four,
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
 "hO" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 8
@@ -219,15 +228,23 @@
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "hP" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"hW" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 10
+	},
+/turf/open/indestructible/ground/outside/civ/woodalt{
+	color = "#b8884e"
+	},
+/area/crew_quarters/cafeteria)
 "hX" = (
 /obj/structure/table/wood/fancy/black,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "is" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 1
@@ -239,53 +256,37 @@
 "iL" = (
 /obj/machinery/vending/snack/random,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
-"iN" = (
-/obj/structure/cave/stalagmite/four,
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 8
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "iU" = (
 /obj/structure/flora/ausbushes/stalkybush,
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "jb" = (
 /obj/structure/spacevine,
 /turf/closed/indestructible/rock,
-/area/f13/wasteland)
-"jd" = (
-/obj/structure/chair/comfy/plywood{
-	dir = 8
+/area/f13/building/tribal/cave)
+"jw" = (
+/obj/effect/decal/cleanable/glitter/blue,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 4
 	},
-/turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
-"ju" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/turf/open/indestructible/ground/outside/roaddirt{
-	icon = 'icons/turf/f13floors2.dmi';
-	icon_state = "khanstone";
-	name = "cobblestone";
-	color = "D3D3D3"
-	},
-/area/f13/wasteland)
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
 "jD" = (
 /obj/structure/chair/sofa/left{
 	color = "#353535"
 	},
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "jH" = (
 /obj/structure/flora/wasteplant/fever_blossom,
 /obj/structure/glowshroom,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "jI" = (
 /obj/machinery/shower{
 	pixel_y = 16
@@ -293,34 +294,35 @@
 /obj/structure/curtain,
 /obj/structure/decoration/vent,
 /turf/open/floor/plasteel/freezer,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "jV" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
 	},
 /turf/open/water/seashallow,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "ko" = (
 /turf/open/water/beach{
 	dir = 4
 	},
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"kr" = (
+/obj/structure/flora/wasteplant/wild_broc,
+/obj/structure/flora/ausbushes/leafybush,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
 "kG" = (
 /obj/structure/flora/wasteplant/fever_blossom,
 /obj/structure/flora/ausbushes/leafybush,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"kM" = (
-/obj/effect/decal/cleanable/glitter/blue,
 /obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 8
+	dir = 4
 	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "kY" = (
 /obj/structure/flora/tree/jungle,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "lb" = (
 /obj/structure/glowshroom/shadowshroom,
 /turf/closed/indestructible/rock,
@@ -331,34 +333,51 @@
 /obj/item/reagent_containers/rag/towel/random,
 /obj/item/reagent_containers/rag/towel/random,
 /turf/open/floor/plasteel/freezer,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "ll" = (
 /obj/structure/table/wood/clean,
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
-"lo" = (
+/area/f13/building/tribal/cave)
+"lG" = (
+/obj/structure/flora/wasteplant/fever_blossom,
+/obj/structure/flora/ausbushes/leafybush,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
+"lP" = (
+/obj/effect/decal/cleanable/glitter/blue,
+/obj/effect/decal/cleanable/glitter/blue,
+/obj/structure/flora/ausbushes/leafybush,
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 1
 	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"lT" = (
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 5
+/area/f13/building/tribal/cave)
+"lQ" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
 	},
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 9
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone";
+	color = "D3D3D3"
 	},
-/obj/structure/flora/ausbushes/fernybush,
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/leafybush,
-/obj/structure/flora/ausbushes/ywflowers,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "ma" = (
 /obj/structure/flora/ausbushes/leafybush,
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 1
+	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"mb" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 9
+	},
+/turf/open/indestructible/ground/outside/civ/woodalt{
+	color = "#b8884e"
+	},
+/area/crew_quarters/cafeteria)
 "md" = (
 /obj/structure/table/abductor,
 /obj/effect/spawner/lootdrop/f13/common_toys,
@@ -370,7 +389,7 @@
 /obj/effect/spawner/lootdrop/f13/common_toys,
 /obj/effect/spawner/lootdrop/f13/common_toys,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "mf" = (
 /obj/structure/table/abductor,
 /obj/item/toy/plush/bluefox,
@@ -384,62 +403,31 @@
 /obj/effect/spawner/lootdrop/f13/rare_toys,
 /obj/effect/spawner/lootdrop/f13/rare_toys,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
-"mp" = (
-/obj/effect/decal/cleanable/glitter/blue,
-/obj/structure/flora/ausbushes/leafybush,
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"mJ" = (
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 5
-	},
-/obj/structure/flora/tree/chomp/spalmtree{
-	pixel_x = -59
-	},
-/turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
-"mM" = (
-/obj/structure/flora/wasteplant/fever_blossom,
-/obj/structure/glowshroom,
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 8
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "nf" = (
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "ns" = (
 /turf/open/water/beach,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "nx" = (
 /turf/open/water/seashallow,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "nM" = (
 /obj/structure/glowshroom/shadowshroom,
 /turf/open/indestructible/ground/outside/civ/grassdark,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "nO" = (
 /obj/machinery/light/floor{
 	light_color = "#ADD8E6";
 	light_power = 7
 	},
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
-"nQ" = (
-/obj/structure/flora/ausbushes/leafybush,
-/obj/effect/decal/cleanable/glitter/blue,
-/obj/effect/turf_decal/weather/grassedgevirgo,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "og" = (
 /obj/structure/table/wood/clean,
 /turf/open/floor/carpet,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "oE" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
@@ -450,22 +438,30 @@
 	name = "cobblestone";
 	color = "D3D3D3"
 	},
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "oN" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
 	},
 /obj/effect/turf_decal/weather/grassedgevirgo,
 /turf/open/indestructible/ground/outside/civ/grassdark,
-/area/f13/wasteland)
-"oV" = (
-/obj/structure/glowshroom/shadowshroom,
-/obj/effect/decal/cleanable/glitter/blue,
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 4
+/area/f13/building/tribal/cave)
+"oO" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 6
 	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/turf/open/indestructible/ground/outside/civ/woodalt{
+	color = "#b8884e"
+	},
+/area/crew_quarters/cafeteria)
+"oU" = (
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone";
+	color = "D3D3D3"
+	},
+/area/f13/building/tribal/cave)
 "oY" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 9
@@ -474,12 +470,20 @@
 	color = "#b8884e"
 	},
 /area/f13/wasteland)
+"pA" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/civ/woodalt{
+	color = "#b8884e"
+	},
+/area/crew_quarters/cafeteria)
 "pD" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
 	},
 /turf/open/indestructible/ground/outside/civ/grassdark,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "pI" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 1
@@ -488,22 +492,25 @@
 	dir = 5
 	},
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"pU" = (
+/obj/effect/turf_decal/weather/grassedgevirgocorner{
+	dir = 10
+	},
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone";
+	color = "D3D3D3"
+	},
+/area/f13/building/tribal/cave)
 "qn" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"qo" = (
-/obj/effect/decal/cleanable/glitter/blue,
-/obj/structure/glowshroom,
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 1
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"qH" = (
+/area/f13/building/tribal/cave)
+"qC" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 8
 	},
@@ -513,27 +520,29 @@
 	name = "cobblestone";
 	color = "D3D3D3"
 	},
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"qF" = (
+/obj/structure/cave/stalagmite/four,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
 "qJ" = (
 /obj/effect/turf_decal/weather/grassedgevirgocorner{
 	dir = 5
 	},
 /turf/open/water/seashallow,
-/area/f13/wasteland)
-"qV" = (
-/obj/structure/flora/wasteplant/fever_blossom,
-/obj/structure/flora/ausbushes/leafybush,
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 4
+/area/f13/building/tribal/cave)
+"rf" = (
+/obj/effect/turf_decal/weather/grassedgevirgocorner{
+	dir = 9
 	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/turf/open/floor/plating/dirt/virgosand,
+/area/f13/building/tribal/cave)
 "rn" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 5
 	},
 /turf/open/indestructible/ground/outside/civ/grassdark,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "rp" = (
 /obj/structure/fence/corner/wooden{
 	dir = 8;
@@ -546,52 +555,52 @@
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "rt" = (
 /obj/structure/flora/wasteplant/fever_blossom,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 8
+	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "rK" = (
 /obj/structure/closet/crate/bin/trash_fallout,
 /turf/open/floor/plasteel/freezer,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "se" = (
 /obj/structure/flora/wasteplant/fever_blossom,
 /obj/effect/decal/cleanable/glitter/blue,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "sm" = (
 /obj/structure/cave/stalagmite/four,
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "sp" = (
 /obj/structure/cave/stalagmite/four,
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "st" = (
 /obj/effect/turf_decal/weather/grassedgevirgocorner{
 	dir = 9
 	},
+/obj/structure/flora/tree/chomp/palmtreeb1,
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "su" = (
 /turf/open/floor/carpet,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "sx" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/structure/flora/wasteplant/fever_blossom,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"sF" = (
-/obj/structure/flora/ausbushes/brflowers,
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"sK" = (
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/building/tribal/cave)
 "sN" = (
 /obj/structure/table/abductor,
 /obj/item/pizzabox/margherita,
@@ -599,17 +608,16 @@
 /obj/item/pizzabox/pineapple,
 /obj/item/pizzabox/pineapple,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
-"sT" = (
-/obj/effect/decal/cleanable/glitter/blue,
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "sW" = (
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/wasteland)
+"tc" = (
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
 "tk" = (
 /obj/structure/chair/sofa/left{
 	dir = 1;
@@ -617,51 +625,35 @@
 	color = "#333333"
 	},
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
-"tl" = (
-/obj/structure/flora/ausbushes/leafybush,
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 1
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"tp" = (
-/obj/structure/glowshroom/shadowshroom,
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 8
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "tt" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 8
 	},
+/obj/structure/bed/chair/hammock_kbraid_n,
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "tx" = (
 /obj/structure/table/abductor,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
-"tD" = (
-/obj/structure/cave/stalagmite/four,
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"tJ" = (
-/obj/structure/cave/stalagmite/four,
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 5
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
+"tF" = (
+/obj/structure/bed/chair/hammock_kbraid_n,
+/turf/open/floor/plating/dirt/virgosand,
+/area/f13/building/tribal/cave)
 "tO" = (
 /obj/structure/chair/stool/retro/backed{
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"tQ" = (
+/obj/structure/flora/wasteplant/fever_blossom,
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
 "uI" = (
 /obj/structure/table/abductor,
 /obj/item/toy/plush/bird/sylas,
@@ -675,7 +667,7 @@
 /obj/effect/spawner/lootdrop/f13/rare_toys,
 /obj/effect/spawner/lootdrop/f13/rare_toys,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "uP" = (
 /obj/structure/table/abductor,
 /obj/item/pizzabox/meat,
@@ -684,7 +676,7 @@
 /obj/item/pizzabox/vegetable,
 /obj/item/kitchen/knife,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "uV" = (
 /obj/structure/glowshroom{
 	color = "#4F7942";
@@ -692,29 +684,37 @@
 	light_range = 3
 	},
 /turf/closed/indestructible/rock,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "uZ" = (
 /obj/structure/spacevine,
 /turf/closed/indestructible/riveted/boss{
 	name = "temple wall"
 	},
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"vg" = (
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 5
+	},
+/obj/effect/overlay/palmtree_r,
+/turf/open/floor/plating/dirt/virgosand,
+/area/f13/building/tribal/cave)
 "vn" = (
 /obj/structure/closet/crate/bin/trash_fallout,
 /turf/open/floor/carpet/blue,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "vt" = (
 /obj/structure/flora/wasteplant/wild_broc,
 /obj/structure/flora/ausbushes/leafybush,
+/obj/effect/turf_decal/weather/grassedgevirgo,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "vu" = (
 /obj/structure/table/glass,
 /obj/item/clothing/under/misc/bathrobe,
 /obj/item/clothing/under/misc/bathrobe,
 /obj/item/clothing/under/misc/bathrobe,
 /turf/open/floor/plasteel/freezer,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "vM" = (
 /obj/structure/fence/corner/wooden{
 	pixel_y = 18;
@@ -723,10 +723,15 @@
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "vS" = (
+/obj/structure/hammock_kbraid_s,
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"vV" = (
+/obj/structure/glowshroom/shadowshroom,
+/turf/closed/indestructible/rock,
+/area/f13/building/tribal/cave)
 "vY" = (
 /obj/structure/fence/corner/wooden{
 	pixel_x = 13
@@ -734,68 +739,92 @@
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "wa" = (
 /obj/structure/chair/sofa/left{
 	color = "#353535";
 	dir = 1
 	},
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "wf" = (
 /turf/open/indestructible/ground/outside/civ/grassdark,
 /area/f13/wasteland)
+"wH" = (
+/obj/structure/glowshroom/shadowshroom,
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
 "wZ" = (
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "xd" = (
 /turf/open/water/beach{
 	dir = 8
 	},
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "xg" = (
 /obj/machinery/door/airlock/glass_large,
 /turf/open/floor/carpet/blue,
 /area/f13/wasteland)
-"xi" = (
-/obj/structure/flora/wasteplant/fever_blossom,
-/obj/effect/turf_decal/weather/dirt{
-	dir = 8
+"xA" = (
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 1
 	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"xC" = (
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 5
+	},
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 9
+	},
+/obj/structure/flora/ausbushes/fernybush,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
 "xH" = (
 /obj/effect/turf_decal/weather/grassedgevirgocorner{
 	dir = 9
 	},
 /turf/open/water/seashallow,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"xQ" = (
+/obj/effect/decal/cleanable/glitter/blue,
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
 "xS" = (
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
 /area/f13/wasteland)
-"xW" = (
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 8
-	},
-/obj/structure/bed/chair/hammock_kbraid_n,
-/turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
 "yc" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/structure/glowshroom,
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 1
+	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "yj" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"yt" = (
-/obj/effect/decal/cleanable/glitter/blue,
-/obj/effect/turf_decal/weather/grassedgevirgo,
+/area/f13/building/tribal/cave)
+"yr" = (
+/obj/structure/flora/ausbushes/brflowers,
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 4
+	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "yx" = (
 /obj/structure/table/abductor,
 /obj/item/toy/plush/bigdeerplushie,
@@ -807,55 +836,56 @@
 /obj/effect/spawner/lootdrop/f13/uncommon_toys,
 /obj/effect/spawner/lootdrop/f13/rare_toys,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "yI" = (
 /obj/machinery/computer/arcade/battle{
 	dir = 1
 	},
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "yO" = (
 /obj/machinery/gear_painter,
 /turf/open/floor/carpet,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "zf" = (
 /obj/effect/turf_decal/weather/grassedgevirgo,
 /turf/open/indestructible/ground/outside/civ/grassdark,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"zp" = (
+/obj/structure/chair/comfy/plywood{
+	dir = 4
+	},
+/turf/open/floor/plating/dirt/virgosand,
+/area/f13/building/tribal/cave)
 "zA" = (
 /obj/structure/chair/sofa/right{
 	color = "#353535";
 	dir = 1
 	},
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "zG" = (
 /obj/structure/cave/stalagmite/five,
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"zL" = (
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
 "zR" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 8
 	},
 /obj/structure/curtain/directional/south,
 /turf/open/floor/plasteel/freezer,
-/area/f13/wasteland)
-"Ae" = (
-/obj/effect/decal/cleanable/glitter/blue,
-/obj/structure/flora/ausbushes/leafybush,
-/obj/effect/turf_decal/weather/dirt{
-	dir = 8
-	},
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 1
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "Ag" = (
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "Ah" = (
 /obj/structure/table/abductor,
 /obj/item/toy/plush/beeplushie{
@@ -868,19 +898,19 @@
 /obj/effect/spawner/lootdrop/f13/uncommon_toys,
 /obj/effect/spawner/lootdrop/f13/rare_toys,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "Bp" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 4
 	},
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "BI" = (
 /obj/structure/chair/sofa/right{
 	color = "#353535"
 	},
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "BJ" = (
 /obj/structure/cave/supportwall,
 /turf/open/indestructible/ground/inside/dirt,
@@ -898,28 +928,24 @@
 	light_range = 3
 	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "CD" = (
 /obj/machinery/vending/cola,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "CE" = (
 /obj/structure/glowshroom/shadowshroom,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"Di" = (
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 5
-	},
-/obj/effect/overlay/palmtree_r,
+/area/f13/building/tribal/cave)
+"Du" = (
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "DJ" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 5
 	},
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "DX" = (
 /obj/structure/table/abductor,
 /obj/effect/spawner/lootdrop/f13/common_toys,
@@ -934,7 +960,19 @@
 /obj/effect/spawner/lootdrop/f13/rare_toys,
 /obj/effect/spawner/lootdrop/f13/common_toys,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
+"Eb" = (
+/obj/structure/flora/wasteplant/fever_blossom,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/effect/turf_decal/weather/grassedgevirgo,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
+"EW" = (
+/obj/structure/chair/comfy/plywood{
+	dir = 8
+	},
+/turf/open/floor/plating/dirt/virgosand,
+/area/f13/building/tribal/cave)
 "EX" = (
 /obj/structure/fence/wooden{
 	dir = 4;
@@ -949,7 +987,7 @@
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "Fa" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 5
@@ -957,13 +995,6 @@
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
-/area/f13/wasteland)
-"Fl" = (
-/obj/structure/glowshroom/shadowshroom,
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 1
-	},
-/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "Fo" = (
 /obj/effect/turf_decal/weather/splineplain,
@@ -975,13 +1006,13 @@
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "Fu" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
 	},
 /turf/open/floor/carpet/blue,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "Fz" = (
 /obj/effect/turf_decal/weather/splineplain,
 /obj/effect/turf_decal/weather/splineplain{
@@ -1038,87 +1069,41 @@
 	dir = 8
 	},
 /turf/open/water/seashallow,
-/area/f13/wasteland)
-"FU" = (
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/roaddirt{
-	icon = 'icons/turf/f13floors2.dmi';
-	icon_state = "khanstone";
-	name = "cobblestone";
-	color = "D3D3D3"
-	},
-/area/f13/wasteland)
-"Gn" = (
-/obj/structure/chair/comfy/plywood,
-/turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"Gt" = (
+/obj/effect/decal/cleanable/glitter/blue,
+/obj/structure/glowshroom,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
 "Gv" = (
 /obj/structure/flora/tree/jungle,
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/effect/decal/cleanable/glitter/blue,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "Hd" = (
 /obj/structure/flora/ausbushes/leafybush,
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "Hg" = (
 /turf/open/water/seadeep,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "Hi" = (
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "HG" = (
 /obj/structure/cave/stalagmite,
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/wasteland)
-"HR" = (
-/obj/effect/turf_decal/weather/grassedgevirgocorner{
-	dir = 9
-	},
-/obj/structure/flora/tree/chomp/palmtreeb1,
-/turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
 "HY" = (
 /obj/structure/glowshroom,
 /turf/open/indestructible/ground/outside/civ/grassdark,
-/area/f13/wasteland)
-"Iv" = (
-/obj/structure/sink{
-	icon_state = "water";
-	name = "water";
-	pixel_x = 8;
-	pixel_y = 7
-	},
-/obj/structure/sink{
-	icon_state = "water";
-	name = "water";
-	pixel_y = 7
-	},
-/obj/structure/sink{
-	icon_state = "water";
-	name = "water";
-	pixel_x = -6;
-	pixel_y = 7
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam";
-	layer = 2
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam";
-	layer = 2
-	},
-/turf/open/water/seashallow,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"Is" = (
+/turf/closed/wall/mineral/iron,
+/area/crew_quarters/cafeteria)
 "Iw" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 10
@@ -1136,11 +1121,11 @@
 	light_color = "#e8eaff"
 	},
 /turf/open/floor/plasteel/freezer,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "Jb" = (
 /obj/structure/cave/stalagmite/five,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "Jf" = (
 /obj/structure/table/abductor,
 /obj/item/toy/plush/braixen,
@@ -1153,142 +1138,185 @@
 /obj/effect/spawner/lootdrop/f13/rare_toys,
 /obj/effect/spawner/lootdrop/f13/rare_toys,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
-"Jx" = (
-/obj/effect/turf_decal/weather/grassedgevirgo{
+/area/crew_quarters/cafeteria)
+"JA" = (
+/obj/effect/decal/cleanable/glitter/blue,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/effect/turf_decal/weather/dirt{
 	dir = 8
 	},
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 1
+	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "JN" = (
 /obj/machinery/recharge_station,
 /obj/effect/turf_decal/weather/splineplain,
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
+"JU" = (
+/turf/open/indestructible/ground/outside/civ/woodalt{
+	color = "#b8884e"
+	},
+/area/crew_quarters/cafeteria)
 "Kf" = (
 /obj/machinery/vending/donksofttoyvendor,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "Ki" = (
 /obj/structure/cave/stalagmite/one,
 /obj/structure/flora/wasteplant/fever_blossom,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "Kj" = (
 /obj/structure/chair/stool/retro/backed,
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"Km" = (
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 5
+	},
+/obj/structure/flora/tree/chomp/spalmtree{
+	pixel_x = -59
+	},
+/turf/open/floor/plating/dirt/virgosand,
+/area/f13/building/tribal/cave)
 "Kx" = (
 /obj/structure/table/wood/clean,
 /obj/machinery/light{
 	pixel_x = -16
 	},
 /turf/open/floor/carpet,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "KS" = (
 /obj/effect/turf_decal/weather/grassedgevirgocorner{
 	dir = 10
 	},
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"KT" = (
+/obj/effect/turf_decal/weather/grassedgevirgocorner{
+	dir = 10
+	},
+/obj/effect/turf_decal/weather/grassedgevirgocorner{
+	dir = 6
+	},
+/turf/open/water/seashallow,
+/area/f13/building/tribal/cave)
 "KV" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/carpet,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
+"KW" = (
+/obj/effect/turf_decal/weather/grassedgevirgo,
+/turf/open/water/seashallow,
+/area/f13/building/tribal/cave)
 "KY" = (
 /turf/open/water/beachcorner{
 	dir = 1
 	},
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "Lo" = (
 /obj/structure/glowshroom/shadowshroom,
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/effect/decal/cleanable/glitter/blue,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "Lp" = (
 /obj/machinery/vending/cola/starkist,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "LN" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 10
 	},
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"Md" = (
+/obj/structure/glowshroom/shadowshroom,
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/civ/grassdark,
+/area/f13/building/tribal/cave)
 "ME" = (
 /obj/structure/flora/tree/jungle,
 /turf/open/indestructible/ground/outside/civ/grassdark,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"MH" = (
+/obj/structure/flora/ausbushes/leafybush,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
+"MO" = (
+/obj/structure/flora/wasteplant/fever_blossom,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
 "MS" = (
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 4
+	},
 /turf/open/indestructible/ground/outside/roaddirt{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "khanstone";
 	name = "cobblestone";
 	color = "D3D3D3"
 	},
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"Nc" = (
+/obj/structure/chair/comfy/plywood,
+/turf/open/floor/plating/dirt/virgosand,
+/area/f13/building/tribal/cave)
 "Ng" = (
 /obj/machinery/door/airlock/public,
 /turf/open/floor/plasteel/freezer,
-/area/f13/wasteland)
-"Nt" = (
-/obj/effect/decal/cleanable/glitter/blue,
-/obj/effect/turf_decal/weather/dirt{
-	dir = 8
-	},
-/obj/effect/turf_decal/weather/grassedgevirgo,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "Nv" = (
 /obj/machinery/computer/arcade/battle,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "NC" = (
 /obj/structure/table/wood/clean,
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
-/area/f13/wasteland)
-"NE" = (
-/obj/structure/flora/wasteplant/wild_broc,
-/obj/structure/flora/ausbushes/leafybush,
-/obj/effect/turf_decal/weather/grassedgevirgo,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "NS" = (
 /obj/machinery/computer/arcade/amputation{
 	dir = 1
 	},
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "NT" = (
 /obj/structure/flora/tree/jungle,
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/structure/flora/ausbushes/leafybush,
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "NY" = (
 /obj/structure/cave/stalagmite/five,
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"Oh" = (
-/obj/structure/chair/comfy/plywood{
-	dir = 4
+/area/f13/building/tribal/cave)
+"Oa" = (
+/obj/effect/turf_decal/weather/grassedgevirgo,
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone";
+	color = "D3D3D3"
 	},
-/turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "Ok" = (
 /obj/structure/chair/sofa/left{
 	icon_state = "sofamiddle";
 	color = "#333333"
 	},
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "Ox" = (
 /obj/structure/glowshroom{
 	color = "#4F7942";
@@ -1297,7 +1325,7 @@
 	},
 /obj/effect/decal/cleanable/glitter/blue,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "Oy" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
@@ -1306,7 +1334,7 @@
 	dir = 4
 	},
 /turf/open/water/seashallow,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "OE" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 1
@@ -1317,17 +1345,12 @@
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
-/area/f13/wasteland)
-"ON" = (
-/obj/effect/turf_decal/weather/grassedgevirgo,
-/obj/structure/pondlily_small,
-/turf/open/water/seashallow,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "OW" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/effect/decal/cleanable/glitter/blue,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "Pa" = (
 /obj/structure/sink{
 	icon_state = "water";
@@ -1376,20 +1399,20 @@
 	dir = 4
 	},
 /turf/open/water/seashallow,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "Pb" = (
 /obj/structure/table/abductor,
 /obj/item/pizzabox/mushroom,
 /obj/item/pizzabox/mushroom,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "Pc" = (
 /turf/closed/wall/mineral/iron,
 /area/f13/wasteland)
 "Pg" = (
 /obj/structure/mirror/alt,
 /turf/closed/wall/mineral/iron,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "Ps" = (
 /obj/effect/turf_decal/weather/splineplain,
 /obj/item/kirbyplants{
@@ -1398,74 +1421,96 @@
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "Qo" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-10"
 	},
 /turf/open/floor/carpet/blue,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "Qr" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /turf/closed/indestructible/rock,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "QY" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 6
 	},
 /turf/open/indestructible/ground/outside/civ/grassdark,
+/area/f13/building/tribal/cave)
+"QZ" = (
+/obj/structure/sink{
+	icon_state = "water";
+	name = "water";
+	pixel_x = 8;
+	pixel_y = 7
+	},
+/obj/structure/sink{
+	icon_state = "water";
+	name = "water";
+	pixel_y = 7
+	},
+/obj/structure/sink{
+	icon_state = "water";
+	name = "water";
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/obj/structure/spacevine{
+	icon = 'icons/effects/effects.dmi';
+	icon_state = "smoke";
+	name = "steam";
+	layer = 2
+	},
+/obj/structure/spacevine{
+	icon = 'icons/effects/effects.dmi';
+	icon_state = "smoke";
+	name = "steam";
+	layer = 2
+	},
+/turf/open/water/seashallow,
+/area/f13/building/tribal/cave)
+"Rb" = (
+/obj/structure/glowshroom/shadowshroom,
+/obj/effect/decal/cleanable/glitter/blue,
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
+"Rr" = (
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/carpet/blue,
 /area/f13/wasteland)
-"Rf" = (
+"RN" = (
+/obj/effect/decal/cleanable/glitter/blue,
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
+"Sc" = (
+/turf/open/floor/plasteel/freezer,
+/area/crew_quarters/cafeteria)
+"Sj" = (
+/obj/machinery/vending/kink,
+/turf/open/floor/carpet/arcade,
+/area/crew_quarters/cafeteria)
+"Sn" = (
+/obj/structure/cave/stalagmite/one,
+/obj/effect/decal/cleanable/glitter/blue,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
+"So" = (
+/turf/open/floor/carpet/blue,
+/area/crew_quarters/cafeteria)
+"Tv" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 1
 	},
 /obj/structure/flora/tree/chomp/spalmtree3,
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
-"Rr" = (
-/obj/machinery/door/airlock/public/glass,
-/turf/open/floor/carpet/blue,
-/area/f13/wasteland)
-"Rw" = (
-/obj/effect/overlay/palmtree_l,
-/turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
-"Sc" = (
-/turf/open/floor/plasteel/freezer,
-/area/f13/wasteland)
-"Sg" = (
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 10
-	},
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 6
-	},
-/turf/open/water/seashallow,
-/area/f13/wasteland)
-"Sj" = (
-/obj/machinery/vending/kink,
-/turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
-"Sn" = (
-/obj/structure/cave/stalagmite/one,
-/obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"Sx" = (
-/obj/structure/flora/wasteplant/fever_blossom,
-/obj/structure/flora/ausbushes/leafybush,
-/obj/effect/turf_decal/weather/grassedgevirgo,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"SE" = (
-/obj/effect/turf_decal/weather/grassedgevirgo,
-/turf/open/indestructible/ground/outside/roaddirt{
-	icon = 'icons/turf/f13floors2.dmi';
-	icon_state = "khanstone";
-	name = "cobblestone";
-	color = "D3D3D3"
-	},
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "Ty" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 1
@@ -1476,29 +1521,31 @@
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "TJ" = (
 /obj/effect/turf_decal/weather/grassedgevirgocorner{
 	dir = 5
 	},
 /turf/open/indestructible/ground/outside/civ/grassdark,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "TT" = (
 /obj/structure/flora/ausbushes/leafybush,
 /obj/effect/decal/cleanable/glitter/blue,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"TW" = (
-/obj/effect/decal/cleanable/glitter/blue,
+/area/f13/building/tribal/cave)
+"TU" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 1
+	dir = 10
 	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 6
+	},
+/turf/open/water/seashallow,
+/area/f13/building/tribal/cave)
 "TX" = (
 /obj/machinery/computer/slot_machine,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "Ub" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 4
@@ -1512,7 +1559,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "Uw" = (
 /obj/structure/table/abductor,
 /obj/item/reagent_containers/food/drinks/bottle/bio_carton,
@@ -1523,25 +1570,39 @@
 /obj/item/reagent_containers/food/drinks/bottle/brown/wine,
 /obj/item/reagent_containers/food/drinks/bottle/cognac,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "UP" = (
 /obj/structure/closet/crate/bin/trash_fallout,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "UX" = (
 /obj/structure/rack/large/shelf,
 /turf/open/floor/carpet,
+/area/crew_quarters/cafeteria)
+"Vi" = (
+/obj/structure/cave/supportbeams,
+/turf/open/indestructible/ground/inside/dirt,
 /area/f13/wasteland)
-"Vc" = (
-/obj/effect/decal/cleanable/glitter/blue,
+"Vj" = (
+/obj/structure/rack/large/shelf{
+	pixel_x = -18
+	},
+/turf/open/floor/carpet,
+/area/crew_quarters/cafeteria)
+"Vo" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/structure/flora/ausbushes/leafybush,
-/obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 1
-	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"Vg" = (
+/area/f13/building/tribal/cave)
+"VD" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 5
+	},
+/turf/open/indestructible/ground/outside/civ/woodalt{
+	color = "#b8884e"
+	},
+/area/crew_quarters/cafeteria)
+"VN" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 9
 	},
@@ -1553,67 +1614,62 @@
 /obj/structure/flora/ausbushes/leafybush,
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"Vi" = (
-/obj/structure/cave/supportbeams,
-/turf/open/indestructible/ground/inside/dirt,
-/area/f13/wasteland)
-"Vj" = (
-/obj/structure/rack/large/shelf{
-	pixel_x = -18
-	},
-/turf/open/floor/carpet,
-/area/f13/wasteland)
-"Vo" = (
-/obj/effect/decal/cleanable/glitter/blue,
-/obj/structure/flora/ausbushes/leafybush,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
-"Vy" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/turf/open/indestructible/ground/outside/roaddirt{
-	icon = 'icons/turf/f13floors2.dmi';
-	icon_state = "khanstone";
-	name = "cobblestone";
-	color = "D3D3D3"
-	},
-/area/f13/wasteland)
-"VP" = (
+/area/f13/building/tribal/cave)
+"VV" = (
+/obj/structure/flora/wasteplant/fever_blossom,
+/obj/structure/glowshroom,
 /obj/effect/turf_decal/weather/grassedgevirgo{
-	dir = 4
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "VY" = (
 /obj/structure/sink/cupboard{
 	pixel_y = 12
 	},
 /turf/open/floor/plasteel/freezer,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "Wd" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 1
 	},
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
+"We" = (
+/obj/structure/flora/ausbushes/leafybush,
+/obj/effect/decal/cleanable/glitter/blue,
+/obj/effect/turf_decal/weather/grassedgevirgo,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
+"Wi" = (
+/obj/machinery/door/airlock/glass_large,
+/turf/open/floor/carpet/blue,
+/area/crew_quarters/cafeteria)
 "Wj" = (
 /obj/machinery/computer/arcade/orion_trail{
 	dir = 1
 	},
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
+"WB" = (
+/obj/structure/cave/stalagmite/four,
+/obj/effect/turf_decal/weather/grassedgevirgo{
+	dir = 5
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
 "WI" = (
 /turf/open/floor/plating/ashplanet/rocky,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "Xd" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
+"XU" = (
+/obj/effect/decal/cleanable/glitter/blue,
+/obj/effect/turf_decal/weather/grassedgevirgo,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/building/tribal/cave)
 "Yd" = (
 /obj/structure/toilet{
 	dir = 1
@@ -1626,7 +1682,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/freezer,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "Yg" = (
 /obj/structure/table/abductor,
 /obj/item/toy/plush/chikorita,
@@ -1638,15 +1694,33 @@
 /obj/effect/spawner/lootdrop/f13/rare_toys,
 /obj/effect/spawner/lootdrop/f13/common_toys,
 /turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "YM" = (
 /turf/open/floor/carpet/blue,
 /area/f13/wasteland)
+"Zh" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 4
+	},
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone";
+	color = "D3D3D3"
+	},
+/area/f13/building/tribal/cave)
+"ZH" = (
+/obj/effect/overlay/palmtree_r,
+/turf/open/floor/plating/dirt/virgosand,
+/area/f13/building/tribal/cave)
 "ZJ" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/effect/decal/cleanable/glitter/blue,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "ZL" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 1
@@ -1655,7 +1729,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/virgosand,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 "ZO" = (
 /obj/machinery/recharge_station,
 /obj/effect/turf_decal/weather/splineplain{
@@ -1664,12 +1738,12 @@
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
-/area/f13/wasteland)
+/area/crew_quarters/cafeteria)
 "ZW" = (
 /obj/structure/glowshroom/shadowshroom,
 /obj/effect/decal/cleanable/glitter/blue,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building/tribal/cave)
 
 (1,1,1) = {"
 cO
@@ -7779,10 +7853,10 @@ cO
 cO
 cO
 cO
-nf
-nf
-nf
-nf
+sK
+sK
+sK
+sK
 nf
 nf
 nf
@@ -7931,24 +8005,24 @@ cO
 cO
 cO
 cO
-nf
-nf
-nf
-nf
-wf
-wf
-wf
+sK
+sK
+sK
+sK
+er
+er
+er
 nM
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+er
+er
+er
+er
+er
+er
+er
+er
+er
+er
 Pc
 nf
 nf
@@ -8083,23 +8157,23 @@ cO
 cO
 cO
 cO
-nf
-nf
-nf
-nf
-wf
+sK
+sK
+sK
+sK
+er
 HY
-wf
-wf
+er
+er
 HY
-wf
-wf
-wf
+er
+er
+er
 nM
-wf
-wf
-wf
-wf
+er
+er
+er
+er
 nM
 Pc
 nf
@@ -8235,24 +8309,24 @@ cO
 cO
 cO
 cO
-nf
-nf
-nf
-nf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+sK
+sK
+sK
+sK
+er
+er
+er
+er
+er
+er
+er
+er
+er
+er
+er
 HY
-wf
-wf
+er
+er
 Pc
 nf
 nf
@@ -8387,24 +8461,24 @@ cO
 cO
 cO
 cO
-nf
-nf
-nf
-nf
-wf
+sK
+sK
+sK
+sK
+er
 nM
-wf
-wf
+er
+er
 nM
-wf
+er
 dN
 hj
 hj
 hj
 hj
 TJ
-wf
-wf
+er
+er
 Pc
 nf
 nf
@@ -8539,20 +8613,20 @@ cO
 cO
 cO
 cO
-nf
-nf
-nf
-nf
-wf
-wf
-wf
-wf
-wf
+sK
+sK
+sK
+sK
+er
+er
+er
+er
+er
 dN
 QY
 hl
-xW
-cJ
+tt
+aY
 LN
 rn
 hj
@@ -8691,24 +8765,24 @@ cO
 cO
 cO
 cO
-nf
-nf
-nf
-nf
-wf
-wf
-wf
-wf
+sK
+sK
+sK
+sK
+er
+er
+er
+er
 dN
 QY
 hl
-HR
-vS
-vS
+st
+Du
+Du
 KS
-tt
-tt
-tt
+fC
+fC
+fC
 Pc
 nf
 nf
@@ -8843,24 +8917,24 @@ cO
 cO
 cO
 cO
-nf
-nf
-nf
-nf
+sK
+sK
+sK
+sK
 nM
-wf
+er
 HY
 dN
 QY
 hl
-st
-vS
-Oh
-Oh
-vS
-gN
-vS
-vS
+rf
+Du
+zp
+zp
+Du
+ZH
+Du
+Du
 Pc
 nf
 nf
@@ -8995,16 +9069,16 @@ cO
 cO
 cO
 cO
-nf
-nf
-nf
-nf
-wf
-wf
+sK
+sK
+sK
+sK
+er
+er
 HY
 zf
 hl
-st
+rf
 av
 ko
 ko
@@ -9147,16 +9221,16 @@ cO
 cO
 cO
 cO
-MS
-MS
-MS
-MS
-wf
-wf
-wf
+oU
+oU
+oU
+oU
+er
+er
+er
 zf
 Wd
-vS
+Du
 ns
 nx
 nx
@@ -9299,16 +9373,16 @@ cO
 cO
 cO
 cO
-MS
-MS
-MS
-MS
-wf
+oU
+oU
+oU
+oU
+er
 HY
 dN
 an
 Wd
-vS
+Du
 ns
 nx
 nx
@@ -9451,16 +9525,16 @@ cO
 cO
 cO
 cO
-MS
-MS
-MS
-MS
-wf
-wf
+oU
+oU
+oU
+oU
+er
+er
 zf
 ZL
-st
-Rw
+rf
+cv
 ns
 nx
 Hg
@@ -9603,16 +9677,16 @@ cO
 cO
 cO
 cO
-MS
-MS
-MS
-MS
-wf
+oU
+oU
+oU
+oU
+er
 HY
 zf
 Wd
-ek
-ev
+tF
+vS
 ns
 nx
 Hg
@@ -9755,16 +9829,16 @@ cO
 cO
 cO
 cO
-MS
-MS
-MS
-MS
+oU
+oU
+oU
+oU
 nM
 nM
 zf
 Wd
-vS
-vS
+Du
+Du
 ns
 nx
 Hg
@@ -9908,15 +9982,15 @@ cO
 cO
 cO
 oE
-MS
-MS
+oU
+oU
 oE
 pD
 pD
 oN
 Wd
-vS
-Gn
+Du
+Nc
 ns
 nx
 Hg
@@ -10363,16 +10437,16 @@ cO
 cO
 cO
 cO
-ju
-MS
-MS
+lQ
+oU
+oU
 al
-Ae
-xi
-Nt
+JA
+rt
+em
 Wd
-vS
-Gn
+Du
+Nc
 ns
 nx
 Hg
@@ -10515,16 +10589,16 @@ cO
 cO
 cO
 cO
-ju
-MS
-MS
-SE
-bu
-ac
-Sx
-Rf
-vS
-vS
+lQ
+oU
+oU
+Oa
+Md
+qF
+Eb
+Tv
+Du
+Du
 ns
 nx
 Hg
@@ -10667,16 +10741,16 @@ cO
 cO
 cO
 cO
-ju
-MS
-MS
-SE
-Vc
-yc
-nQ
+lQ
+oU
+oU
+Oa
+lP
+Gt
+We
 Wd
-vS
-vS
+Du
+Du
 ns
 nx
 nx
@@ -10819,16 +10893,16 @@ cO
 cO
 cO
 cO
-ju
-MS
-MS
-SE
-qo
+lQ
+oU
+oU
+Oa
+yc
 Cr
-NE
+vt
 Wd
-vS
-Rw
+Du
+cv
 ns
 nx
 nx
@@ -10971,16 +11045,16 @@ cO
 cO
 cO
 lb
-ju
-MS
-MS
-SE
-TW
+lQ
+oU
+oU
+Oa
+br
 hP
-yt
+XU
 Wd
-vS
-vS
+Du
+Du
 KY
 xd
 xd
@@ -11121,26 +11195,26 @@ cO
 cO
 cO
 dX
-fs
-Vg
-ju
-MS
-MS
-SE
-TW
-rt
-yt
+KW
+VN
+lQ
+oU
+oU
+Oa
+br
+MO
+XU
 pI
 fO
+Du
+tF
 vS
-ek
-ev
-jd
-jd
-vS
-vS
-vS
-vS
+EW
+EW
+Du
+Du
+Du
+Du
 Pc
 nf
 nf
@@ -11272,24 +11346,24 @@ cO
 cO
 cO
 cO
-Iv
-cI
-Sg
-ju
-MS
-MS
-SE
-lo
+QZ
+KT
+TU
+lQ
+oU
+oU
+Oa
+xA
 sx
 wZ
 yj
 DJ
 fO
-vS
-vS
-vS
-vS
-vS
+Du
+Du
+Du
+Du
+Du
 Ug
 Ug
 Ug
@@ -11425,22 +11499,22 @@ cO
 cO
 cO
 cO
-ON
-lT
-ju
-MS
-MS
-SE
-tl
-yc
+bj
+xC
+lQ
+oU
+oU
+Oa
+ma
+Gt
 wZ
 yj
 hr
 DJ
 fO
-vS
-vS
-vS
+Du
+Du
+Du
 ll
 ll
 ll
@@ -11579,24 +11653,24 @@ cO
 cO
 dX
 cO
-ju
-MS
-MS
-SE
-bZ
+lQ
+oU
+oU
+Oa
+bR
 wZ
 wZ
-ac
-rt
+qF
+MO
 wZ
-mJ
+Km
 fO
-vS
+Du
 Kj
 ll
-vS
-vS
-vS
+Du
+Du
+Du
 Pc
 nf
 nf
@@ -11731,24 +11805,24 @@ cO
 cO
 cO
 cO
-ju
-MS
-MS
-SE
-bZ
+lQ
+oU
+oU
+Oa
+bR
 cw
 kY
 wZ
-ma
+MH
 wZ
 hr
 DJ
 fO
 Kj
 ll
-vS
-vS
-vS
+Du
+Du
+Du
 Pc
 nf
 nf
@@ -11883,19 +11957,19 @@ cO
 cO
 cO
 cO
-ju
-MS
-MS
-SE
-lo
-kG
+lQ
+oU
+oU
+Oa
+xA
+lG
 sm
 CE
 Jb
 wZ
 TT
 Vo
-Di
+vg
 fO
 ll
 ll
@@ -12035,11 +12109,11 @@ cO
 cO
 cO
 cO
-ju
-MS
-MS
-SE
-lo
+lQ
+oU
+oU
+Oa
+xA
 yj
 wZ
 wZ
@@ -12049,30 +12123,30 @@ ZJ
 hr
 ZJ
 Wd
-vS
+Du
 tO
 tO
 tO
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
 Co
 YM
 YM
@@ -12187,11 +12261,11 @@ cO
 cO
 cO
 cO
-ju
-MS
-MS
-SE
-Fl
+lQ
+oU
+oU
+Oa
+wH
 wZ
 yj
 Vo
@@ -12205,26 +12279,26 @@ Bp
 Bp
 Bp
 Bp
-Pc
+Is
 JN
-YM
-YM
+So
+So
 OE
 NC
 NC
 NC
 Fo
-YM
-Pc
+So
+Is
 UX
 su
 su
 og
-Pc
-xS
-xS
-xS
-Pc
+Is
+aR
+JU
+JU
+Is
 ck
 YM
 YM
@@ -12339,13 +12413,13 @@ cO
 cO
 cO
 cO
-ju
-MS
-MS
-SE
-lo
-ma
-ma
+lQ
+oU
+oU
+Oa
+xA
+MH
+MH
 Vo
 yj
 Cr
@@ -12354,29 +12428,29 @@ Cr
 wZ
 yj
 yj
-ac
+qF
 hr
 Vo
-Pc
+Is
 JN
-YM
-YM
-Fa
-Ub
-Ub
-Ub
-ck
-YM
-Pc
+So
+So
+VD
+pA
+pA
+pA
+oO
+So
+Is
 su
 su
 su
 og
-Pc
-xS
-xS
-xS
-xg
+Is
+JU
+JU
+JU
+Wi
 YM
 YM
 YM
@@ -12491,13 +12565,13 @@ cO
 cO
 cO
 cO
-ju
-MS
-MS
-SE
-lo
-ma
-ma
+lQ
+oU
+oU
+Oa
+xA
+MH
+MH
 Vo
 wZ
 wZ
@@ -12505,30 +12579,30 @@ wZ
 ZW
 CE
 Cr
-rt
+MO
 Vo
 ME
 TT
-Pc
+Is
 ZO
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-Pc
+So
+So
+So
+So
+So
+So
+So
+So
+Is
 Vj
 su
 su
 Kx
-Pc
-xS
-xS
-xS
-YM
+Is
+JU
+JU
+JU
+So
 YM
 YM
 YM
@@ -12643,14 +12717,14 @@ cO
 cO
 cO
 cO
-ju
-MS
-MS
-SE
-cu
+lQ
+oU
+oU
+Oa
+tQ
 wZ
 yj
-ma
+MH
 cw
 hP
 wZ
@@ -12661,26 +12735,26 @@ nM
 yj
 HY
 TT
-Pc
+Is
 Fu
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-Pc
+So
+So
+So
+So
+So
+So
+So
+So
+Is
 yO
 su
 su
 og
-Pc
-xS
-xS
-xS
-Pc
+Is
+JU
+JU
+JU
+Is
 Iw
 YM
 YM
@@ -12795,44 +12869,44 @@ cO
 cO
 cO
 cO
-ju
-MS
-MS
-SE
-tJ
-VP
-oV
-sT
-qV
-sF
-VP
-sT
-VP
-ch
-mp
-sF
-tD
-ch
-Pc
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-Pc
-Pc
+lQ
+oU
+oU
+Oa
+WB
+zL
+Rb
+xQ
+kG
+yr
+zL
+xQ
+zL
+by
+jw
+yr
+hz
+by
+Is
+So
+So
+So
+So
+So
+So
+So
+So
+So
+Is
+Is
 KV
 KV
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
+Is
+Is
+Is
+Is
+Is
+Is
 Co
 YM
 YM
@@ -12947,40 +13021,40 @@ cO
 cO
 cO
 cO
-ju
-MS
-MS
-bC
-qH
-qH
-qH
-qH
-qH
-qH
-qH
-qH
-qH
-qH
-qH
-qH
-qH
-qH
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-Pc
+lQ
+oU
+oU
+pU
+qC
+qC
+qC
+qC
+qC
+qC
+qC
+qC
+qC
+qC
+qC
+qC
+qC
+qC
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+Is
 Ub
 Ub
 Ub
@@ -13099,40 +13173,40 @@ cO
 cO
 cO
 cO
-ju
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-xg
+lQ
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+Wi
 YM
 YM
 YM
@@ -13251,40 +13325,40 @@ cO
 cO
 cO
 cO
-ju
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-MS
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+lQ
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
 YM
 YM
 YM
@@ -13403,40 +13477,40 @@ cO
 cO
 cO
 cO
-Vy
-FU
-FU
-FU
-FU
-FU
-FU
-FU
-FU
-FU
-FU
-FU
-FU
-FU
-FU
-FU
-FU
-FU
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-Pc
+Zh
+MS
+MS
+MS
+MS
+MS
+MS
+MS
+MS
+MS
+MS
+MS
+MS
+MS
+MS
+MS
+MS
+MS
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+So
+Is
 Iw
 YM
 YM
@@ -13555,40 +13629,40 @@ cO
 cO
 cO
 cO
-cO
-Jx
-Jx
-iN
-kM
-Jx
-kM
-Jx
-Jx
-Jx
-Jx
-mM
-Jx
-Jx
-kM
-tp
-Jx
-Jx
-Pc
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-Pc
-Pc
+cr
+tc
+tc
+ac
+RN
+tc
+RN
+tc
+tc
+tc
+tc
+VV
+tc
+tc
+RN
+eZ
+tc
+tc
+Is
+So
+So
+So
+So
+So
+So
+So
+So
+So
+Is
+Is
 Ng
 Ng
-Pc
-Pc
+Is
+Is
 Pc
 Rr
 Rr
@@ -13707,40 +13781,40 @@ cO
 cO
 cO
 cO
-cO
+cr
 cw
 kY
 wZ
 wZ
 gG
-kG
+lG
 wZ
 Vo
 wZ
 wZ
-ma
-ma
-ma
-ma
+MH
+MH
+MH
+MH
 wZ
 wZ
 wZ
-Pc
+Is
 Qo
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+So
+So
+So
+So
+So
+So
+So
+So
 Pg
 gE
 Sc
 Sc
 Ix
-Pc
+Is
 sW
 sW
 sW
@@ -13860,7 +13934,7 @@ cO
 cO
 cO
 wZ
-kG
+lG
 sm
 CE
 wZ
@@ -13877,22 +13951,22 @@ sp
 wZ
 kY
 wZ
-Pc
+Is
 NC
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+So
+So
+So
+So
+So
+So
+So
+So
 Pg
 VY
 Sc
 Sc
 vu
-Pc
+Is
 sW
 sW
 sW
@@ -14029,22 +14103,22 @@ zG
 wZ
 wZ
 wZ
-Pc
+Is
 NC
-YM
-YM
-oY
+So
+So
+mb
 hO
 hO
 hO
-Iw
-YM
-Pc
+hW
+So
+Is
 ld
 Sc
 Sc
 rK
-Pc
+Is
 sW
 sW
 sW
@@ -14172,7 +14246,7 @@ fQ
 wZ
 wZ
 wZ
-ma
+MH
 wZ
 CE
 yj
@@ -14180,23 +14254,23 @@ Vo
 Vo
 wZ
 CE
-ac
-Pc
+qF
+Is
 NC
-YM
-YM
+So
+So
 Ty
 NC
 NC
 NC
 Ps
 vn
-Pc
+Is
 jI
 Sc
 zR
 Yd
-Pc
+Is
 sW
 sW
 sW
@@ -14333,22 +14407,22 @@ yj
 yj
 wZ
 wZ
-Pc
-Pc
+Is
+Is
 Xd
 Xd
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
 sW
 sW
 sW
@@ -14474,9 +14548,9 @@ cO
 wZ
 sx
 yj
-cO
+cr
 dX
-cO
+cr
 wZ
 wZ
 yj
@@ -14485,7 +14559,7 @@ wZ
 yj
 Vo
 wZ
-Pc
+Is
 Ag
 Ag
 Ag
@@ -14500,7 +14574,7 @@ uP
 Pb
 ag
 Uw
-Pc
+Is
 sW
 sW
 sW
@@ -14623,21 +14697,21 @@ cO
 cO
 cO
 cO
-ma
-yc
+MH
+Gt
 Qr
 dX
 wZ
-lb
-cO
-cO
+vV
+cr
+cr
 dX
 wZ
-ma
-ma
+MH
+MH
 Vo
 jH
-Pc
+Is
 ai
 Ag
 Ag
@@ -14652,7 +14726,7 @@ Ag
 Ag
 Ag
 Ag
-Pc
+Is
 sW
 sW
 sW
@@ -14785,11 +14859,11 @@ uV
 yj
 yj
 wZ
-ma
-ma
+MH
+MH
 Vo
 CE
-Pc
+Is
 Ag
 Ag
 Ag
@@ -14804,7 +14878,7 @@ Ag
 Ag
 Ag
 Ag
-Pc
+Is
 sW
 sW
 sW
@@ -14925,7 +14999,7 @@ cO
 cO
 cO
 Vo
-ac
+qF
 CE
 Vo
 wZ
@@ -14936,12 +15010,12 @@ TT
 wZ
 yj
 yj
-rt
+MO
 wZ
 yj
-ma
+MH
 wZ
-Pc
+Is
 Nv
 Ag
 Ag
@@ -14956,7 +15030,7 @@ wa
 Ag
 Ag
 UP
-Pc
+Is
 sW
 sW
 sW
@@ -15076,9 +15150,9 @@ cO
 cO
 cO
 wZ
-rt
+MO
 wZ
-ma
+MH
 wZ
 wZ
 uV
@@ -15088,12 +15162,12 @@ se
 gt
 fg
 CE
-ac
+qF
 wZ
 ZW
 yj
 wZ
-Pc
+Is
 Ag
 Ag
 Ag
@@ -15108,7 +15182,7 @@ tk
 Ag
 Ag
 Ah
-Pc
+Is
 sW
 sW
 sW
@@ -15228,7 +15302,7 @@ cO
 cO
 cO
 wZ
-ma
+MH
 wZ
 wZ
 wZ
@@ -15240,12 +15314,12 @@ yj
 Vo
 iU
 Cr
-ma
-ma
+MH
+MH
 yj
 yj
 wZ
-Pc
+Is
 dd
 Ag
 Ag
@@ -15260,7 +15334,7 @@ zA
 Ag
 Ag
 yx
-Pc
+Is
 sW
 sW
 sW
@@ -15385,7 +15459,7 @@ wZ
 Ki
 wZ
 cw
-cO
+cr
 cw
 yj
 Lo
@@ -15396,8 +15470,8 @@ wZ
 CE
 yj
 yj
-ma
-Pc
+MH
+Is
 TX
 Ag
 Ag
@@ -15412,7 +15486,7 @@ Ag
 Ag
 Ag
 uI
-Pc
+Is
 sW
 sW
 sW
@@ -15531,13 +15605,13 @@ cO
 cO
 cO
 cO
-cO
+cr
 wZ
 Hd
 NT
 cw
 yj
-cO
+cr
 cw
 yj
 Gv
@@ -15548,8 +15622,8 @@ wZ
 yj
 wZ
 yj
-ma
-Pc
+MH
+Is
 TX
 Ag
 Ag
@@ -15564,7 +15638,7 @@ Ag
 Ag
 Ag
 mf
-Pc
+Is
 sW
 sW
 sW
@@ -15685,23 +15759,23 @@ cO
 cO
 wZ
 CE
-ma
+MH
 Vo
 wZ
 Sn
-cO
+cr
 wZ
 yj
 yj
 ZW
 yj
-lb
+vV
 wZ
 yj
 wZ
 yj
 wZ
-Pc
+Is
 UP
 Ag
 Ag
@@ -15711,12 +15785,12 @@ Ag
 iL
 Sj
 Kf
-Pc
+Is
 Yg
 Ag
 Ag
 Jf
-Pc
+Is
 sW
 sW
 sW
@@ -15853,22 +15927,22 @@ ZW
 wZ
 yj
 wZ
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
 DX
 Ag
 Ag
 cK
-Pc
+Is
 sW
 sW
 sW
@@ -15995,8 +16069,8 @@ cO
 cO
 jb
 jb
-rt
-yc
+MO
+Gt
 TT
 cw
 hP
@@ -16015,12 +16089,12 @@ sW
 sW
 sW
 sW
-Pc
+Is
 md
 Ag
 Ag
 tx
-Pc
+Is
 sW
 sW
 sW
@@ -16145,17 +16219,17 @@ cO
 cO
 cO
 cO
-cO
+cr
 jb
 CE
 Cr
-vt
-kG
+kr
+lG
 hr
 wZ
 yj
 Vo
-yc
+Gt
 wZ
 HG
 sW
@@ -16167,12 +16241,12 @@ sW
 sW
 sW
 HG
-Pc
-Pc
-Pc
-Pc
-Pc
-Pc
+Is
+Is
+Is
+Is
+Is
+Is
 sW
 sW
 sW
@@ -16298,7 +16372,7 @@ cO
 cO
 sW
 wZ
-cO
+cr
 wZ
 hP
 yj
@@ -16452,7 +16526,7 @@ cO
 WI
 uZ
 wZ
-rt
+MO
 yj
 yj
 ZJ

@@ -623,6 +623,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/building)
+"fg" = (
+/obj/structure/fluff/rails{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "fl" = (
 /obj/structure/mineral_door/paperframe{
 	name = "changing rooms"
@@ -1652,6 +1659,17 @@
 	dir = 1
 	},
 /area/f13/building)
+"mI" = (
+/obj/docking_port/stationary{
+	area_type = /area/f13/wasteland;
+	dir = 4;
+	height = 6;
+	id = "emergency_home";
+	name = "BoxStation emergency evac bay";
+	width = 25
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "mO" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d"
@@ -2734,6 +2752,12 @@
 /obj/structure/flora/chomp/bush0,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
+"vW" = (
+/obj/structure/fluff/rails{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "wa" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -3733,6 +3757,10 @@
 	color = "#a98c5d"
 	},
 /obj/structure/flora/ausbushes/sunnybush,
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"Dz" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "DC" = (
@@ -19379,10 +19407,10 @@ EB
 EB
 EB
 EB
+Dz
+Dz
 EB
-EB
-EB
-EB
+mI
 EB
 EB
 EB
@@ -19510,32 +19538,32 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+fg
+vW
+vW
+vW
 EB
 EB
 EB
@@ -19836,7 +19864,7 @@ EB
 EB
 EB
 EB
-EB
+Dz
 EB
 EB
 EB
@@ -19966,32 +19994,32 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+vW
+fg
+vW
+vW
+vW
 EB
 EB
 EB
