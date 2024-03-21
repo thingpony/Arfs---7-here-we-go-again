@@ -550,10 +550,6 @@
 /obj/machinery/nuclearbomb/beer,
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
-"eg" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/ground/outside/civ/grass0,
-/area/f13/wasteland)
 "ek" = (
 /obj/structure/flora/ausbushes/genericbush,
 /obj/structure/flora/chomp/thicket0,
@@ -579,17 +575,6 @@
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
 	dir = 10
-	},
-/turf/open/indestructible/ground/outside/civ/grass0,
-/area/f13/wasteland)
-"eC" = (
-/obj/docking_port/stationary{
-	area_type = /area/f13/wasteland;
-	dir = 4;
-	height = 6;
-	id = "emergency_home";
-	name = "BoxStation emergency evac bay";
-	width = 25
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
@@ -2099,6 +2084,15 @@
 	},
 /turf/open/floor/plasteel/f13/whitemarble,
 /area/f13/building)
+"qr" = (
+/obj/effect/landmark/observer_start,
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone";
+	color = "D3D3D3"
+	},
+/area/f13/wasteland)
 "qv" = (
 /obj/machinery/vending/hydronutrients,
 /obj/machinery/light,
@@ -3074,13 +3068,6 @@
 /obj/effect/overlay/coconut,
 /turf/open/floor/plating/beach/sand,
 /area/f13/wasteland)
-"yg" = (
-/obj/structure/fluff/rails{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/ground/outside/civ/grass0,
-/area/f13/wasteland)
 "yj" = (
 /obj/structure/playground/seesaw,
 /turf/open/indestructible/ground/outside/dirt/bigsandturf,
@@ -3931,6 +3918,13 @@
 /obj/structure/dresser,
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
+"Eo" = (
+/obj/structure/fluff/rails{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "Eq" = (
 /obj/structure/table/reinforced,
 /obj/item/soap,
@@ -5177,9 +5171,7 @@
 /turf/open/floor/carpet/blue,
 /area/f13/building)
 "Ne" = (
-/obj/structure/fluff/rails{
-	dir = 4
-	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "Ng" = (
@@ -5734,6 +5726,17 @@
 "QP" = (
 /obj/structure/flora/ausbushes/genericbush,
 /obj/structure/flora/ausbushes/genericbush,
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"QU" = (
+/obj/docking_port/stationary{
+	area_type = /area/f13/wasteland;
+	dir = 4;
+	height = 6;
+	id = "emergency_home";
+	name = "BoxStation emergency evac bay";
+	width = 25
+	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "Ra" = (
@@ -6563,6 +6566,12 @@
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
 	dir = 9
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"WT" = (
+/obj/structure/fluff/rails{
+	dir = 4
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
@@ -18580,7 +18589,7 @@ pk
 pk
 pk
 pk
-pk
+qr
 pk
 pk
 pk
@@ -19401,10 +19410,10 @@ EB
 EB
 EB
 EB
-eg
-eg
+Ne
+Ne
 EB
-eC
+QU
 EB
 EB
 EB
@@ -19532,32 +19541,32 @@ EB
 EB
 EB
 EB
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-yg
-Ne
-Ne
-Ne
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+Eo
+WT
+WT
+WT
 EB
 EB
 EB
@@ -19858,7 +19867,7 @@ EB
 EB
 EB
 EB
-eg
+Ne
 EB
 EB
 EB
@@ -19988,32 +19997,32 @@ EB
 EB
 EB
 EB
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-Ne
-yg
-Ne
-Ne
-Ne
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+WT
+Eo
+WT
+WT
+WT
 EB
 EB
 EB
