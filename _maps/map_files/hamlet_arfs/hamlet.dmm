@@ -805,12 +805,9 @@
 /turf/open/indestructible/ground/stellercarpet/twentyseven,
 /area/f13/building)
 "gd" = (
-/obj/structure/railing/wooden_fencing{
-	dir = 1;
-	pixel_y = -11
-	},
-/turf/open/indestructible/ground/outside/civ/grass0,
-/area/f13/wasteland)
+/obj/structure/table/wood,
+/turf/open/indestructible/ground/outside/civ/woodalt,
+/area/f13/building)
 "ge" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d"
@@ -969,10 +966,6 @@
 /obj/structure/railing/wooden_fencing{
 	dir = 4;
 	pixel_y = -13
-	},
-/obj/structure/railing/wooden_fencing{
-	dir = 1;
-	pixel_y = -11
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
@@ -1866,10 +1859,6 @@
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
 "oX" = (
-/obj/structure/railing/wooden_fencing{
-	dir = 1;
-	pixel_y = -11
-	},
 /obj/structure/flora/wild_plant/flower/red,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
@@ -3329,10 +3318,6 @@
 	},
 /area/f13/building)
 "Au" = (
-/obj/structure/railing/wooden_fencing{
-	dir = 1;
-	pixel_y = -11
-	},
 /obj/item/reagent_containers/glass/bucket/plastic{
 	pixel_y = -10
 	},
@@ -3984,7 +3969,7 @@
 "EI" = (
 /obj/structure/window/fulltile/wood,
 /obj/structure/curtain/directional/north,
-/turf/open/floor/plating/f13,
+/turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
 "EO" = (
 /obj/effect/turf_decal/siding/green/corner{
@@ -5099,6 +5084,14 @@
 	},
 /turf/closed/indestructible/wood,
 /area/f13/building)
+"Mm" = (
+/obj/structure/railing/wooden_fencing,
+/obj/structure/railing/wooden_fencing{
+	dir = 4;
+	pixel_y = -28
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "Mn" = (
 /obj/machinery/light/floor,
 /obj/structure/table/wood,
@@ -7733,8 +7726,8 @@ YX
 YX
 YX
 YX
-Fl
-Fl
+jU
+jU
 YX
 YX
 YX
@@ -8654,7 +8647,7 @@ by
 lB
 bz
 TD
-bY
+EI
 np
 EB
 EB
@@ -8806,7 +8799,7 @@ Nz
 Jr
 As
 TD
-bY
+EI
 np
 EB
 hQ
@@ -8958,7 +8951,7 @@ TD
 Jr
 mH
 TD
-bY
+EI
 np
 EB
 EB
@@ -9262,7 +9255,7 @@ TD
 Jr
 mH
 TD
-bY
+EI
 np
 EB
 EB
@@ -9414,7 +9407,7 @@ Nz
 Jr
 As
 TD
-bY
+EI
 np
 cs
 cs
@@ -9566,7 +9559,7 @@ yx
 qz
 Di
 TD
-bY
+EI
 np
 yK
 yK
@@ -10926,9 +10919,9 @@ AG
 ec
 ec
 Fp
-ec
+gd
 cG
-bY
+EI
 yP
 ih
 ih
@@ -11078,9 +11071,9 @@ RP
 ec
 Zs
 gr
-ec
+gd
 Wt
-bY
+EI
 np
 EB
 Bs
@@ -11229,9 +11222,9 @@ YX
 YX
 YX
 YX
-jU
-jU
-jU
+Fl
+Fl
+Fl
 YX
 np
 tv
@@ -17075,9 +17068,9 @@ sg
 YX
 YX
 YX
-uU
-uU
-uU
+yH
+yH
+yH
 YX
 YX
 YX
@@ -19200,7 +19193,7 @@ EB
 EB
 EB
 EB
-EI
+Xa
 Xn
 cV
 HW
@@ -19504,7 +19497,7 @@ EB
 EB
 EB
 EB
-EI
+Xa
 uS
 cV
 HW
@@ -19810,8 +19803,8 @@ EB
 EB
 YX
 YX
-yH
-yH
+uU
+uU
 YX
 YX
 zW
@@ -19961,8 +19954,8 @@ EB
 EB
 EB
 EB
+Hn
 EB
-gd
 BW
 hw
 hc
@@ -20113,7 +20106,7 @@ EB
 EB
 EB
 EB
-EB
+Hn
 Au
 Ae
 hQ
@@ -20265,7 +20258,7 @@ EB
 EB
 EB
 EB
-EB
+Hn
 oX
 Kb
 eb
@@ -20417,7 +20410,7 @@ EB
 EB
 EB
 EB
-EB
+Mm
 hp
 ba
 ba

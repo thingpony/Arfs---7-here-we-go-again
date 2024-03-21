@@ -73,8 +73,10 @@
 /turf/open/floor/carpet/blue,
 /area/f13/building)
 "eM" = (
-/obj/structure/simple_door/house,
-/turf/open/indestructible/ground/outside/desert,
+/obj/item/flashlight/lantern/oldlamp{
+	on = 1
+	},
+/turf/open/floor/carpet/blue,
 /area/f13/building)
 "fg" = (
 /obj/structure/bed/double{
@@ -140,6 +142,10 @@
 /obj/item/paper_bin,
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 1
+	},
+/obj/item/flashlight/lantern/littlelamp{
+	on = 1;
+	pixel_y = 12
 	},
 /turf/open/floor/carpet,
 /area/f13/building)
@@ -668,7 +674,9 @@
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
 "Ql" = (
-/obj/structure/curtain/directional,
+/obj/structure/curtain{
+	color = "#5c131b"
+	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
 "QY" = (
@@ -10334,7 +10342,7 @@ IZ
 IZ
 Gk
 Gk
-WW
+eM
 An
 sR
 Gk
@@ -10787,7 +10795,7 @@ IZ
 IZ
 IZ
 IZ
-IZ
+Gk
 Gk
 Gk
 Pd
@@ -10920,11 +10928,11 @@ IZ
 IZ
 Gk
 Gk
-fs
-fs
-fs
-fs
-fs
+ng
+ng
+ng
+ng
+ng
 Gk
 Gk
 IZ
@@ -10939,8 +10947,8 @@ IZ
 IZ
 IZ
 IZ
-IZ
 Gk
+zA
 zA
 zA
 Gk
@@ -11091,8 +11099,8 @@ IZ
 IZ
 IZ
 IZ
-IZ
 Gk
+ZT
 ov
 Cr
 MA
@@ -11230,7 +11238,7 @@ Mu
 Mu
 Mu
 zA
-bN
+Yq
 IZ
 IZ
 IZ
@@ -11243,7 +11251,7 @@ IZ
 IZ
 IZ
 IZ
-IZ
+Gk
 Gk
 Vv
 zA
@@ -11382,7 +11390,7 @@ dT
 dT
 kk
 zA
-bN
+Yq
 IZ
 IZ
 IZ
@@ -12745,7 +12753,7 @@ IZ
 Gk
 Gk
 Gk
-eM
+Pd
 Gk
 Gk
 Gk
