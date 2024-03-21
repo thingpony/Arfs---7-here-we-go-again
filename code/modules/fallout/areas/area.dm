@@ -41,6 +41,7 @@
 	grow_chance = 45
 	weather_tags = list(WEATHER_ALL)
 	ambientmusic = list(
+	#ifdef Z_LEVEL_NASH_COMMON
 		//AREA_Z_MUSIC(Z_LEVEL_FALLBACK, 'sound/misc/sadtrombone.ogg'),
 		//AREA_Z_MUSIC(Z_LEVEL_CENTCOM, 'sound/machines/honkbot_evil_laugh.ogg'),
 		AREA_Z_MUSIC(Z_LEVEL_NASH_UNDERGROUND, 'sound/ambience/coolloops/sewers.ogg'),
@@ -54,6 +55,11 @@
 		AREA_Z_MUSIC(Z_LEVEL_GARLAND, 'sound/ambience/coolloops/garland.ogg'),
 		AREA_Z_MUSIC(Z_LEVEL_NEWBOSTON, 'sound/ambience/coolloops/newboston.ogg'),
 		AREA_Z_MUSIC(Z_LEVEL_NEWBOSTON_UPPER, 'sound/ambience/coolloops/newboston.ogg'),
+	#else
+		AREA_Z_MUSIC(Z_LEVEL_HAMLET_UNDERGROUND, 'sound/ambience/coolloops/swamp.ogg'),
+		AREA_Z_MUSIC(Z_LEVEL_HAMLET, 'sound/ambience/coolloops/swamp.ogg'),
+		AREA_Z_MUSIC(Z_LEVEL_HAMLET_LVL2, 'sound/ambience/coolloops/swamp.ogg'),
+	#endif
 	)
 
 
@@ -1179,6 +1185,7 @@
 	ambientmusic = list(
 		AREA_Z_MUSIC(Z_LEVEL_FALLBACK, 'sound/misc/sadtrombone.ogg'),
 		AREA_Z_MUSIC(Z_LEVEL_CENTCOM, 'sound/machines/honkbot_evil_laugh.ogg'),
+	#ifdef Z_LEVEL_NASH_COMMON
 		// AREA_Z_MUSIC(Z_LEVEL_NASH_UNDERGROUND, 'sound/weapons/bite.ogg'),
 		AREA_Z_MUSIC(Z_LEVEL_NASH_COMMON, 'sound/weapons/bite.ogg'),
 		AREA_Z_MUSIC(Z_LEVEL_NASH_LVL2, 'sound/weapons/slap.ogg'),
@@ -1190,4 +1197,9 @@
 		AREA_Z_MUSIC(Z_LEVEL_GARLAND, 'sound/weapons/Genhit.ogg'),
 		AREA_Z_MUSIC(Z_LEVEL_NEWBOSTON, 'sound/effects/bamf.ogg'),
 		AREA_Z_MUSIC(Z_LEVEL_NEWBOSTON_UPPER, 'sound/effects/Huuu.ogg'),
+	#else
+		AREA_Z_MUSIC(Z_LEVEL_HAMLET_UNDERGROUND, 'sound/weapons/bite.ogg'),
+		AREA_Z_MUSIC(Z_LEVEL_HAMLET, 'sound/weapons/slap.ogg'),
+		AREA_Z_MUSIC(Z_LEVEL_HAMLET_LVL2, 'sound/effects/snap.ogg'),
+	#endif
 	)
