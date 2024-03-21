@@ -276,6 +276,9 @@
 		hereturf = get_turf(hereturf)
 		if(!isturf(hereturf))
 			return "??UNKNOWN??"
+#ifdef Z_LEVEL_HAMLET
+	return "~!UNKNOWN!~"
+#else
 	switch(hereturf.z)
 		if(Z_LEVEL_GARLAND)
 			return "Garland City - Common"
@@ -303,6 +306,7 @@
 			return "New Boston - Second Story"
 		else
 			return "~!UNKNOWN!~"
+#endif
 
 /obj/item/pinpointer/validball_finder/proc/local_coords(turf/hereturf)
 	if(!hereturf)

@@ -1,0 +1,59 @@
+{
+	"map_name": "Hamlet",
+	"map_path": "map_files/hamlet_arfs",
+	"map_file": [
+		"hamlet_lower.dmm",
+		"hamlet.dmm",
+		"hamlet_upper.dmm"
+	],
+	"station_ruin_budget":0,
+	"space_ruin_levels":0,
+	"space_empty_levels":0,
+	"shuttles": {
+		"emergency": "emergency_pahrump"
+	},
+	"traits":[
+		{
+			"Gravity": true,
+			"Baseturf": "/turf/open/indestructible/ground/inside/mountain",
+			"Dungeons": true,
+			"Up": 1,
+			"Down": -1,
+			"No Parallax": true,
+			"Linkage" : "Cross",
+			"Name": "Lower Hamlet",
+			"Force X": 0,
+			"Force Y": 0,
+			"Force Z": 0
+		},
+
+		{
+			"Gravity": true,
+			"Baseturf": "/turf/open/indestructible/ground/inside/mountain",
+			"Station": 1,
+			"Up": 1,
+			"Down": -1,
+			"No Parallax": true,
+			"Linkage" : "Cross",
+			"Name": "Hamlet",
+			"Force X": 0,
+			"Force Y": 0,
+			"Force Z": 1
+		},
+
+		{
+			"Gravity": true,
+			"Baseturf": "/turf/open/transparent/openspace",
+			"Up": 1,
+			"Down": -1,
+			"No Parallax": true,
+			"Linkage" : "Cross",
+			"Above": true,
+			"Name": "Upper Hamlet",
+			"Force X": 0,
+			"Force Y": 0,
+			"Force Z": 2
+		}
+	],
+	"minetype": "none"
+}
