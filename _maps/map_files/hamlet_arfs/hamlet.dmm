@@ -231,8 +231,8 @@
 /area/f13/building)
 "bT" = (
 /obj/effect/turf_decal/weather/splinefancy,
-/obj/item/flashlight/oldlamp{
-	light_range = 9
+/obj/item/flashlight/lantern/oldlamp{
+	on = 1
 	},
 /turf/open/floor/plasteel/f13/whitemarble,
 /area/f13/building)
@@ -413,10 +413,6 @@
 	},
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 1
-	},
-/obj/item/flashlight/littlelamp{
-	pixel_y = 19;
-	pixel_x = -11
 	},
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
@@ -603,6 +599,9 @@
 	dir = 1
 	},
 /obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/lamp_post/biglamp{
+	pixel_x = -2
+	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "eW" = (
@@ -610,8 +609,8 @@
 /turf/open/floor/plating/beach/sand,
 /area/f13/wasteland)
 "eX" = (
-/obj/structure/table/wood/clean,
 /obj/machinery/computer/libraryconsole/bookmanagement,
+/obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/wasteland)
 "eZ" = (
@@ -775,8 +774,8 @@
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "fT" = (
-/obj/structure/table/wood/clean,
 /obj/item/coin/iron/strangecoin1,
+/obj/structure/table/wood,
 /turf/open/floor/carpet/purple,
 /area/f13/wasteland)
 "fU" = (
@@ -938,8 +937,8 @@
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "hk" = (
-/obj/structure/table/wood/clean,
 /obj/item/toy/plush/coffeefox,
+/obj/structure/table/wood,
 /turf/open/floor/carpet/orange,
 /area/f13/wasteland)
 "hl" = (
@@ -1056,11 +1055,9 @@
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "hU" = (
-/obj/item/flashlight/oldlamp{
-	light_range = 9
-	},
-/turf/open/indestructible/ground/outside/civ/woodalt,
-/area/f13/building)
+/obj/structure/table/wood,
+/turf/open/floor/carpet/orange,
+/area/f13/wasteland)
 "hZ" = (
 /obj/machinery/newscaster,
 /turf/closed/indestructible/wood,
@@ -1184,7 +1181,9 @@
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/wasteland)
 "jd" = (
-/obj/item/flashlight/oldlamp,
+/obj/item/flashlight/lantern/oldlamp{
+	on = 1
+	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
 "jf" = (
@@ -2350,12 +2349,12 @@
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "sg" = (
-/obj/item/flashlight/oldlamp,
-/obj/effect/turf_decal/weather/splineplain{
-	dir = 4
+/obj/structure/railing/wooden_fencing{
+	dir = 8;
+	pixel_y = -12
 	},
-/turf/open/indestructible/ground/outside/civ/woodalt,
-/area/f13/building)
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "sk" = (
 /obj/structure/stairs/east{
 	color = "#967969"
@@ -2376,8 +2375,12 @@
 	color = "#a98c5d";
 	dir = 8
 	},
-/obj/structure/fluff/lightpost{
-	pixel_x = -16
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 4
+	},
+/obj/structure/lamp_post/biglamp{
+	pixel_x = -2
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
@@ -2577,6 +2580,16 @@
 "uD" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 10
+	},
+/turf/open/floor/plasteel/freezer,
+/area/f13/building)
+"uF" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 1
+	},
+/obj/item/flashlight/lantern/oldlamp{
+	on = 1;
+	pixel_y = 18
 	},
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
@@ -2846,10 +2859,6 @@
 /obj/structure/flora/chomp/potplant1{
 	pixel_y = 21;
 	pixel_x = 23
-	},
-/obj/item/flashlight/oldlamp{
-	light_range = 9;
-	pixel_y = 24
 	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
@@ -3162,8 +3171,10 @@
 /area/f13/wasteland)
 "za" = (
 /obj/structure/dresser,
-/obj/item/flashlight/littlelamp{
-	pixel_y = 10
+/obj/item/flashlight/lantern/littlelamp{
+	on = 1;
+	pixel_y = 9;
+	pixel_x = -2
 	},
 /turf/open/floor/carpet/blue,
 /area/f13/building)
@@ -3235,6 +3246,9 @@
 	color = "#a98c5d"
 	},
 /obj/structure/flora/ausbushes/brflowers,
+/obj/structure/lamp_post/biglamp{
+	pixel_x = -2
+	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "zC" = (
@@ -3250,7 +3264,9 @@
 /obj/effect/turf_decal/weather/splinefancy{
 	dir = 1
 	},
-/obj/item/flashlight/oldlamp,
+/obj/item/flashlight/lantern/oldlamp{
+	on = 1
+	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
 "zL" = (
@@ -3376,8 +3392,8 @@
 	color = "#a98c5d";
 	dir = 4
 	},
-/obj/structure/fluff/lightpost{
-	pixel_x = -16
+/obj/structure/lamp_post/biglamp{
+	pixel_x = -2
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
@@ -3617,10 +3633,6 @@
 	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
-"CH" = (
-/obj/structure/table/wood/clean,
-/turf/open/indestructible/ground/outside/civ/woodalt,
-/area/f13/building)
 "CI" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -3680,6 +3692,10 @@
 /obj/item/reagent_containers/rag/towel/random{
 	pixel_y = 4;
 	pixel_x = 18
+	},
+/obj/item/flashlight/lantern/oldlamp{
+	on = 1;
+	pixel_y = 3
 	},
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
@@ -3742,6 +3758,9 @@
 	color = "#a98c5d"
 	},
 /obj/structure/flora/ausbushes/sunnybush,
+/obj/structure/lamp_post/biglamp{
+	pixel_x = -2
+	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "DC" = (
@@ -3896,7 +3915,6 @@
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "Ei" = (
-/obj/structure/table/wood/clean,
 /obj/item/paper_bin{
 	pixel_y = -3;
 	pixel_x = 6
@@ -3905,6 +3923,7 @@
 	pixel_y = 7;
 	pixel_x = -5
 	},
+/obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/wasteland)
 "Ej" = (
@@ -4566,8 +4585,8 @@
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "ID" = (
-/obj/structure/table/wood/clean,
 /obj/item/storage/box/dice,
+/obj/structure/table/wood,
 /turf/open/floor/carpet/purple,
 /area/f13/wasteland)
 "IG" = (
@@ -4686,11 +4705,11 @@
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "JN" = (
-/obj/structure/table/wood/clean,
 /obj/item/reagent_containers/food/condiment/saltshaker{
 	pixel_y = -13
 	},
 /obj/item/reagent_containers/food/condiment/peppermill,
+/obj/structure/table/wood,
 /turf/open/floor/carpet/black,
 /area/f13/building)
 "JR" = (
@@ -4750,7 +4769,6 @@
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "Kt" = (
-/obj/structure/table/wood/clean,
 /obj/machinery/reagentgrinder{
 	pixel_y = 3
 	},
@@ -4942,12 +4960,12 @@
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
 "Lg" = (
-/obj/structure/table/wood/clean,
 /obj/item/paper_bin{
 	pixel_y = -3;
 	pixel_x = 6
 	},
 /obj/item/pen/fourcolor,
+/obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/wasteland)
 "Lh" = (
@@ -5053,10 +5071,10 @@
 /turf/open/floor/plasteel/cafeteria,
 /area/f13/building)
 "Mh" = (
-/obj/structure/table/wood/clean,
 /obj/item/pen,
 /obj/item/pen/fountain,
 /obj/item/pen/fourcolor,
+/obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/wasteland)
 "Mi" = (
@@ -5367,11 +5385,15 @@
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "OG" = (
-/obj/structure/stairs/north{
-	color = "#967969"
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d"
 	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/building)
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/lamp_post/biglamp{
+	pixel_x = -2
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "OH" = (
 /obj/machinery/computer/cloning{
 	req_access = null
@@ -5394,9 +5416,9 @@
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "OK" = (
-/obj/structure/table/wood/clean,
 /obj/item/reagent_containers/glass/woodmug/cup,
 /obj/item/reagent_containers/glass/woodmug/stone,
+/obj/structure/table/wood,
 /turf/open/floor/carpet/orange,
 /area/f13/wasteland)
 "OM" = (
@@ -5425,6 +5447,10 @@
 "OW" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 10
+	},
+/obj/item/flashlight/lantern/oldlamp{
+	on = 1;
+	pixel_y = 18
 	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
@@ -5529,10 +5555,6 @@
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "PU" = (
-/obj/item/flashlight/oldlamp{
-	pixel_y = 22;
-	pixel_x = -6
-	},
 /obj/item/kirbyplants{
 	icon_state = "plant-18";
 	pixel_y = 3;
@@ -5713,7 +5735,7 @@
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "QM" = (
-/obj/structure/table/wood/clean,
+/obj/structure/table/wood,
 /turf/open/floor/carpet/purple,
 /area/f13/wasteland)
 "QO" = (
@@ -6030,12 +6052,12 @@
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "SP" = (
-/obj/structure/table/wood/clean,
 /obj/item/flashlight/lamp/green{
 	pixel_y = 10;
 	pixel_x = -4
 	},
 /obj/item/papercutter,
+/obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/wasteland)
 "SR" = (
@@ -6242,8 +6264,8 @@
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
 "Us" = (
-/obj/structure/table/wood/clean,
 /obj/item/storage/bag/books,
+/obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/wasteland)
 "Uw" = (
@@ -6327,6 +6349,10 @@
 "UX" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 9
+	},
+/obj/item/flashlight/lantern/oldlamp{
+	on = 1;
+	pixel_y = 18
 	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
@@ -6412,8 +6438,8 @@
 /turf/open/floor/carpet,
 /area/f13/building)
 "VF" = (
-/obj/structure/table/wood/clean,
 /obj/item/flashlight/lamp/green,
+/obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/wasteland)
 "VK" = (
@@ -6596,6 +6622,11 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
+"Xa" = (
+/obj/structure/window/fulltile/wood,
+/obj/structure/curtain/directional/south,
+/turf/open/floor/plating/f13,
+/area/f13/building)
 "Xd" = (
 /obj/structure/fluff/beach_umbrella,
 /obj/item/reagent_containers/rag/towel/random,
@@ -6612,7 +6643,7 @@
 "Xh" = (
 /obj/structure/grille,
 /obj/structure/window/fulltile/wood,
-/obj/structure/curtain/directional/south,
+/obj/structure/curtain/directional/north,
 /turf/open/floor/plating/f13,
 /area/f13/building)
 "Xi" = (
@@ -6638,8 +6669,8 @@
 /turf/open/floor/plating/beach/coastline_t,
 /area/f13/wasteland)
 "Xp" = (
-/obj/structure/table/wood/clean,
 /obj/item/flashlight/lamp/green,
+/obj/structure/table/wood,
 /turf/open/floor/carpet/black,
 /area/f13/building)
 "Xr" = (
@@ -6650,8 +6681,9 @@
 	pixel_y = 17;
 	pixel_x = 5
 	},
-/obj/item/flashlight/littlelamp{
-	pixel_y = 17;
+/obj/item/flashlight/lantern/littlelamp{
+	on = 1;
+	pixel_y = 16;
 	pixel_x = -10
 	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
@@ -6839,10 +6871,6 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
-"YU" = (
-/obj/structure/table/wood/clean,
-/turf/open/floor/carpet/orange,
-/area/f13/wasteland)
 "YV" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d"
@@ -6956,10 +6984,10 @@
 /turf/open/floor/plasteel/blue,
 /area/f13/wasteland)
 "ZP" = (
-/obj/structure/table/wood/clean,
 /obj/machinery/light{
 	pixel_x = -16
 	},
+/obj/structure/table/wood,
 /turf/open/floor/carpet/orange,
 /area/f13/wasteland)
 "ZU" = (
@@ -10584,7 +10612,7 @@ eA
 YX
 BY
 ec
-CH
+ec
 YX
 lR
 GO
@@ -10898,7 +10926,7 @@ AG
 ec
 ec
 Fp
-CH
+ec
 cG
 bY
 yP
@@ -11050,7 +11078,7 @@ RP
 ec
 Zs
 gr
-CH
+ec
 Wt
 bY
 np
@@ -12102,7 +12130,7 @@ yr
 Rr
 Lo
 CQ
-YU
+hU
 cn
 np
 EB
@@ -16449,12 +16477,12 @@ ih
 se
 se
 ea
-ih
+Ea
 jZ
 wv
 zp
 zm
-ih
+Ea
 ih
 OJ
 pk
@@ -16912,7 +16940,7 @@ Ol
 EB
 EB
 MZ
-UO
+OG
 pk
 YX
 tr
@@ -17043,7 +17071,7 @@ EB
 EB
 EB
 EB
-EB
+sg
 YX
 YX
 YX
@@ -17198,11 +17226,11 @@ EB
 EB
 YX
 Sf
-jd
 ec
 ec
 ec
-jd
+ec
+ec
 rH
 YX
 Dj
@@ -17349,13 +17377,13 @@ EB
 EB
 EB
 YX
-ec
+jd
 jg
 qn
 qn
 qn
 jg
-ec
+jd
 YX
 EB
 EB
@@ -17500,7 +17528,7 @@ EB
 EB
 EB
 EB
-EI
+Xa
 ec
 NV
 rs
@@ -17534,7 +17562,7 @@ jT
 YX
 gG
 xT
-sg
+xT
 MG
 VC
 YX
@@ -17652,7 +17680,7 @@ EB
 EB
 EB
 EB
-EI
+Xa
 ec
 NV
 pz
@@ -17804,7 +17832,7 @@ EB
 EB
 EB
 EB
-EI
+Xa
 ec
 NV
 FI
@@ -17814,7 +17842,7 @@ yR
 ec
 YX
 YX
-Mx
+xb
 YX
 YX
 Dj
@@ -17824,7 +17852,7 @@ dt
 EB
 Rk
 EB
-xa
+UK
 pk
 np
 BO
@@ -17957,7 +17985,7 @@ EB
 EB
 EB
 YX
-jd
+ec
 jg
 Fk
 Fk
@@ -18267,7 +18295,7 @@ Xr
 ec
 ec
 ec
-hU
+ec
 YX
 ec
 UH
@@ -18417,7 +18445,7 @@ YX
 YX
 YX
 YX
-ec
+jd
 ec
 ec
 YX
@@ -18442,31 +18470,31 @@ pk
 pk
 uL
 JR
+ss
 JR
 JR
-JR
+wC
+wC
+wC
+AZ
 wC
 wC
 wC
 wC
 wC
+AZ
 wC
 wC
 wC
 wC
 wC
+AZ
 wC
 wC
 wC
 wC
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+AZ
 wC
 Go
 pk
@@ -18718,7 +18746,7 @@ EB
 EB
 EB
 YX
-OG
+xn
 ec
 ec
 dA
@@ -18887,7 +18915,7 @@ Hm
 jK
 ih
 ih
-ss
+Ea
 Fu
 pk
 pk
@@ -18898,31 +18926,31 @@ pk
 pk
 WP
 ih
+Ea
 ih
 ih
 ih
 ih
 ih
+Ea
 ih
 ih
 ih
 ih
 ih
+Ea
 ih
 ih
 ih
 ih
 ih
+Ea
 ih
 ih
 ih
 ih
 ih
-ih
-ih
-ih
-ih
-ih
+Ea
 ih
 PE
 pk
@@ -19200,7 +19228,7 @@ pk
 pk
 pk
 pk
-np
+WM
 EB
 EB
 EB
@@ -19330,12 +19358,12 @@ HW
 cV
 bT
 YX
-ec
+jd
 ga
 OB
 OB
 JE
-hU
+jd
 YX
 hQ
 EB
@@ -19348,7 +19376,7 @@ Dv
 Cc
 pk
 Id
-ih
+Ea
 Cc
 pk
 Id
@@ -19483,10 +19511,10 @@ HW
 Qt
 YX
 YX
-xb
-xb
-xb
-xb
+Mx
+Mx
+Mx
+Mx
 YX
 YX
 EB
@@ -19649,7 +19677,7 @@ Wc
 Wc
 Qo
 xY
-xa
+UK
 pk
 np
 EB
@@ -21475,7 +21503,7 @@ EB
 EB
 EB
 YX
-vu
+uF
 Gz
 YX
 ec
@@ -21630,9 +21658,9 @@ YX
 nI
 jr
 YX
-jd
-sk
 ec
+sk
+jd
 YX
 EB
 EB

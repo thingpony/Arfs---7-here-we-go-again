@@ -246,9 +246,9 @@
 /turf/open/floor/plasteel/freezer,
 /area/f13/wasteland)
 "ff" = (
-/obj/structure/table/wood/clean,
 /obj/item/paper_bin,
 /obj/item/pen,
+/obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
@@ -421,12 +421,6 @@
 	color = "#b8884e"
 	},
 /area/f13/wasteland)
-"iC" = (
-/obj/structure/table/wood/clean,
-/turf/open/indestructible/ground/outside/civ/woodalt{
-	color = "#b8884e"
-	},
-/area/f13/wasteland)
 "iK" = (
 /obj/machinery/vending/boozeomat,
 /turf/open/floor/plasteel/f13/darkmarble,
@@ -463,6 +457,12 @@
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/plasteel/cafeteria,
 /area/f13/wasteland)
+"jh" = (
+/obj/structure/table/wood,
+/turf/open/indestructible/ground/outside/civ/woodalt{
+	color = "#b8884e"
+	},
+/area/crew_quarters/cafeteria)
 "jw" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/structure/flora/ausbushes/leafybush,
@@ -552,7 +552,7 @@
 	},
 /area/f13/wasteland)
 "ll" = (
-/obj/structure/table/wood/clean,
+/obj/structure/table/wood,
 /turf/open/floor/plating/dirt/virgosand,
 /area/f13/building/tribal/cave)
 "lG" = (
@@ -668,10 +668,6 @@
 	light_power = 7
 	},
 /turf/open/floor/carpet/arcade,
-/area/crew_quarters/cafeteria)
-"og" = (
-/obj/structure/table/wood/clean,
-/turf/open/floor/carpet,
 /area/crew_quarters/cafeteria)
 "ox" = (
 /obj/structure/table/glass,
@@ -1174,8 +1170,8 @@
 /turf/open/floor/carpet/blue,
 /area/f13/wasteland)
 "xj" = (
-/obj/structure/table/wood/clean,
 /obj/item/flashlight/lamp/green,
+/obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
@@ -1799,10 +1795,10 @@
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/building/tribal/cave)
 "JF" = (
-/obj/structure/table/wood/clean,
 /obj/machinery/computer/libraryconsole/bookmanagement{
 	dir = 4
 	},
+/obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
@@ -1842,10 +1838,10 @@
 /turf/open/floor/plating/dirt/virgosand,
 /area/f13/building/tribal/cave)
 "Kx" = (
-/obj/structure/table/wood/clean,
 /obj/machinery/light{
 	pixel_x = -16
 	},
+/obj/structure/table/wood,
 /turf/open/floor/carpet,
 /area/crew_quarters/cafeteria)
 "KS" = (
@@ -1978,11 +1974,11 @@
 /turf/open/floor/carpet/arcade,
 /area/crew_quarters/cafeteria)
 "NC" = (
-/obj/structure/table/wood/clean,
+/obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
-/area/crew_quarters/cafeteria)
+/area/f13/wasteland)
 "NP" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/glass/rag,
@@ -2482,6 +2478,10 @@
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/building/tribal/cave)
+"Vx" = (
+/obj/structure/table/wood,
+/turf/open/floor/carpet,
+/area/crew_quarters/cafeteria)
 "VA" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/food/drinks/shaker,
@@ -13249,16 +13249,16 @@ JN
 So
 So
 OE
-NC
-NC
-NC
+jh
+jh
+jh
 Fo
 So
 Is
 UX
 su
 su
-og
+Vx
 Is
 aR
 Bh
@@ -13410,7 +13410,7 @@ Is
 su
 su
 su
-og
+Vx
 Is
 iY
 JU
@@ -13714,7 +13714,7 @@ Is
 yO
 su
 su
-og
+Vx
 Is
 xN
 zE
@@ -14917,7 +14917,7 @@ wZ
 kY
 wZ
 Is
-NC
+JU
 So
 So
 So
@@ -14943,7 +14943,7 @@ xS
 xS
 xS
 xS
-iC
+NC
 fm
 Pc
 nf
@@ -15069,7 +15069,7 @@ wZ
 wZ
 wZ
 Is
-NC
+JU
 So
 So
 mb
@@ -15221,13 +15221,13 @@ wZ
 CE
 qF
 Is
-NC
+JU
 So
 So
 Ty
-NC
-NC
-NC
+jh
+jh
+jh
 Ps
 vn
 Is
@@ -15694,8 +15694,8 @@ Ag
 Is
 PS
 Wo
-iC
-iC
+NC
+NC
 Jn
 FI
 Jn

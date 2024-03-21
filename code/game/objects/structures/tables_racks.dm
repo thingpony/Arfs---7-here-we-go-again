@@ -464,16 +464,17 @@
 	canSmoothWith = null
 	buildstack = null
 	max_integrity = 70
-
+/*
 /obj/structure/table/wood/clean
 	name = "wooden table"
 	desc = "A stylish wooden table with a circular design."
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "woodtable_clean"
-	canSmoothWith = null
+	canSmoothWith = list(/obj/structure/table/wood/clean)
 	buildstack = null
 	max_integrity = 70
-
+	var/smooth_icon = 'icons/obj/smooth_structures/wood_table_clean.dmi'
+*/
 
 /obj/structure/table/wood/poker //No specialties, Just a mapping object.
 	name = "gambling table"

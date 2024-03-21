@@ -604,12 +604,13 @@
 	item_flags = DROPDEL
 	actions_types = list()
 
-/obj/item/flashlight/littlelamp
+/obj/item/flashlight/lantern/littlelamp
 	name = "Little Lamp"
 	icon_state = "littlelamp"
 	item_state = "littlelamp"
 
-/obj/item/flashlight/oldlamp
+/obj/item/flashlight/lantern/oldlamp
 	name = "Old Lamp"
 	icon_state = "oldlamp"
 	item_state = "oldlamp"
+

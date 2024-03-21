@@ -30,7 +30,6 @@
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
 "cW" = (
-/obj/item/flashlight/oldlamp,
 /obj/structure/flora/chomp/shrub2{
 	pixel_x = -17
 	},
@@ -113,10 +112,6 @@
 	dir = 8;
 	pixel_x = 7
 	},
-/obj/item/flashlight/littlelamp{
-	pixel_y = 7;
-	pixel_x = 6
-	},
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 6
 	},
@@ -143,10 +138,6 @@
 "kR" = (
 /obj/structure/table/glass,
 /obj/item/paper_bin,
-/obj/item/flashlight/littlelamp{
-	pixel_y = 11;
-	pixel_x = 6
-	},
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 1
 	},
@@ -191,9 +182,10 @@
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
 "mq" = (
-/obj/item/flashlight/oldlamp{
-	pixel_x = 10;
-	pixel_y = 10
+/obj/item/flashlight/lantern/oldlamp{
+	on = 1;
+	pixel_y = 7;
+	pixel_x = 15
 	},
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
@@ -299,10 +291,6 @@
 /obj/item/reagent_containers/rag/towel/random,
 /obj/item/reagent_containers/rag/towel/random,
 /obj/item/reagent_containers/rag/towel/random,
-/obj/item/flashlight/littlelamp{
-	pixel_y = 10;
-	pixel_x = -7
-	},
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 10
 	},
@@ -342,6 +330,10 @@
 /obj/structure/dresser{
 	pixel_y = 20;
 	density = 0
+	},
+/obj/item/flashlight/lantern/littlelamp{
+	on = 1;
+	pixel_y = 31
 	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
@@ -475,6 +467,11 @@
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 1
 	},
+/obj/item/flashlight/lantern/littlelamp{
+	on = 1;
+	pixel_y = 18;
+	pixel_x = -10
+	},
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
 "En" = (
@@ -490,10 +487,6 @@
 	dir = 6
 	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
-/area/f13/building)
-"GR" = (
-/obj/item/flashlight/oldlamp,
-/turf/open/floor/carpet/blue,
 /area/f13/building)
 "He" = (
 /obj/item/reagent_containers/food/snacks/grown/carrot,
@@ -526,9 +519,6 @@
 "Jl" = (
 /obj/structure/table/wood/fancy/cyan,
 /obj/item/clothing/glasses/hud/health/f13,
-/obj/item/flashlight/littlelamp{
-	pixel_y = 12
-	},
 /turf/open/floor/carpet/blue,
 /area/f13/building)
 "KN" = (
@@ -694,7 +684,9 @@
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
 "Rr" = (
-/obj/item/flashlight/oldlamp,
+/obj/item/flashlight/lantern/oldlamp{
+	on = 1
+	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
 "RI" = (
@@ -761,12 +753,6 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
-"Ul" = (
-/obj/item/flashlight/oldlamp{
-	pixel_y = 24
-	},
-/turf/open/indestructible/ground/outside/civ/woodalt,
-/area/f13/building)
 "Vj" = (
 /obj/structure/chair/sofa/corp/corner{
 	dir = 4
@@ -782,6 +768,14 @@
 	icon_state = "plant-10";
 	layer = 2.9;
 	pixel_y = 5
+	},
+/turf/open/indestructible/ground/outside/civ/woodalt,
+/area/f13/building)
+"Wf" = (
+/obj/item/kirbyplants{
+	icon_state = "applebush";
+	pixel_y = 21;
+	pixel_x = -11
 	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
@@ -842,8 +836,9 @@
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
 "ZT" = (
-/obj/item/flashlight/oldlamp{
-	pixel_y = 29
+/obj/item/flashlight/lantern/oldlamp{
+	on = 1;
+	pixel_y = 25
 	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
@@ -10494,7 +10489,7 @@ eA
 WW
 Ce
 WW
-GR
+WW
 Gk
 IZ
 IZ
@@ -10946,7 +10941,7 @@ IZ
 IZ
 IZ
 Gk
-Rr
+zA
 zA
 Gk
 di
@@ -11836,7 +11831,7 @@ IZ
 IZ
 IZ
 Gk
-ZT
+zA
 Mu
 Mu
 Mu
@@ -12291,10 +12286,10 @@ IZ
 IZ
 IZ
 IZ
-IZ
 Gk
-Gk
-RI
+Wf
+zA
+zA
 zA
 zA
 Rr
@@ -12443,8 +12438,8 @@ IZ
 IZ
 IZ
 IZ
-IZ
 Gk
+zA
 ov
 zA
 MV
@@ -12595,8 +12590,8 @@ IZ
 IZ
 IZ
 IZ
-IZ
 Gk
+ZT
 ov
 zA
 zA
@@ -13836,7 +13831,7 @@ IZ
 IZ
 IZ
 Gk
-Ul
+zA
 zA
 zA
 cW
@@ -15359,7 +15354,7 @@ zr
 fH
 zA
 zA
-KO
+zA
 Gk
 IZ
 IZ
@@ -15511,7 +15506,7 @@ ng
 ng
 Gk
 ov
-Gk
+zA
 Gk
 IZ
 IZ
@@ -15662,9 +15657,9 @@ IZ
 IZ
 IZ
 Gk
+zA
+zA
 Gk
-Gk
-IZ
 IZ
 IZ
 IZ
@@ -15813,10 +15808,10 @@ IZ
 IZ
 IZ
 IZ
-IZ
-IZ
-IZ
-IZ
+Gk
+Gk
+Gk
+Gk
 IZ
 IZ
 IZ
