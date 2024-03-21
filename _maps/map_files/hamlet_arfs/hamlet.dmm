@@ -550,6 +550,10 @@
 /obj/machinery/nuclearbomb/beer,
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
+"eg" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "ek" = (
 /obj/structure/flora/ausbushes/genericbush,
 /obj/structure/flora/chomp/thicket0,
@@ -575,6 +579,17 @@
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
 	dir = 10
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"eC" = (
+/obj/docking_port/stationary{
+	area_type = /area/f13/wasteland;
+	dir = 4;
+	height = 6;
+	id = "emergency_home";
+	name = "BoxStation emergency evac bay";
+	width = 25
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
@@ -623,13 +638,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/building)
-"fg" = (
-/obj/structure/fluff/rails{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/ground/outside/civ/grass0,
-/area/f13/wasteland)
 "fl" = (
 /obj/structure/mineral_door/paperframe{
 	name = "changing rooms"
@@ -1659,17 +1667,6 @@
 	dir = 1
 	},
 /area/f13/building)
-"mI" = (
-/obj/docking_port/stationary{
-	area_type = /area/f13/wasteland;
-	dir = 4;
-	height = 6;
-	id = "emergency_home";
-	name = "BoxStation emergency evac bay";
-	width = 25
-	},
-/turf/open/indestructible/ground/outside/civ/grass0,
-/area/f13/wasteland)
 "mO" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d"
@@ -1728,10 +1725,10 @@
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "nu" = (
-/obj/structure/simple_door/twowide_example,
 /obj/item/lock_bolt{
 	dir = 1
 	},
+/obj/structure/simple_door/house/clean,
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
 "nv" = (
@@ -2752,12 +2749,6 @@
 /obj/structure/flora/chomp/bush0,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
-"vW" = (
-/obj/structure/fluff/rails{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/civ/grass0,
-/area/f13/wasteland)
 "wa" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -3082,6 +3073,13 @@
 /obj/structure/hammock_kbraid_s,
 /obj/effect/overlay/coconut,
 /turf/open/floor/plating/beach/sand,
+/area/f13/wasteland)
+"yg" = (
+/obj/structure/fluff/rails{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "yj" = (
 /obj/structure/playground/seesaw,
@@ -3757,10 +3755,6 @@
 	color = "#a98c5d"
 	},
 /obj/structure/flora/ausbushes/sunnybush,
-/turf/open/indestructible/ground/outside/civ/grass0,
-/area/f13/wasteland)
-"Dz" = (
-/obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "DC" = (
@@ -5183,11 +5177,11 @@
 /turf/open/floor/carpet/blue,
 /area/f13/building)
 "Ne" = (
-/obj/item/lock_bolt{
-	dir = 1
+/obj/structure/fluff/rails{
+	dir = 4
 	},
-/turf/open/indestructible/ground/outside/civ/woodalt,
-/area/f13/building)
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "Ng" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -18725,7 +18719,7 @@ ec
 ec
 ec
 lG
-Ne
+nu
 ec
 ec
 ec
@@ -19407,10 +19401,10 @@ EB
 EB
 EB
 EB
-Dz
-Dz
+eg
+eg
 EB
-mI
+eC
 EB
 EB
 EB
@@ -19538,32 +19532,32 @@ EB
 EB
 EB
 EB
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-fg
-vW
-vW
-vW
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+yg
+Ne
+Ne
+Ne
 EB
 EB
 EB
@@ -19864,7 +19858,7 @@ EB
 EB
 EB
 EB
-Dz
+eg
 EB
 EB
 EB
@@ -19994,32 +19988,32 @@ EB
 EB
 EB
 EB
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-fg
-vW
-vW
-vW
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+Ne
+yg
+Ne
+Ne
+Ne
 EB
 EB
 EB
