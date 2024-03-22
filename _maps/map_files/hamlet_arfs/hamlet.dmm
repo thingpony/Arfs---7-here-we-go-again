@@ -79,6 +79,15 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
+"aY" = (
+/obj/item/flashlight/lantern/oldlamp{
+	on = 1
+	},
+/obj/machinery/newscaster{
+	pixel_y = 34
+	},
+/turf/open/indestructible/ground/outside/civ/woodalt,
+/area/f13/building)
 "ba" = (
 /obj/structure/railing/wooden_fencing{
 	dir = 4;
@@ -278,6 +287,15 @@
 /obj/machinery/libraryscanner,
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/wasteland)
+"ch" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 6
+	},
+/turf/open/floor/plating/wooden2,
+/area/f13/wasteland)
+"ci" = (
+/turf/open/transparent/openspace,
+/area/f13/building)
 "ck" = (
 /obj/structure/flora/ausbushes/palebush,
 /obj/structure/flora/ausbushes/ywflowers,
@@ -395,6 +413,12 @@
 	dir = 1
 	},
 /area/f13/wasteland)
+"dd" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/f13/wasteland)
 "df" = (
 /turf/open/indestructible/ground/outside/civ/thatch1,
 /area/f13/building)
@@ -471,6 +495,10 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
+"dI" = (
+/obj/effect/turf_decal/weather/splineplain,
+/turf/open/floor/plating/wooden2,
+/area/f13/wasteland)
 "dN" = (
 /obj/structure/flora/tree/oak_five,
 /obj/structure/flora/ausbushes/stalkybush,
@@ -844,14 +872,17 @@
 /turf/open/floor/plating/beach/sand,
 /area/f13/wasteland)
 "gB" = (
-/obj/item/flashlight/lantern/oldlamp{
-	on = 1
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 4
 	},
-/obj/machinery/newscaster{
-	pixel_y = 34
+/turf/open/floor/plating/wooden2,
+/area/f13/wasteland)
+"gC" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 8
 	},
-/turf/open/indestructible/ground/outside/civ/woodalt,
-/area/f13/building)
+/turf/open/floor/engine,
+/area/f13/wasteland)
 "gF" = (
 /obj/structure/railing/wooden_fencing{
 	dir = 8
@@ -880,6 +911,14 @@
 /obj/structure/flora/ausbushes/stalkybush,
 /obj/structure/flora/chomp/thicket0,
 /turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"gT" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/wild_plant/flower/pink_four{
+	pixel_y = 17;
+	pixel_x = 9
+	},
+/turf/open/indestructible/ground/outside/dirt/bigdirtturf2,
 /area/f13/wasteland)
 "gX" = (
 /obj/effect/turf_decal/weather/splineplain{
@@ -1182,6 +1221,18 @@
 	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
+"je" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 10
+	},
+/obj/structure/chair/comfy/purple{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plating/wooden2,
+/area/f13/wasteland)
 "jf" = (
 /obj/structure/bridgefull{
 	icon_state = "fountain"
@@ -1537,6 +1588,11 @@
 /obj/structure/flora/tree/cherryblossom,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
+"lK" = (
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/junglebush,
+/turf/open/indestructible/ground/outside/dirt/bigdirtturf2,
+/area/f13/wasteland)
 "lL" = (
 /obj/structure/flora/ausbushes/reedbush,
 /turf/open/water,
@@ -1579,6 +1635,13 @@
 	dir = 4
 	},
 /obj/structure/flora/tallgrass4,
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"me" = (
+/obj/structure/fence/wooden{
+	dir = 1;
+	pixel_x = 3
+	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "mh" = (
@@ -1692,6 +1755,15 @@
 /obj/structure/flora/ausbushes/palebush,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
+"nk" = (
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/wild_plant/flower/blue_two,
+/obj/structure/flora/wild_plant/flower/purple{
+	pixel_y = 15;
+	pixel_x = 5
+	},
+/turf/open/indestructible/ground/outside/dirt/bigdirtturf2,
+/area/f13/wasteland)
 "nn" = (
 /obj/structure/flora/tree/oak_five,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -1726,6 +1798,12 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
+"nE" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 1
+	},
+/turf/open/floor/plating/wooden2,
+/area/f13/wasteland)
 "nF" = (
 /obj/structure/closet/crate/bin/trash_fallout,
 /turf/open/indestructible/ground/outside/civ/woodalt,
@@ -1751,6 +1829,11 @@
 /obj/structure/flora/wild_plant/flower/blue_two,
 /obj/machinery/smartfridge/food,
 /turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"nN" = (
+/obj/effect/turf_decal/weather/splineplain,
+/obj/machinery/door/airlock/wood,
+/turf/open/floor/plating/wooden2,
 /area/f13/wasteland)
 "nP" = (
 /obj/effect/turf_decal/weather/splineplain{
@@ -1874,6 +1957,15 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/f13/building)
+"pf" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/wild_plant/flower/blue_two,
+/obj/structure/flora/wild_plant/flower/pink_four{
+	pixel_y = 17;
+	pixel_x = 9
+	},
+/turf/open/indestructible/ground/outside/dirt/bigdirtturf2,
+/area/f13/wasteland)
 "pg" = (
 /obj/structure/chair/bench,
 /obj/machinery/light/small{
@@ -1889,6 +1981,14 @@
 	},
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"pi" = (
+/obj/structure/flora/wild_plant/flower/red_two,
+/obj/structure/flora/wild_plant/flower/yellowhite{
+	pixel_y = 5;
+	pixel_x = 12
+	},
+/turf/open/indestructible/ground/outside/dirt/bigdirtturf2,
 /area/f13/wasteland)
 "pj" = (
 /obj/effect/turf_decal/weather/dirtcorner{
@@ -2044,6 +2144,16 @@
 /obj/structure/butter_churn,
 /turf/open/floor/plasteel/cafeteria,
 /area/f13/building)
+"pS" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 5
+	},
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
+	},
+/turf/open/floor/plating/wooden2,
+/area/f13/wasteland)
 "pV" = (
 /obj/structure/closet/wardrobe/botanist,
 /obj/item/clothing/gloves/botanic_leather,
@@ -2407,6 +2517,14 @@
 /obj/item/reagent_containers/rag/towel/random,
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
+"sG" = (
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/wild_plant/flower/pink_four{
+	pixel_y = 17;
+	pixel_x = 9
+	},
+/turf/open/indestructible/ground/outside/dirt/bigdirtturf2,
+/area/f13/wasteland)
 "sJ" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/sunnybush,
@@ -2490,6 +2608,17 @@
 /obj/structure/flora/chomp/palmuria,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
+"tG" = (
+/obj/structure/flora/wild_plant/petunia{
+	pixel_y = 4;
+	pixel_x = -10
+	},
+/obj/structure/flora/wild_plant/petunia/purple{
+	pixel_y = 9;
+	pixel_x = -20
+	},
+/turf/open/indestructible/ground/outside/dirt/bigdirtturf2,
+/area/f13/wasteland)
 "tI" = (
 /obj/structure/chair/comfy/plywood{
 	dir = 4
@@ -2519,6 +2648,25 @@
 	dir = 8
 	},
 /area/f13/building)
+"uh" = (
+/obj/structure/fence/end/wooden{
+	dir = 8;
+	pixel_x = 15;
+	pixel_y = 4
+	},
+/obj/structure/fence/wooden{
+	dir = 4;
+	pixel_y = 4;
+	pixel_x = -4
+	},
+/obj/structure/fence/corner/wooden{
+	dir = 8;
+	pixel_x = -29;
+	density = 0;
+	pixel_y = 4
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "uj" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -2533,6 +2681,17 @@
 	},
 /obj/structure/flora/ausbushes/reedbush,
 /turf/open/water,
+/area/f13/wasteland)
+"um" = (
+/obj/structure/fence/corner/wooden{
+	pixel_x = 13
+	},
+/obj/structure/fence/corner/wooden{
+	dir = 8;
+	pixel_x = -13;
+	density = 0
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "uo" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -2569,6 +2728,11 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/f13/building)
+"uC" = (
+/obj/structure/window/fulltile/wood,
+/obj/structure/flora/wild_plant/flower/white,
+/turf/open/indestructible/ground/outside/civ/woodalt,
+/area/f13/wasteland)
 "uD" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 10
@@ -2736,6 +2900,18 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/chomp/thicket0,
 /turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"vU" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 8
+	},
+/obj/item/kirbyplants{
+	icon_state = "plant-10";
+	layer = 2.9;
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/turf/open/floor/plating/wooden2,
 /area/f13/wasteland)
 "vV" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -3010,6 +3186,13 @@
 /obj/structure/table/optable,
 /turf/open/floor/plasteel/blue,
 /area/f13/wasteland)
+"xG" = (
+/obj/structure/flora/wild_plant/flower/red_two,
+/obj/structure/flora/wild_plant/flower/white{
+	pixel_y = 17
+	},
+/turf/open/indestructible/ground/outside/dirt/bigdirtturf2,
+/area/f13/wasteland)
 "xI" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -3207,6 +3390,13 @@
 	color = "#BBBBBB"
 	},
 /area/f13/building)
+"zt" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 1
+	},
+/obj/effect/turf_decal/weather/splineplain,
+/turf/open/floor/plating/wooden2,
+/area/f13/wasteland)
 "zx" = (
 /obj/structure/flora/chomp/potplant0{
 	pixel_y = 13;
@@ -3670,6 +3860,13 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
+"CZ" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 1
+	},
+/obj/machinery/door/airlock/wood,
+/turf/open/floor/plating/wooden2,
+/area/f13/wasteland)
 "Da" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 6
@@ -3926,11 +4123,7 @@
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
 "Eo" = (
-/obj/structure/fluff/rails{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/ground/outside/civ/grass0,
+/turf/open/floor/circuit,
 /area/f13/wasteland)
 "Eq" = (
 /obj/structure/table/reinforced,
@@ -4117,6 +4310,13 @@
 	dir = 10
 	},
 /area/f13/wasteland)
+"FS" = (
+/obj/structure/fence/end/wooden{
+	dir = 4;
+	pixel_x = 3
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "FX" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -4160,6 +4360,15 @@
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
+"Gr" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 8
+	},
+/obj/structure/chair/comfy/purple{
+	dir = 4
+	},
+/turf/open/floor/plating/wooden2,
+/area/f13/wasteland)
 "Gs" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/cafeteria,
@@ -4188,6 +4397,16 @@
 /obj/item/reagent_containers/food/snacks/burger,
 /turf/open/floor/carpet/black,
 /area/f13/building)
+"Gx" = (
+/obj/structure/flora/wild_plant/flower/white{
+	pixel_y = 17
+	},
+/obj/structure/flora/wild_plant/flower/purple{
+	pixel_y = 3;
+	pixel_x = 5
+	},
+/turf/open/indestructible/ground/outside/dirt/bigdirtturf2,
+/area/f13/wasteland)
 "Gz" = (
 /obj/effect/turf_decal/weather/splineplain,
 /obj/item/kirbyplants{
@@ -4353,6 +4572,13 @@
 /obj/machinery/light/floor,
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
+"HA" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 8
+	},
+/obj/item/kirbyplants/random,
+/turf/open/floor/plating/wooden2,
+/area/f13/wasteland)
 "HE" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d"
@@ -4386,6 +4612,10 @@
 	dir = 8
 	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
+/area/f13/wasteland)
+"HV" = (
+/obj/effect/turf_decal/weather/splineplain,
+/turf/open/floor/engine,
 /area/f13/wasteland)
 "HW" = (
 /turf/open/floor/plasteel/f13/whitemarble,
@@ -4602,12 +4832,28 @@
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
+"IT" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
+	},
+/turf/open/floor/plating/wooden2,
+/area/f13/wasteland)
 "IW" = (
 /obj/structure/railing/wooden_fencing{
 	dir = 8;
 	pixel_y = 12
 	},
 /turf/open/indestructible/ground/outside/dirt/bigsandturf,
+/area/f13/wasteland)
+"Jc" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 4
+	},
+/turf/open/floor/engine,
 /area/f13/wasteland)
 "Je" = (
 /obj/structure/table/wood,
@@ -4663,6 +4909,12 @@
 /obj/machinery/door/airlock/glass_large,
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/wasteland)
+"JA" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 8
+	},
+/turf/open/floor/plating/wooden2,
+/area/f13/wasteland)
 "JE" = (
 /obj/structure/chair/sofa/corner{
 	dir = 8;
@@ -4680,6 +4932,13 @@
 	},
 /obj/structure/flora/ausbushes/genericbush,
 /turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"JH" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 8
+	},
+/obj/structure/table/wood,
+/turf/open/floor/plating/wooden2,
 /area/f13/wasteland)
 "JL" = (
 /obj/effect/turf_decal/weather/splineplain{
@@ -4729,6 +4988,16 @@
 "Kb" = (
 /mob/living/simple_animal/cow/brahmin/cow,
 /turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"Kd" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 6
+	},
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
+	},
+/turf/open/floor/plating/wooden2,
 /area/f13/wasteland)
 "Kn" = (
 /turf/closed/indestructible/f13/matrix,
@@ -5052,6 +5321,9 @@
 /obj/structure/flora/chomp/thicket0,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
+"Ma" = (
+/turf/open/floor/plating/wooden2,
+/area/f13/wasteland)
 "Me" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/condiment/enzyme,
@@ -5186,7 +5458,10 @@
 /area/f13/building)
 "Ne" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/ground/outside/civ/grass0,
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 4
+	},
+/turf/open/floor/engine,
 /area/f13/wasteland)
 "Ng" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -5244,6 +5519,25 @@
 /turf/open/floor/plasteel/blue/side{
 	dir = 1
 	},
+/area/f13/wasteland)
+"Nx" = (
+/obj/structure/fence/end/wooden{
+	dir = 8;
+	pixel_x = 15;
+	pixel_y = 4
+	},
+/obj/structure/fence/corner/wooden{
+	dir = 8;
+	pixel_x = -29;
+	density = 0;
+	pixel_y = 4
+	},
+/obj/structure/fence/wooden{
+	dir = 4;
+	pixel_y = 4;
+	pixel_x = -4
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "Nz" = (
 /obj/machinery/hydroponics/constructable,
@@ -5316,9 +5610,6 @@
 /obj/structure/chair/wood/wings,
 /turf/open/floor/carpet/black,
 /area/f13/building)
-"NX" = (
-/turf/open/transparent/openspace,
-/area/f13/building)
 "Oa" = (
 /obj/structure/simple_door/house,
 /turf/open/indestructible/ground/outside/civ/woodalt,
@@ -5367,6 +5658,13 @@
 	},
 /turf/open/indestructible/ground/stellercarpet/fourtyfour,
 /area/f13/building)
+"OC" = (
+/obj/structure/flora/wild_plant/flower/white{
+	pixel_y = 17
+	},
+/obj/structure/flora/wild_plant/flower/blue_two,
+/turf/open/indestructible/ground/outside/dirt/bigdirtturf2,
+/area/f13/wasteland)
 "OE" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/effect/turf_decal/weather/splinefancy{
@@ -5607,6 +5905,15 @@
 /obj/structure/table/glass,
 /turf/open/floor/plasteel/blue,
 /area/f13/wasteland)
+"Ql" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plating/wooden2,
+/area/f13/wasteland)
 "Qm" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -5758,7 +6065,10 @@
 	name = "BoxStation emergency evac bay";
 	width = 25
 	},
-/turf/open/indestructible/ground/outside/civ/grass0,
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 4
+	},
+/turf/open/floor/engine,
 /area/f13/wasteland)
 "Ra" = (
 /obj/structure/fluff/beach_umbrella/syndi,
@@ -5890,12 +6200,22 @@
 	},
 /turf/open/floor/plating/beach/sand,
 /area/f13/wasteland)
+"RJ" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/wild_plant/flower/pink_four,
+/turf/open/indestructible/ground/outside/dirt/bigdirtturf2,
+/area/f13/wasteland)
 "RP" = (
 /obj/machinery/door/window{
 	dir = 2
 	},
 /turf/open/floor/carpet/black,
 /area/f13/building)
+"RQ" = (
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/wild_plant/flower/blue_two,
+/turf/open/indestructible/ground/outside/dirt/bigdirtturf2,
+/area/f13/wasteland)
 "RT" = (
 /obj/structure/table/plasmaglass{
 	color = "5F9EA0"
@@ -6155,6 +6475,12 @@
 "TD" = (
 /turf/open/floor/plasteel/darkgreen/side,
 /area/f13/building)
+"TM" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 10
+	},
+/turf/open/floor/plating/wooden2,
+/area/f13/wasteland)
 "TN" = (
 /obj/machinery/door/airlock/glass_large,
 /turf/open/floor/plasteel/freezer,
@@ -6374,7 +6700,16 @@
 /obj/structure/lamp_post/biglamp{
 	pixel_x = -2
 	},
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 1
+	},
 /turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"Vb" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/wild_plant/flower/purple,
+/turf/open/indestructible/ground/outside/dirt/bigdirtturf2,
 /area/f13/wasteland)
 "Vk" = (
 /obj/structure/chair/sofa/left{
@@ -6595,10 +6930,7 @@
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "WT" = (
-/obj/structure/fluff/rails{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/civ/grass0,
+/turf/open/floor/circuit/green,
 /area/f13/wasteland)
 "WV" = (
 /obj/structure/flora/tree/african_acacia_alt,
@@ -6707,6 +7039,9 @@
 	},
 /turf/open/floor/plasteel/blue,
 /area/f13/wasteland)
+"Xy" = (
+/turf/open/floor/engine,
+/area/f13/wasteland)
 "XE" = (
 /obj/effect/turf_decal/weather/dirtcorner{
 	dir = 4;
@@ -6717,6 +7052,18 @@
 	},
 /obj/structure/flora/tree/cherryblossom,
 /turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"XI" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 9
+	},
+/obj/item/kirbyplants{
+	icon_state = "plant-14"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plating/wooden2,
 /area/f13/wasteland)
 "XP" = (
 /obj/effect/turf_decal/weather/dirtcorner{
@@ -6899,6 +7246,16 @@
 /obj/structure/flora/tree/oak_four,
 /obj/structure/flora/ausbushes/sunnybush,
 /turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"Zi" = (
+/obj/effect/turf_decal/weather/splineplain{
+	dir = 1
+	},
+/obj/effect/turf_decal/weather/splineplain,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plating/wooden2,
 /area/f13/wasteland)
 "Zk" = (
 /obj/structure/flora/ausbushes/ywflowers,
@@ -13026,7 +13383,7 @@ hQ
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -13178,7 +13535,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -13330,7 +13687,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -13634,7 +13991,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -13786,7 +14143,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -13938,7 +14295,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -14090,7 +14447,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -14242,7 +14599,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -14546,7 +14903,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -14698,7 +15055,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -15002,7 +15359,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -15154,7 +15511,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -15458,7 +15815,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -15610,7 +15967,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 aE
 EB
@@ -15762,7 +16119,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -15914,7 +16271,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -16066,7 +16423,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -16370,7 +16727,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -16489,7 +16846,7 @@ Mk
 YX
 WK
 ec
-NX
+ci
 YX
 YX
 jT
@@ -16522,7 +16879,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -16674,7 +17031,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -16826,7 +17183,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -16978,7 +17335,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -17282,24 +17639,24 @@ EB
 xa
 pk
 pk
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+vM
+wC
+wC
+wC
+wC
+AZ
+wC
+wC
+wC
+wC
+wC
+AZ
+wC
+wC
+wC
+wC
+wC
+wC
 EB
 EB
 EB
@@ -17398,7 +17755,7 @@ Ho
 xa
 pk
 YX
-gB
+aY
 ec
 ec
 ec
@@ -17434,25 +17791,25 @@ EB
 xa
 pk
 pk
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+np
 EB
 EB
 EB
@@ -17586,25 +17943,25 @@ EB
 xa
 pk
 pk
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+np
 EB
 EB
 EB
@@ -17738,25 +18095,25 @@ EB
 xa
 pk
 pk
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+Dg
+ih
+ih
+ih
+ih
+Ea
+ih
+ih
+ih
+ih
+ih
+Ea
+ih
+ih
+ih
+eA
+pk
+pk
+np
 EB
 EB
 EB
@@ -17890,6 +18247,7 @@ EB
 xa
 pk
 pk
+np
 EB
 EB
 EB
@@ -17904,11 +18262,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
-EB
+xa
+pk
+pk
+np
 EB
 EB
 EB
@@ -18057,10 +18414,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+UK
+pk
+pk
+WM
 EB
 EB
 EB
@@ -18194,6 +18551,7 @@ EB
 xa
 pk
 pk
+np
 EB
 EB
 EB
@@ -18208,11 +18566,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
-EB
+xa
+pk
+pk
+np
 EB
 EB
 EB
@@ -18346,6 +18703,7 @@ EB
 xa
 pk
 pk
+np
 EB
 EB
 EB
@@ -18360,11 +18718,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
-EB
+xa
+pk
+pk
+np
 EB
 EB
 EB
@@ -18498,6 +18855,7 @@ wC
 Go
 pk
 pk
+np
 EB
 EB
 EB
@@ -18512,11 +18870,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
-EB
+xa
+pk
+pk
+np
 EB
 EB
 EB
@@ -18650,38 +19007,38 @@ pk
 pk
 pk
 pk
+np
 EB
 EB
 EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-cn
+FS
+me
+me
+me
+me
+me
+me
+me
+me
 EB
 EB
 cn
+CZ
+nN
+cn
 EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+FS
+me
+me
+me
+me
+me
+me
+me
+me
+me
+me
+me
 EB
 EB
 EB
@@ -18802,39 +19159,39 @@ pk
 pk
 pk
 pk
+np
 EB
 EB
 EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-cn
-EB
+um
+RQ
+xG
+pf
+lK
+Gx
+RJ
+xG
+RQ
+uh
 EB
 cn
+nE
+dI
+cn
 EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+um
+nk
+pi
+gT
+OC
+pi
+sG
+tG
+Vb
+OC
+pi
+sG
+Nx
 EB
 EB
 EB
@@ -18954,31 +19311,13 @@ ih
 PE
 pk
 pk
-EB
-EB
-EB
-cn
-cn
-em
-em
-em
-em
-em
-em
-em
-em
-cn
-cn
-cn
+np
 EB
 EB
 cn
 cn
 em
-em
-em
-em
-em
+uC
 em
 em
 em
@@ -18986,6 +19325,24 @@ em
 em
 em
 cn
+cn
+cn
+nE
+dI
+cn
+cn
+cn
+em
+em
+em
+em
+em
+em
+em
+em
+em
+em
+em
 cn
 cn
 EB
@@ -19106,39 +19463,39 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 cn
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+XI
+Gr
+Gr
+JH
+Gr
+Gr
+JH
+Gr
+Gr
+vU
+JA
+Ql
+Ma
+Ma
+Ql
+JA
+HA
+Gr
+Gr
+JH
+Gr
+Gr
+JH
+JH
+Gr
+Gr
+JH
+Gr
+je
 cn
 EB
 EB
@@ -19258,39 +19615,39 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 cn
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+nE
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+ch
 cn
 EB
 EB
@@ -19410,39 +19767,39 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 cn
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+zt
+Xy
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
 Ne
 Ne
-EB
+Jc
 QU
-EB
-EB
+Jc
+Xy
 cn
 EB
 EB
@@ -19562,39 +19919,39 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 cn
-EB
-EB
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
+zt
+HV
+Eo
 WT
 Eo
 WT
+Eo
 WT
+Eo
 WT
-EB
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+dd
 cn
 EB
 EB
@@ -19714,39 +20071,39 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 cn
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+Zi
+HV
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+dd
 cn
 EB
 EB
@@ -19866,39 +20223,39 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 cn
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-Ne
-EB
-EB
-EB
-EB
+zt
+HV
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+dd
 cn
 EB
 EB
@@ -20018,39 +20375,39 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 cn
-EB
-EB
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
-WT
+zt
+HV
+Eo
 WT
 Eo
 WT
+Eo
 WT
+Eo
 WT
-EB
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+Eo
+WT
+dd
 cn
 EB
 EB
@@ -20170,39 +20527,39 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 cn
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+zt
+Xy
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+Xy
 cn
 EB
 EB
@@ -20322,39 +20679,39 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 cn
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+nE
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+JA
+TM
 cn
 EB
 EB
@@ -20474,39 +20831,39 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 cn
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+pS
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+IT
+gB
+gB
+IT
+gB
+gB
+gB
+gB
+gB
+gB
+IT
+gB
+gB
+gB
+gB
+gB
+gB
+Kd
 cn
 EB
 EB
@@ -20626,7 +20983,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 cn
@@ -20778,7 +21135,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -20930,7 +21287,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -21082,7 +21439,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -21234,7 +21591,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -21386,7 +21743,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -21538,7 +21895,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -21690,7 +22047,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -21842,7 +22199,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -21994,7 +22351,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -22146,7 +22503,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -22298,7 +22655,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -22450,7 +22807,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -22602,7 +22959,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -22754,7 +23111,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -22906,7 +23263,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -23058,7 +23415,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -23210,7 +23567,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -23362,7 +23719,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -23514,7 +23871,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -23666,7 +24023,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
@@ -23818,7 +24175,7 @@ EB
 xa
 pk
 pk
-EB
+np
 EB
 EB
 EB
