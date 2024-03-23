@@ -2802,11 +2802,6 @@
 	pixel_x = -11;
 	pixel_y = 18
 	},
-/obj/item/flashlight/oldlamp{
-	light_on = 1;
-	pixel_x = 4;
-	pixel_y = 25
-	},
 /obj/structure/sink{
 	pixel_x = 16;
 	pixel_y = 22
@@ -4066,7 +4061,7 @@
 "ji" = (
 /obj/structure/table/booth,
 /obj/effect/spawner/lootdrop/f13/uncommon_artifacts{
-	loot = list(/obj/item/blueprint/research = 50, /obj/item/flashlight/seclite = 50);
+	loot = list(/obj/item/blueprint/research=50,/obj/item/flashlight/seclite=50);
 	name = "50 percent research spawner"
 	},
 /turf/open/floor/f13/wood,
@@ -4237,12 +4232,6 @@
 	pixel_y = -2;
 	opacity = 1
 	},
-/obj/item/flashlight/oldlamp{
-	light_on = 1;
-	pixel_x = -12;
-	pixel_y = 1;
-	on = 1
-	},
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#000000";
 	layer = 5;
@@ -4312,12 +4301,6 @@
 /obj/structure/mirror/alt{
 	pixel_x = -1;
 	pixel_y = 33
-	},
-/obj/item/flashlight/littlelamp{
-	light_on = 1;
-	pixel_x = -13;
-	pixel_y = 19;
-	on = 1
 	},
 /obj/machinery/light/floor{
 	pixel_y = 5
@@ -6321,13 +6304,6 @@
 /turf/open/floor/carpet/red,
 /area/f13/bar/heaven)
 "oa" = (
-/obj/item/flashlight/oldlamp{
-	light_on = 1;
-	light_power = 6;
-	pixel_x = -11;
-	pixel_y = 2;
-	on = 1
-	},
 /obj/machinery/light/small{
 	dir = 8;
 	pixel_y = 13;
@@ -7845,12 +7821,6 @@
 	pixel_x = 2;
 	pixel_y = 22
 	},
-/obj/item/flashlight/littlelamp{
-	light_on = 1;
-	pixel_x = 1;
-	pixel_y = 25;
-	on = 1
-	},
 /obj/structure/rug/carpet{
 	layer = 1
 	},
@@ -7980,17 +7950,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
-/area/f13/building)
-"rX" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/flashlight/oldlamp{
-	light_on = 1;
-	light_power = 6;
-	pixel_x = -11;
-	pixel_y = 2;
-	on = 1
-	},
-/turf/open/floor/f13/wood,
 /area/f13/building)
 "rY" = (
 /obj/structure/stone_tile/block{
@@ -14709,11 +14668,6 @@
 /obj/machinery/reagentgrinder{
 	pixel_y = 14
 	},
-/obj/item/flashlight/littlelamp{
-	pixel_y = -4;
-	pixel_x = 6;
-	on = 1
-	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
 /area/f13/building)
 "Hf" = (
@@ -16269,10 +16223,6 @@
 "Kv" = (
 /obj/structure/nightstand/small{
 	pixel_x = 2
-	},
-/obj/item/flashlight/littlelamp{
-	pixel_x = 1;
-	pixel_y = 2
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
@@ -19659,13 +19609,6 @@
 "RX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/flashlight/oldlamp{
-	light_on = 1;
-	light_power = 6;
-	pixel_x = -11;
-	pixel_y = 2;
-	on = 1
-	},
 /obj/structure/rug/big/rug_yellow{
 	pixel_y = -9
 	},
@@ -69165,7 +69108,7 @@ EB
 Pt
 cV
 ru
-rX
+XA
 Pt
 hL
 rq

@@ -1318,6 +1318,14 @@
 	dir = 4
 	},
 /area/f13/wasteland)
+"jE" = (
+/obj/structure/railing/handrail/blue{
+	dir = 9;
+	pixel_y = -11;
+	pixel_x = 24
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "jI" = (
 /obj/item/toy/beach_ball,
 /turf/open/floor/plating/beach/sand,
@@ -1635,6 +1643,16 @@
 	dir = 4
 	},
 /obj/structure/flora/tallgrass4,
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"md" = (
+/obj/structure/lamp_post/biglamp{
+	pixel_x = -2
+	},
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 6
+	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "me" = (
@@ -2989,6 +3007,13 @@
 /obj/effect/turf_decal/weather/splinefancy,
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/building)
+"wr" = (
+/obj/structure/railing/handrail/blue{
+	pixel_x = -14;
+	pixel_y = -1
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "ws" = (
 /obj/effect/turf_decal/weather/dirtcorner{
 	light_color = "#a98c5d";
@@ -3287,6 +3312,9 @@
 /obj/machinery/door/airlock/public,
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
+"yA" = (
+/turf/open/transparent/openspace,
+/area/f13/wasteland)
 "yD" = (
 /obj/effect/turf_decal/siding/green{
 	dir = 10
@@ -5238,10 +5266,12 @@
 	dir = 8;
 	color = "#a98c5d"
 	},
-/obj/effect/turf_decal/weather/dirt{
-	color = "#a98c5d"
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone";
+	color = "D3D3D3"
 	},
-/turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "Ll" = (
 /obj/structure/table/abductor,
@@ -5415,10 +5445,10 @@
 /turf/open/floor/plasteel/darkgreen,
 /area/f13/building)
 "MR" = (
-/obj/effect/turf_decal/weather/dirt{
-	color = "#a98c5d"
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/railing/handrail/blue{
+	dir = 4
 	},
-/obj/structure/flora/ausbushes/sunnybush,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "MS" = (
@@ -5841,6 +5871,15 @@
 /obj/structure/flora/tree/cherryblossom3,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
+"PP" = (
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/railing/handrail/blue{
+	dir = 5;
+	pixel_y = -11;
+	pixel_x = -26
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "PS" = (
 /obj/structure/flora/ausbushes/sunnybush,
 /obj/structure/flora/ausbushes/sunnybush,
@@ -6001,10 +6040,11 @@
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
 "QF" = (
-/obj/effect/turf_decal/weather/dirt{
-	color = "#a98c5d"
-	},
 /obj/structure/flora/wild_plant/flower/pink_three,
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 10
+	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "QG" = (
@@ -7041,6 +7081,13 @@
 /area/f13/wasteland)
 "Xy" = (
 /turf/open/floor/engine,
+/area/f13/wasteland)
+"XA" = (
+/obj/structure/railing/handrail/blue{
+	dir = 8;
+	pixel_x = -2
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "XE" = (
 /obj/effect/turf_decal/weather/dirtcorner{
@@ -18205,10 +18252,10 @@ Dj
 EB
 EB
 dt
-EB
-Rk
-EB
-UK
+jE
+MR
+wC
+md
 pk
 np
 BO
@@ -18358,8 +18405,8 @@ Ol
 Rk
 EB
 EB
-Ol
-EB
+yA
+pk
 Li
 pk
 Nn
@@ -18509,10 +18556,10 @@ wC
 Zw
 wC
 hn
-EB
-Dj
-EB
-MR
+wr
+yA
+pk
+pk
 pk
 pk
 pk
@@ -18661,9 +18708,9 @@ pE
 Fi
 uP
 np
-hH
-EB
-EB
+PP
+XA
+ih
 QF
 pk
 pk
