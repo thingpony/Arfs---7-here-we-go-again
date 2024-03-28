@@ -3825,6 +3825,7 @@
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
 #include "modular_arfs\disables.dm"
+#include "modular_arfs\custombed.dm"
 #include "modular_citadel\code\datums\components\souldeath.dm"
 #include "modular_citadel\code\datums\status_effects\chems.dm"
 #include "modular_citadel\code\game\objects\cit_screenshake.dm"
