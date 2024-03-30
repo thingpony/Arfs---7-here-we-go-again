@@ -293,7 +293,7 @@
 					// 	vary = TRUE, //decides wether or not the really goofy pitch shift function happens
 					// 	extrarange = 0, //extra range in tiles from the source of the sound, starts at 17.  Adjust there in. Or use '= SOUND_DISTNACE(# of tiles)'
 					// 	ignore_walls = FALSE, //Is it loud enough to be heard like your parents making you a new sibling?
-						
+
 					// 	falloff_exponent = SOUND_FALLOFF_EXPONENT, //From here down is generally unused
 					// 	frequency = null,
 					// 	channel = 0,
@@ -903,3 +903,35 @@
 		/datum/reagent/toxin/carpotoxin,
 		/datum/reagent/medicine/morphine
 	)
+
+/obj/machinery/chem_dispenser/snowconemaker
+	name = "snow cone ingrident dispenser"
+	desc = "Contains a large reservoir ingrident for snowcones."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "soda_dispenser"
+	has_panel_overlay = FALSE
+	amount = 100
+	pixel_y = 6
+	layer = WALL_OBJ_LAYER
+	circuit = /obj/item/circuitboard/machine/chem_dispenser/drinks
+	working_state = null
+	nopower_state = null
+	pass_flags = PASSTABLE
+	dispensable_reagents = list(
+		/datum/reagent/consumable/ice,
+		/datum/reagent/consumable/cream,
+		/datum/reagent/consumable/bluecherryjelly,
+		/datum/reagent/consumable/nuka_cola,
+		/datum/reagent/consumable/applejuice,
+		/datum/reagent/consumable/berryjuice,
+		/datum/reagent/consumable/cherryjelly,
+		/datum/reagent/consumable/orangejuice,
+		/datum/reagent/consumable/limejuice,
+		/datum/reagent/consumable/lemonjuice,
+		/datum/reagent/consumable/grapejuice,
+		/datum/reagent/consumable/honey,
+		/datum/reagent/consumable/pineapplejuice,
+		/datum/reagent/consumable/pwr_game,
+		/datum/reagent/colorful_reagent,
+		/datum/reagent/consumable/sunset,
+		)
