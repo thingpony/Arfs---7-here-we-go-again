@@ -17,9 +17,4 @@
 	icon = 'icons/obj/hammock.dmi'
 	icon_state = "kbraid_hammock_lower"
 
-/obj/structure/bed/big
-	name = "big bed"
-	desc = "A rather big bed."
-	icon = 'content_arfs/icons/bigbed.dmi'
-	icon_state = "bed"
 

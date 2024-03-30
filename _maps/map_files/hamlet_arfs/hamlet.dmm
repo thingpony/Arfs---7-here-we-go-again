@@ -1272,15 +1272,11 @@
 /turf/open/indestructible/ground/outside/dirt/bigdirtturf2,
 /area/f13/wasteland)
 "gV" = (
-/obj/structure/flatscreen{
-	pixel_y = 26;
-	pixel_x = -26
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
 	},
-/obj/structure/flatscreen{
-	pixel_y = 2;
-	pixel_x = -26
-	},
-/turf/open/indestructible/ground/outside/civ/grass0,
+/turf/open/floor/plating/wooden2,
 /area/f13/wasteland)
 "gW" = (
 /obj/structure/spacevine{
@@ -1565,20 +1561,6 @@
 /obj/structure/table/wood,
 /turf/open/floor/carpet/orange,
 /area/f13/building)
-"hW" = (
-/obj/structure/closet/crate/freezer,
-/obj/item/reagent_containers/food/snacks/chocolatebar,
-/obj/item/reagent_containers/food/snacks/chocolatebar,
-/obj/item/reagent_containers/food/snacks/chocolatebar,
-/obj/item/reagent_containers/food/snacks/chocolatebar,
-/obj/item/reagent_containers/food/snacks/chocolatebar,
-/obj/item/reagent_containers/food/snacks/chocolatebar,
-/obj/item/reagent_containers/food/snacks/chocolatebar,
-/obj/item/reagent_containers/food/snacks/chocolatebar,
-/obj/item/reagent_containers/food/snacks/chocolatebar,
-/obj/item/reagent_containers/food/snacks/chocolatebar,
-/turf/open/floor/plasteel/freezer,
-/area/f13/wasteland)
 "hZ" = (
 /obj/machinery/newscaster,
 /turf/closed/indestructible/wood,
@@ -3098,16 +3080,16 @@
 /area/f13/building/tribal)
 "qb" = (
 /obj/structure/closet/crate/freezer,
-/obj/item/reagent_containers/food/snacks/grown/cherries,
-/obj/item/reagent_containers/food/snacks/grown/cherries,
-/obj/item/reagent_containers/food/snacks/grown/cherries,
-/obj/item/reagent_containers/food/snacks/grown/cherries,
-/obj/item/reagent_containers/food/snacks/grown/cherries,
-/obj/item/reagent_containers/food/snacks/grown/cherries,
-/obj/item/reagent_containers/food/snacks/grown/cherries,
-/obj/item/reagent_containers/food/snacks/grown/cherries,
-/obj/item/reagent_containers/food/snacks/grown/cherries,
-/obj/item/reagent_containers/food/snacks/grown/cherries,
+/obj/item/reagent_containers/food/snacks/chocolatebar,
+/obj/item/reagent_containers/food/snacks/chocolatebar,
+/obj/item/reagent_containers/food/snacks/chocolatebar,
+/obj/item/reagent_containers/food/snacks/chocolatebar,
+/obj/item/reagent_containers/food/snacks/chocolatebar,
+/obj/item/reagent_containers/food/snacks/chocolatebar,
+/obj/item/reagent_containers/food/snacks/chocolatebar,
+/obj/item/reagent_containers/food/snacks/chocolatebar,
+/obj/item/reagent_containers/food/snacks/chocolatebar,
+/obj/item/reagent_containers/food/snacks/chocolatebar,
 /turf/open/floor/plasteel/freezer,
 /area/f13/wasteland)
 "qc" = (
@@ -3415,13 +3397,6 @@
 /obj/item/clothing/under/shorts/polychromic,
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
-"rL" = (
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#e8eaff"
-	},
-/turf/open/floor/plating/wooden2,
-/area/f13/wasteland)
 "rO" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d"
@@ -5376,6 +5351,20 @@
 /obj/machinery/door/airlock/freezer,
 /turf/open/floor/plasteel/cafeteria,
 /area/f13/building)
+"Dd" = (
+/obj/structure/closet/crate/freezer,
+/obj/item/reagent_containers/food/snacks/grown/cherries,
+/obj/item/reagent_containers/food/snacks/grown/cherries,
+/obj/item/reagent_containers/food/snacks/grown/cherries,
+/obj/item/reagent_containers/food/snacks/grown/cherries,
+/obj/item/reagent_containers/food/snacks/grown/cherries,
+/obj/item/reagent_containers/food/snacks/grown/cherries,
+/obj/item/reagent_containers/food/snacks/grown/cherries,
+/obj/item/reagent_containers/food/snacks/grown/cherries,
+/obj/item/reagent_containers/food/snacks/grown/cherries,
+/obj/item/reagent_containers/food/snacks/grown/cherries,
+/turf/open/floor/plasteel/freezer,
+/area/f13/wasteland)
 "De" = (
 /obj/effect/turf_decal/weather/splineplain,
 /turf/open/pool,
@@ -5659,20 +5648,6 @@
 "Eo" = (
 /turf/open/floor/circuit,
 /area/f13/building)
-"Ep" = (
-/obj/structure/closet/crate/freezer,
-/obj/item/reagent_containers/food/snacks/grown/banana,
-/obj/item/reagent_containers/food/snacks/grown/banana,
-/obj/item/reagent_containers/food/snacks/grown/banana,
-/obj/item/reagent_containers/food/snacks/grown/banana,
-/obj/item/reagent_containers/food/snacks/grown/banana,
-/obj/item/reagent_containers/food/snacks/grown/banana,
-/obj/item/reagent_containers/food/snacks/grown/banana,
-/obj/item/reagent_containers/food/snacks/grown/banana,
-/obj/item/reagent_containers/food/snacks/grown/banana,
-/obj/item/reagent_containers/food/snacks/grown/banana,
-/turf/open/floor/plasteel/freezer,
-/area/f13/wasteland)
 "Eq" = (
 /obj/structure/table/reinforced,
 /obj/item/soap,
@@ -9097,7 +9072,7 @@
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
-"Ws" = (
+"Wq" = (
 /obj/structure/table/glass,
 /obj/machinery/chem_dispenser/snowconemaker{
 	dir = 4;
@@ -9126,11 +9101,7 @@
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "WH" = (
-/obj/structure/flatscreen{
-	pixel_y = 2;
-	pixel_x = -26
-	},
-/turf/open/indestructible/ground/outside/civ/grass0,
+/turf/closed/indestructible/f13/matrix/transition,
 /area/f13/wasteland)
 "WJ" = (
 /obj/structure/flora/chomp/lbarrelcacti0,
@@ -9169,13 +9140,6 @@
 	dir = 9
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
-/area/f13/wasteland)
-"WS" = (
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#e8eaff"
-	},
-/turf/open/floor/plasteel/freezer,
 /area/f13/wasteland)
 "WT" = (
 /turf/open/floor/circuit/green,
@@ -9286,6 +9250,20 @@
 	},
 /turf/open/floor/plasteel/darkgreen/corner,
 /area/f13/building)
+"Xu" = (
+/obj/structure/closet/crate/freezer,
+/obj/item/reagent_containers/food/snacks/grown/banana,
+/obj/item/reagent_containers/food/snacks/grown/banana,
+/obj/item/reagent_containers/food/snacks/grown/banana,
+/obj/item/reagent_containers/food/snacks/grown/banana,
+/obj/item/reagent_containers/food/snacks/grown/banana,
+/obj/item/reagent_containers/food/snacks/grown/banana,
+/obj/item/reagent_containers/food/snacks/grown/banana,
+/obj/item/reagent_containers/food/snacks/grown/banana,
+/obj/item/reagent_containers/food/snacks/grown/banana,
+/obj/item/reagent_containers/food/snacks/grown/banana,
+/turf/open/floor/plasteel/freezer,
+/area/f13/wasteland)
 "Xv" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d"
@@ -9660,6 +9638,13 @@
 /obj/item/kitchen/knife/butcher,
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/building)
+"ZG" = (
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
+	},
+/turf/open/floor/plasteel/freezer,
+/area/f13/wasteland)
 "ZH" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/effect/turf_decal/weather/dirt{
@@ -14325,11 +14310,11 @@ EB
 EB
 cn
 Mp
-WS
-Ep
+ZG
+Xu
 cn
-rL
-Ws
+gV
+Wq
 Ut
 Ln
 cn
@@ -14628,8 +14613,8 @@ EB
 EB
 EB
 cn
+Dd
 qb
-hW
 YK
 cn
 Ma
@@ -15827,7 +15812,7 @@ EB
 EB
 EB
 EB
-gV
+EB
 EB
 EB
 EB
@@ -15979,7 +15964,7 @@ EB
 EB
 EB
 EB
-WH
+EB
 EB
 EB
 EB
@@ -16131,7 +16116,7 @@ EB
 EB
 EB
 EB
-WH
+EB
 EB
 EB
 EB
@@ -16283,7 +16268,7 @@ EB
 EB
 EB
 EB
-WH
+EB
 EB
 EB
 EB
@@ -27713,8 +27698,8 @@ tV
 tV
 tV
 tV
-tV
-lO
+pk
+gm
 np
 EB
 EB
@@ -27864,10 +27849,10 @@ ih
 ih
 ih
 ih
-ih
-ih
-ih
-EB
+eA
+ik
+gm
+np
 EB
 EB
 EB
@@ -28016,10 +28001,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -28168,10 +28153,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -28320,10 +28305,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -28472,10 +28457,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -28624,10 +28609,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -28776,10 +28761,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -28928,10 +28913,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -29080,10 +29065,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -29232,10 +29217,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -29384,10 +29369,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -29536,10 +29521,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -29688,10 +29673,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -29840,10 +29825,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -29992,10 +29977,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -30144,10 +30129,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -30296,10 +30281,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -30448,10 +30433,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -30600,10 +30585,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -30752,10 +30737,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -30904,10 +30889,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -31056,10 +31041,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -31208,10 +31193,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -31360,10 +31345,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -31512,10 +31497,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -31664,10 +31649,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -31816,10 +31801,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -31968,10 +31953,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -32120,10 +32105,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -32272,10 +32257,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -32425,8 +32410,8 @@ Ie
 Ie
 Ie
 Ie
-Ie
-Ie
+WH
+WH
 Ie
 Ie
 Ie

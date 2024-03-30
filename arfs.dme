@@ -3819,6 +3819,7 @@
 #include "code\modules\zombie\organs.dm"
 #include "content_arfs\code\areas.dm"
 #include "content_arfs\code\structures\bed_chairs.dm"
+#include "content_arfs\code\structures\objects.dm"
 #include "fallout\misc\staffchat.dm"
 #include "interface\interface.dm"
 #include "interface\menu.dm"
