@@ -351,6 +351,7 @@
 //
 //Wheel. Of. FORTUNE!
 //
+/*
 /obj/machinery/wheel_of_fortune
 	name = "wheel of fortune"
 	desc = "The Wheel of Fortune! Insert chips and may fortune favour the lucky one at the next lottery!"
@@ -485,7 +486,7 @@
 //
 //Sentient Prize Terminal
 //
-/*
+
 /obj/machinery/casinosentientprize_handler
 	name = "Sentient Prize Automated Sales Machinery"
 	desc = "The Sentient Prize Automated Sales Machinery, also known as SPASM! Here one can see who is on sale as sentinet prizes, as well as selling self and also buying prizes."
