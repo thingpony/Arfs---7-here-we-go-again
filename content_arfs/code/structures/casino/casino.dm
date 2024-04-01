@@ -703,3 +703,21 @@
 			return
 		to_chat(user,"<span class='notice'>You set the price to [casinosentientprize_price]</span> ")
 */
+
+/obj/item/weapon/storage/wallet/casino
+	name = "casino wallet"
+	desc = "A fancy casino wallet with flashy lights, oooh~"
+	icon = 'icons/obj/casino.dmi'
+	icon_state = "casinowallet_black"
+
+/obj/item/weapon/storage/wallet/casino/white
+	name = "casino wallet"
+	desc = "A fancy casino wallet with flashy lights, oooh~"
+	icon = 'icons/obj/casino.dmi'
+	icon_state = "casinowallet_white"
+
+/obj/item/weapon/storage/wallet/casino/brown
+	name = "casino wallet"
+	desc = "A fancy casino wallet with flashy lights, oooh~"
+	icon = 'icons/obj/casino.dmi'
+	icon_state = "casinowallet_brown"
