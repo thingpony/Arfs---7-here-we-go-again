@@ -3818,6 +3818,7 @@
 #include "code\modules\zombie\items.dm"
 #include "code\modules\zombie\organs.dm"
 #include "content_arfs\code\areas.dm"
+#include "content_arfs\code\mob.dm"
 #include "content_arfs\code\structures\bed_chairs.dm"
 #include "content_arfs\code\structures\objects.dm"
 #include "content_arfs\code\structures\casino\casino.dm"
