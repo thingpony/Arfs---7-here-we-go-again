@@ -14,14 +14,13 @@
 	anchored = 1
 	climbable = 1
 	layer = TABLE_LAYER
-	throwpass = 1
 	var/item_place = 1 //allows items to be placed on the table, but not on benches.
 
 	var/busy = 0
 
 /obj/structure/casino_table/attackby(obj/item/W as obj, mob/user as mob)
 	if(item_place)
-		user.drop_item(src.loc)
+		user.dropItemToGround(W)
 	return
 
 /obj/structure/casino_table/roulette_table
@@ -81,7 +80,7 @@
 /obj/structure/casino_table/roulette_table/attackby(obj/item/W as obj, mob/user as mob)
 	if(istype(W, /obj/item/roulette_ball))
 		if(!ball)
-			user.drop_from_inventory(W)
+			user.dropItemToGround(W)
 			W.forceMove(src)
 			ball = W
 			to_chat(user, "<span class='notice'>You insert [W] into [src].</span>")
@@ -199,77 +198,77 @@
 	ball_desc = "a moon-like ball"
 	icon_state = "roulette_ball_moon"
 
-/obj/item/roulette_ball/hollow
-	name = "glass roulette ball"
-	desc = "A small ball used for roulette wheel. This one is made of glass and seems to be openable."
-	ball_desc = "a small glass ball"
-	icon_state = "roulette_ball_glass"
+// /obj/item/roulette_ball/hollow
+// 	name = "glass roulette ball"
+// 	desc = "A small ball used for roulette wheel. This one is made of glass and seems to be openable."
+// 	ball_desc = "a small glass ball"
+// 	icon_state = "roulette_ball_glass"
 
-	var/obj/item/weapon/holder/trapped
+// 	var/obj/item/weapon/holder/trapped
 
-/obj/item/roulette_ball/hollow/examine(mob/user)
-	.=..()
-	if(trapped)
-		. += "You can see [trapped] trapped inside!"
-	else
-		. += "It appears to be empty."
+// /obj/item/roulette_ball/hollow/examine(mob/user)
+// 	.=..()
+// 	if(trapped)
+// 		. += "You can see [trapped] trapped inside!"
+// 	else
+// 		. += "It appears to be empty."
 
-/obj/item/roulette_ball/hollow/get_ball_desc()
-	.=..()
-	if(trapped && trapped.held_mob)
-		. += " with [trapped.name] trapped within"
-	return
+// /obj/item/roulette_ball/hollow/get_ball_desc()
+// 	.=..()
+// 	if(trapped && trapped.held_mob)
+// 		. += " with [trapped.name] trapped within"
+// 	return
 
-/obj/item/roulette_ball/hollow/attackby(var/obj/item/W, var/mob/user)
-	if(trapped)
-		to_chat(user, "<span class='notice'>This ball already has something trapped in it!</span>")
-		return
-	if(istype(W, /obj/item/weapon/holder))
-		var/obj/item/weapon/holder/H = W
-		if(!H.held_mob)
-			to_chat(user, "<span class='warning'>This holder has nobody in it? Yell at a developer!</span>")
-			return
-		if(H.held_mob.get_effective_size(TRUE) > 50)
-			to_chat(user, "<span class='warning'>\The [H] is too big to fit inside!</span>")
-			return
-		user.drop_from_inventory(H)
-		H.forceMove(src)
-		trapped = H
-		to_chat(user, "<span class='notice'>You trap \the [H] inside the glass roulette ball.</span>")
-		to_chat(H.held_mob, "<span class='warning'>\The [user] traps you inside a glass roulette ball!</span>")
-		update_icon()
+// /obj/item/roulette_ball/hollow/attackby(var/obj/item/W, var/mob/user)
+// 	if(trapped)
+// 		to_chat(user, "<span class='notice'>This ball already has something trapped in it!</span>")
+// 		return
+// 	if(istype(W, /obj/item/weapon/holder))
+// 		var/obj/item/weapon/holder/H = W
+// 		if(!H.held_mob)
+// 			to_chat(user, "<span class='warning'>This holder has nobody in it? Yell at a developer!</span>")
+// 			return
+// 		if(H.held_mob.get_effective_size(TRUE) > 50)
+// 			to_chat(user, "<span class='warning'>\The [H] is too big to fit inside!</span>")
+// 			return
+// 		user.drop_from_inventory(H)
+// 		H.forceMove(src)
+// 		trapped = H
+// 		to_chat(user, "<span class='notice'>You trap \the [H] inside the glass roulette ball.</span>")
+// 		to_chat(H.held_mob, "<span class='warning'>\The [user] traps you inside a glass roulette ball!</span>")
+// 		update_icon()
 
-/obj/item/roulette_ball/hollow/update_icon()
-	if(trapped && trapped.held_mob)
-		icon_state = "roulette_ball_glass_full"
-	else
-		icon_state = "roulette_ball_glass"
+// /obj/item/roulette_ball/hollow/update_icon()
+// 	if(trapped && trapped.held_mob)
+// 		icon_state = "roulette_ball_glass_full"
+// 	else
+// 		icon_state = "roulette_ball_glass"
 
-/obj/item/roulette_ball/hollow/attack_self(mob/user as mob)
-	if(!trapped)
-		to_chat(user, "<span class='notice'>\The [src] is empty!</span>")
-		return
-	else
-		user.put_in_hands(trapped)
-		if(trapped.held_mob)
-			to_chat(user, "<span class='notice'>You take \the [trapped] out of the glass roulette ball.</span>")
-			to_chat(trapped.held_mob, "<span class='notice'>\The [user] takes you out of a glass roulette ball.</span>")
-		trapped = null
-		update_icon()
+// /obj/item/roulette_ball/hollow/attack_self(mob/user as mob)
+// 	if(!trapped)
+// 		to_chat(user, "<span class='notice'>\The [src] is empty!</span>")
+// 		return
+// 	else
+// 		user.put_in_hands(trapped)
+// 		if(trapped.held_mob)
+// 			to_chat(user, "<span class='notice'>You take \the [trapped] out of the glass roulette ball.</span>")
+// 			to_chat(trapped.held_mob, "<span class='notice'>\The [user] takes you out of a glass roulette ball.</span>")
+// 		trapped = null
+// 		update_icon()
 
-/obj/item/roulette_ball/hollow/on_holder_escape()
-	trapped = null
-	update_icon()
+// /obj/item/roulette_ball/hollow/on_holder_escape()
+// 	trapped = null
+// 	update_icon()
 
-/obj/item/roulette_ball/hollow/on_spin()
-	if(trapped && trapped.held_mob)
-		to_chat(trapped.held_mob, "<span class='critical'>THE WHOLE WORLD IS SENT WHIRLING AS THE ROULETTE SPINS!!!</span>")
+// /obj/item/roulette_ball/hollow/on_spin()
+// 	if(trapped && trapped.held_mob)
+// 		to_chat(trapped.held_mob, "<span class='critical'>THE WHOLE WORLD IS SENT WHIRLING AS THE ROULETTE SPINS!!!</span>")
 
-/obj/item/roulette_ball/hollow/Destroy()
-	if(trapped)
-		trapped.forceMove(src.loc)
-		trapped = null
-	return ..()
+// /obj/item/roulette_ball/hollow/Destroy()
+// 	if(trapped)
+// 		trapped.forceMove(src.loc)
+// 		trapped = null
+// 	return ..()
 
 /obj/item/roulette_ball/cheat
 	cheatball = TRUE
