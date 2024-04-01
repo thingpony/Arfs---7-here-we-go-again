@@ -3820,6 +3820,8 @@
 #include "content_arfs\code\areas.dm"
 #include "content_arfs\code\structures\bed_chairs.dm"
 #include "content_arfs\code\structures\objects.dm"
+#include "content_arfs\code\structures\casino\casino.dm"
+#include "content_arfs\code\structures\casino\casino_cards.dm"
 #include "fallout\misc\staffchat.dm"
 #include "interface\interface.dm"
 #include "interface\menu.dm"
