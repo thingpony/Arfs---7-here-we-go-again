@@ -84,3 +84,9 @@
 	name = "grass edge"
 	icon = 'icons/turf/decals.dmi'
 	icon_state = "grass_edge_corner"
+
+/obj/effect/turf_decal/weather/carpetedge
+	name = "carpet edge"
+	icon = 'icons/turf/floors/carpet.dmi'
+	icon_state = "green_edges"
+
