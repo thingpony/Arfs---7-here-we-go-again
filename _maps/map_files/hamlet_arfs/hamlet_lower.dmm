@@ -21,14 +21,6 @@
 /obj/machinery/computer/arcade/amputation,
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
-"aj" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/whiteblue/side{
-	dir = 6
-	},
-/area/f13/building)
 "al" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
@@ -57,10 +49,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"ar" = (
-/obj/structure/christmas/xmaslights,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "as" = (
 /obj/structure/reagent_dispensers/watertank/high,
 /turf/open/floor/plasteel/f13/vault_floor/green,
@@ -77,12 +65,6 @@
 	},
 /turf/open/floor/plasteel/f13/whitemarble,
 /area/arfs/mansion/bar)
-"az" = (
-/obj/machinery/microwave/stove,
-/turf/open/floor/plasteel/whiteblue/side{
-	dir = 1
-	},
-/area/f13/building)
 "aA" = (
 /obj/structure/bed/double/huge,
 /obj/item/bedsheet/huge/doublesheetian,
@@ -131,15 +113,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/arfs/mansion)
-"aQ" = (
-/obj/machinery/smartfridge/bottlerack/gardentool,
-/obj/item/reagent_containers/glass/bucket/wood,
-/obj/item/reagent_containers/glass/bucket/wood,
-/obj/item/cultivator,
-/obj/item/shovel/spade,
-/obj/item/storage/bag/plants,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "aR" = (
 /obj/machinery/autolathe,
 /obj/item/stack/sheet/glass/fifty,
@@ -148,25 +121,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"aS" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/whitegreen/side{
-	dir = 8
-	},
-/area/f13/building)
-"aV" = (
-/obj/item/storage/box/cups,
-/obj/structure/table/wood/bar,
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
-"aW" = (
-/obj/machinery/clonepod/superior{
-	internal_radio = 0
-	},
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "aX" = (
 /obj/structure/spacevine{
 	icon = 'icons/effects/effects.dmi';
@@ -215,19 +169,6 @@
 /obj/structure/hammock_kbraid_s,
 /turf/open/floor/plating/dirt/virgosand,
 /area/f13/caves)
-"bc" = (
-/obj/machinery/light,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
-"be" = (
-/obj/machinery/light{
-	dir = 4;
-	light_color = "#c1caff"
-	},
-/turf/open/floor/plasteel/white/side{
-	dir = 8
-	},
-/area/f13/building)
 "bf" = (
 /turf/open/floor/plasteel/f13/whitemarble,
 /area/arfs/mansion/stripclub)
@@ -244,24 +185,11 @@
 "bh" = (
 /turf/open/floor/plasteel/f13/vault_floor/neutral/white/whitepurplechess,
 /area/arfs/mansion)
-"bi" = (
-/obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/seedspawner,
-/obj/effect/spawner/lootdrop/f13/seedspawner,
-/obj/item/seeds/eggplant,
-/obj/item/seeds/random,
-/obj/item/seeds/random,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "bj" = (
 /obj/effect/turf_decal/weather/grassedgevirgo,
 /obj/structure/pondlily_small,
 /turf/open/water/seashallow,
 /area/f13/caves)
-"bk" = (
-/obj/structure/reagent_dispensers/water_cooler,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "bo" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/item/flashlight/lamp/green,
@@ -284,10 +212,6 @@
 /obj/structure/curtain,
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion)
-"bx" = (
-/obj/machinery/biogenerator,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "by" = (
 /obj/structure/flora/wasteplant/fever_blossom,
 /obj/effect/turf_decal/weather/grassedgevirgo{
@@ -301,11 +225,6 @@
 /obj/structure/table/wood/poker,
 /turf/open/floor/carpet/royalblack,
 /area/arfs/mansion/bar)
-"bG" = (
-/turf/open/floor/plasteel/whitegreen/side{
-	dir = 8
-	},
-/area/f13/building)
 "bH" = (
 /obj/structure/destructible/tribal_torch/lit{
 	light_range = 20;
@@ -332,35 +251,12 @@
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/arfs/mansion/pool)
-"bP" = (
-/obj/structure/sink/kitchen{
-	pixel_y = 30
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "bar"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
-"bQ" = (
-/obj/structure/table/glass,
-/turf/open/floor/fakespace,
-/area/f13/building)
 "bR" = (
 /obj/structure/chair/bench,
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
 /area/arfs/mansion/pool)
-"bW" = (
-/obj/machinery/light{
-	dir = 1;
-	light_color = "#706891"
-	},
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "cc" = (
 /obj/machinery/light{
 	dir = 4;
@@ -368,12 +264,23 @@
 	},
 /turf/open/floor/plasteel/f13/whitemarble,
 /area/arfs/mansion/bar)
-"cj" = (
-/obj/machinery/biogenerator,
-/turf/open/floor/plasteel/whitegreen/side{
-	dir = 9
+"cg" = (
+/obj/item/stack/sheet/lessergem{
+	pixel_y = 3;
+	pixel_x = 6
 	},
-/area/f13/building)
+/obj/item/stack/sheet/lessergem,
+/obj/item/stack/sheet/lessergem{
+	pixel_y = -1;
+	pixel_x = -10
+	},
+/obj/item/stack/sheet/lessergem{
+	pixel_y = 3;
+	pixel_x = -10
+	},
+/obj/structure/rack/shelf_metal/modern,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "ck" = (
 /obj/effect/turf_decal/weather/splinefancy{
 	dir = 6
@@ -385,6 +292,21 @@
 /obj/item/toy/cards/deck/cas,
 /turf/open/floor/carpet/royalblack,
 /area/arfs/mansion/bar)
+"cp" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/rupee,
+/obj/item/rupee,
+/obj/item/rupee,
+/obj/item/rupee,
+/obj/item/rupee,
+/obj/item/rupee,
+/obj/item/rupee,
+/obj/item/rupee,
+/obj/item/rupee,
+/obj/item/rupee,
+/obj/item/rupee,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "cr" = (
 /turf/closed/indestructible/rock,
 /area/f13/caves)
@@ -460,9 +382,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
-"cD" = (
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "cE" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-10"
@@ -478,12 +397,6 @@
 /obj/effect/spawner/lootdrop/f13/uncommon_toys,
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
-"cN" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/grass/jungle,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "cO" = (
 /obj/machinery/door/window/survival_pod{
 	dir = 2
@@ -492,9 +405,6 @@
 /obj/structure/decoration/vent,
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion)
-"cR" = (
-/turf/open/floor/plasteel/white,
-/area/f13/building)
 "cS" = (
 /obj/machinery/door/airlock/glass_large{
 	glass = 0
@@ -503,12 +413,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"cU" = (
-/obj/machinery/vending/dinnerware,
-/turf/open/floor/plasteel/whiteblue/side{
-	dir = 5
-	},
-/area/f13/building)
 "cY" = (
 /obj/structure/window/reinforced/survival_pod,
 /obj/structure/decoration/vent,
@@ -522,10 +426,6 @@
 /obj/machinery/computer/arcade/orion_trail,
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
-"di" = (
-/obj/structure/closet/crate/freezer/blood,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "do" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /obj/machinery/light{
@@ -533,6 +433,23 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/arfs/mansion)
+"ds" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/weapon/spacecasinocash/c100,
+/obj/item/weapon/spacecasinocash/c100,
+/obj/item/weapon/spacecasinocash/c100,
+/obj/item/weapon/spacecasinocash/c100,
+/obj/item/weapon/spacecasinocash/c100,
+/obj/item/weapon/spacecasinocash/c100,
+/obj/item/weapon/spacecasinocash/c100,
+/obj/item/weapon/spacecasinocash/c100,
+/obj/item/weapon/spacecasinocash/c100,
+/obj/item/weapon/spacecasinocash/c100,
+/obj/item/weapon/spacecasinocash/c100,
+/obj/item/weapon/spacecasinocash/c100,
+/obj/item/weapon/spacecasinocash/c100,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "dt" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/arfs/mansion/bar)
@@ -543,11 +460,6 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/arfs/mansion)
-"dy" = (
-/obj/structure/bed/double,
-/obj/item/bedsheet/doublesheetrd,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "dz" = (
 /obj/structure/table/glass,
 /turf/open/floor/plasteel/f13/darkmarble,
@@ -558,14 +470,6 @@
 	},
 /turf/open/floor/grass,
 /area/arfs/mansion)
-"dJ" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/brflowers,
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "dK" = (
 /obj/machinery/light{
 	dir = 1;
@@ -612,17 +516,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
-"dW" = (
-/obj/structure/table/reinforced,
-/obj/machinery/chem_dispenser/drinks{
-	dir = 4;
-	pixel_x = -20;
-	pixel_y = 0
-	},
-/obj/item/storage/box/drinkingglasses,
-/obj/item/storage/box/drinkingglasses,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "dX" = (
 /obj/structure/glowshroom,
 /turf/closed/indestructible/rock,
@@ -642,10 +535,6 @@
 	},
 /turf/open/floor/carpet,
 /area/arfs/mansion)
-"ed" = (
-/obj/structure/fireplace,
-/turf/open/floor/carpet/red,
-/area/f13/building)
 "ef" = (
 /obj/structure/table/glass,
 /obj/machinery/chem_dispenser/drinks/beer/fullupgrade{
@@ -656,11 +545,6 @@
 	},
 /turf/open/floor/plasteel/f13/whitemarble,
 /area/arfs/mansion/bar)
-"ei" = (
-/turf/open/floor/f13{
-	icon_state = "floorrustysolid"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
 "el" = (
 /obj/machinery/light{
 	light_color = "#e8eaff";
@@ -686,15 +570,6 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13,
 /area/f13/building)
-"eo" = (
-/obj/structure/christmas/xmaslights{
-	dir = 8
-	},
-/obj/structure/chair/sofa/right{
-	dir = 4
-	},
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "ep" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 4
@@ -704,13 +579,6 @@
 "er" = (
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/arfs/mansion)
-"es" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/effect/decal/cleanable/glass,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "eu" = (
 /obj/effect/turf_decal/weather/splinefancy{
 	dir = 8
@@ -722,10 +590,6 @@
 /obj/item/flashlight/lamp/green,
 /turf/open/floor/carpet/purple,
 /area/arfs/mansion)
-"ez" = (
-/obj/structure/table,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "eC" = (
 /obj/machinery/light{
 	dir = 4;
@@ -733,14 +597,6 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion)
-"eD" = (
-/obj/structure/table/wood,
-/obj/machinery/computer/terminal{
-	dir = 4;
-	termtag = "Security"
-	},
-/turf/open/floor/carpet/blue,
-/area/f13/building)
 "eE" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/structure/flora/ausbushes/leafybush,
@@ -760,10 +616,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
-"eJ" = (
-/obj/structure/table/wood/fancy/blue,
-/turf/open/indestructible/ground/stellercarpet/fourty,
-/area/f13/building)
 "eN" = (
 /obj/machinery/vending/bigredvend,
 /turf/open/floor/carpet/arcade,
@@ -774,24 +626,15 @@
 	},
 /turf/open/floor/plasteel/whiteblue/corner,
 /area/arfs/mansion)
-"eT" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
-/area/f13/building)
-"eU" = (
-/obj/structure/chair/sofa/right{
-	dir = 4
-	},
-/obj/structure/rug/big/rug_fancy,
-/turf/open/floor/f13/wood,
-/area/f13/building)
-"eW" = (
-/obj/structure/chair/sofa{
-	dir = 4
-	},
-/turf/open/floor/carpet/blue,
-/area/f13/underground/cave/vault/fourfivefour)
+"eY" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/weapon/deck/holder/casino,
+/obj/item/weapon/deck/holder/casino,
+/obj/item/weapon/deck/holder/casino,
+/obj/item/weapon/deck/holder/casino,
+/obj/item/weapon/deck/holder/casino,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "eZ" = (
 /obj/structure/glowshroom/shadowshroom,
 /obj/effect/turf_decal/weather/grassedgevirgo{
@@ -824,11 +667,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"fj" = (
-/obj/effect/decal/cleanable/glass,
-/obj/structure/flora/grass/jungle,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "fm" = (
 /obj/structure/chair/office/dark{
 	dir = 1
@@ -837,17 +675,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/library)
-"fp" = (
-/obj/effect/decal/cleanable/glass,
-/obj/structure/flora/grass/jungle,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"fs" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "bar"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
 "fv" = (
 /obj/structure/table/glass,
 /obj/item/soap/deluxe,
@@ -856,16 +683,17 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
+"fx" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/stack/f13Cash/caps/twofive,
+/obj/item/stack/f13Cash/caps/twofive,
+/obj/item/stack/f13Cash/caps/twofive,
+/obj/item/stack/f13Cash/caps/threezerozero,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "fy" = (
 /obj/structure/weightmachine/weightlifter,
 /turf/open/floor/plasteel/f13,
-/area/f13/building)
-"fz" = (
-/obj/machinery/light,
-/obj/structure/sink{
-	pixel_y = 19
-	},
-/turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building)
 "fC" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
@@ -873,16 +701,6 @@
 	},
 /turf/open/floor/plating/dirt/virgosand,
 /area/f13/caves)
-"fE" = (
-/obj/machinery/computer/cloning,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
-"fF" = (
-/obj/structure/flora/junglebush/b,
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/brflowers,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "fO" = (
 /obj/effect/turf_decal/weather/grassedgevirgocorner{
 	dir = 5
@@ -890,12 +708,11 @@
 /turf/open/floor/plating/dirt/virgosand,
 /area/f13/caves)
 "fP" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
+/obj/structure/stairs/east{
+	dir = 8
 	},
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
+/turf/closed/indestructible/rock,
+/area/f13/caves)
 "fQ" = (
 /obj/structure/cave/stalagmite/one,
 /turf/open/indestructible/ground/outside/dirt{
@@ -919,15 +736,6 @@
 /obj/item/soap/deluxe,
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion)
-"fV" = (
-/obj/machinery/door/airlock/ckey/highsecurity/andy,
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/building)
-"fZ" = (
-/turf/open/floor/plasteel/whitegreen/side{
-	dir = 10
-	},
-/area/f13/building)
 "ge" = (
 /obj/structure/table/glass,
 /obj/item/stack/spacecash/c1000,
@@ -969,24 +777,6 @@
 "gj" = (
 /turf/closed/wall/mineral/iron,
 /area/arfs/mansion/bar)
-"gl" = (
-/obj/structure/closet/crate/freezer,
-/obj/item/reagent_containers/food/snacks/fishmeat/carp,
-/obj/item/reagent_containers/food/snacks/fishmeat/carp,
-/obj/item/reagent_containers/food/snacks/fishmeat/carp,
-/obj/item/reagent_containers/food/snacks/fishmeat/carp,
-/obj/item/reagent_containers/food/snacks/fishmeat/carp,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
-"gn" = (
-/obj/machinery/door/airlock,
-/obj/structure/curtain{
-	color = "red"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor{
-	icon_state = "floordirty"
-	},
-/area/f13/building)
 "gq" = (
 /obj/effect/turf_decal/weather/splinefancycorner,
 /turf/open/floor/carpet/blue,
@@ -998,12 +788,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"gu" = (
-/obj/machinery/vending/hydronutrients,
-/turf/open/floor/plasteel/whitegreen/side{
-	dir = 9
-	},
-/area/f13/building)
 "gv" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/indestructible/ground/outside/civ/woodalt{
@@ -1014,21 +798,9 @@
 /obj/effect/turf_decal/weather/splinefancy,
 /turf/open/floor/carpet/black,
 /area/arfs/mansion)
-"gz" = (
-/obj/structure/chair/sofa/corner{
-	dir = 1
-	},
-/turf/open/floor/carpet/blue,
-/area/f13/underground/cave/vault/fourfivefour)
 "gA" = (
 /turf/open/water/seashallow,
 /area/f13/caves)
-"gB" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "gE" = (
 /obj/structure/sink/cupboard{
 	pixel_y = 12
@@ -1040,13 +812,15 @@
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion)
 "gF" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/machinery/light{
-	dir = 1;
-	layer = 2.9
-	},
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/weapon/deck/cards/casino,
+/obj/item/weapon/deck/cards/casino,
+/obj/item/weapon/deck/cards/casino,
+/obj/item/weapon/deck/cards/casino,
+/obj/item/weapon/deck/cards/casino,
+/obj/item/weapon/deck/cards/casino,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "gG" = (
 /obj/structure/flora/ausbushes/leafybush,
 /obj/structure/glowshroom,
@@ -1054,25 +828,9 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"gH" = (
-/obj/structure/flora/junglebush/b,
-/obj/structure/flora/ausbushes/leafybush,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
-"gI" = (
-/obj/structure/table/glass,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "gJ" = (
 /turf/open/floor/carpet/orange,
 /area/arfs/mansion)
-"gK" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/processor,
-/turf/open/floor/f13{
-	icon_state = "bar"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
 "gN" = (
 /obj/structure/window/reinforced/survival_pod{
 	dir = 1
@@ -1082,14 +840,6 @@
 	},
 /turf/open/water/seashallow,
 /area/arfs/mansion)
-"gO" = (
-/obj/structure/table/glass,
-/turf/open/floor/carpet/red,
-/area/f13/building)
-"gS" = (
-/obj/structure/flora/ausbushes/leafybush,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "gU" = (
 /obj/structure/table/glass,
 /obj/item/stack/spacecash/c1000,
@@ -1113,11 +863,6 @@
 /obj/structure/mirror/alt,
 /turf/closed/wall/mineral/iron,
 /area/arfs/mansion/bar)
-"ha" = (
-/obj/structure/flora/tree/jungle,
-/obj/structure/flora/grass/jungle,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "hb" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
@@ -1157,10 +902,6 @@
 	},
 /turf/open/floor/plating/dirt/virgosand,
 /area/f13/caves)
-"ho" = (
-/obj/machinery/computer/operating,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "hr" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/indestructible/ground/outside/dirt{
@@ -1209,10 +950,6 @@
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/plasteel/f13,
 /area/f13/building)
-"hT" = (
-/obj/machinery/vending/medical/nash,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "hW" = (
 /turf/closed/wall/mineral/iron,
 /area/arfs/mansion)
@@ -1220,6 +957,24 @@
 /obj/structure/table/wood/fancy/black,
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
+"id" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/weapon/spacecasinocash/c10,
+/obj/item/weapon/spacecasinocash/c10,
+/obj/item/weapon/spacecasinocash/c10,
+/obj/item/weapon/spacecasinocash/c10,
+/obj/item/weapon/spacecasinocash/c10,
+/obj/item/weapon/spacecasinocash/c10,
+/obj/item/weapon/spacecasinocash/c10,
+/obj/item/weapon/spacecasinocash/c10,
+/obj/item/weapon/spacecasinocash/c10,
+/obj/item/weapon/spacecasinocash/c10,
+/obj/item/weapon/spacecasinocash/c10,
+/obj/item/weapon/spacecasinocash/c10,
+/obj/item/weapon/spacecasinocash/c10,
+/obj/item/weapon/spacecasinocash/c10,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "ih" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/item/storage/box/monkeycubes,
@@ -1235,14 +990,6 @@
 	dir = 1
 	},
 /area/arfs/mansion)
-"ij" = (
-/obj/machinery/smartfridge/drinks,
-/turf/open/floor/f13/wood,
-/area/f13/building)
-"ik" = (
-/obj/structure/bookcase,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "im" = (
 /obj/machinery/light{
 	light_color = "#e8eaff"
@@ -1263,37 +1010,14 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"ip" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/structure/flora/tree/jungle,
-/obj/structure/flora/grass/jungle,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "iq" = (
-/obj/structure/sink{
-	icon_state = "water";
-	name = "water";
-	pixel_x = -1;
-	pixel_y = 12
-	},
-/obj/effect/decal/cleanable/oil/slippery{
-	desc = "Wetness. Is it an object to itself, an adjective, or is it simply water itself? It's impossible to tell. The water screams.";
-	icon_state = null;
-	name = "wetness"
-	},
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/underground/cave/vault/fourfivefour)
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/stack/f13Cash/caps/twozerozero,
+/obj/item/stack/f13Cash/caps/twozerozero,
+/obj/item/stack/f13Cash/caps/twozerozero,
+/obj/item/stack/f13Cash/caps/threezerozero,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "is" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 1
@@ -1324,12 +1048,6 @@
 	},
 /turf/open/floor/mineral/silver,
 /area/arfs/mansion)
-"iy" = (
-/obj/structure/simple_door/bunker/glass,
-/turf/open/floor/plasteel/f13/vault_floor/floor{
-	icon_state = "floordirty"
-	},
-/area/f13/building)
 "iF" = (
 /obj/structure/table/wood,
 /obj/item/modular_computer/laptop/preset,
@@ -1337,16 +1055,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"iH" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/turf/open/floor/f13{
-	icon_state = "bar"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
 "iK" = (
 /obj/machinery/vending/boozeomat,
 /turf/open/floor/plasteel/f13/darkmarble,
@@ -1372,19 +1080,6 @@
 /obj/structure/glowshroom/shadowshroom,
 /turf/open/floor/plating/dirt/virgosand,
 /area/f13/caves)
-"iQ" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"iR" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "iS" = (
 /obj/effect/turf_decal/weather/splineplain,
 /turf/open/water/seashallow,
@@ -1424,12 +1119,6 @@
 /obj/structure/spacevine,
 /turf/closed/indestructible/rock,
 /area/f13/caves)
-"jc" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/grassybush,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/closed/wall/f13/wood,
-/area/f13/underground/cave/vault/fourfivefour)
 "je" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/plasteel/cafeteria,
@@ -1440,11 +1129,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"ji" = (
-/obj/machinery/light/small,
-/obj/structure/table/wood/poker,
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
 "jk" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/condiment/enzyme,
@@ -1454,14 +1138,6 @@
 "jp" = (
 /turf/closed/wall/r_wall/f13/vault,
 /area/f13/building)
-"jq" = (
-/obj/machinery/light/broken,
-/obj/structure/flora/tree/jungle,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
-"js" = (
-/turf/closed/wall/r_wall/f13/vault,
-/area/f13/underground/cave/vault/fourfivefour)
 "jv" = (
 /turf/open/floor/plasteel/whiteblue/corner,
 /area/arfs/mansion)
@@ -1475,26 +1151,26 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"jz" = (
-/obj/structure/door_assembly/door_assembly_com,
-/obj/structure/flora/tree/jungle,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"jA" = (
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam"
+"jx" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/stack/sheet/mineral/gold/fifty{
+	pixel_y = 2;
+	pixel_x = -6
 	},
-/obj/machinery/shower{
-	pixel_y = 16;
-	layer = 4.9
+/obj/item/stack/sheet/mineral/gold/fifty{
+	pixel_y = -8;
+	pixel_x = -4
 	},
-/turf/open/indestructible/ground/outside/water{
-	name = "hot spring";
-	color = "#BBBBBB"
+/obj/item/stack/sheet/mineral/gold/fifty{
+	pixel_y = -8;
+	pixel_x = 3
 	},
-/area/f13/building)
+/obj/item/stack/sheet/mineral/gold/fifty{
+	pixel_y = 2;
+	pixel_x = 3
+	},
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "jD" = (
 /obj/structure/chair/sofa/left{
 	color = "#353535"
@@ -1559,10 +1235,6 @@
 /obj/effect/turf_decal/weather/splinefancy,
 /turf/open/floor/carpet,
 /area/arfs/mansion)
-"jT" = (
-/obj/machinery/hydroponics/constructable,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "jV" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
@@ -1647,40 +1319,10 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"ks" = (
-/obj/structure/table,
-/obj/machinery/reagentgrinder,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
-"kw" = (
-/obj/machinery/light/broken,
-/obj/structure/flora/grass/jungle,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"kA" = (
-/obj/machinery/door/airlock,
-/turf/open/floor/plasteel/f13/vault_floor/floor{
-	icon_state = "floordirty"
-	},
-/area/f13/building)
 "kC" = (
 /obj/structure/dresser,
 /turf/open/floor/carpet/royalblue,
 /area/arfs/mansion)
-"kE" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/obj/structure/sink/deep_water{
-	pixel_x = -2;
-	pixel_y = 1
-	},
-/obj/effect/turf_decal/weather/dirt,
-/turf/open/indestructible/ground/outside/water,
-/area/f13/underground/cave/vault/fourfivefour)
 "kG" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 9
@@ -1693,16 +1335,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"kM" = (
-/obj/structure/christmas/xmaslights{
-	dir = 4
-	},
-/obj/structure/christmas/xmaslights,
-/obj/structure/chair/sofa/left{
-	dir = 8
-	},
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "kN" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 4
@@ -1725,10 +1357,6 @@
 /obj/item/soap/deluxe,
 /turf/open/floor/plasteel/f13/vault_floor/neutral/white/whitepurplechess,
 /area/arfs/mansion)
-"kR" = (
-/obj/structure/table/wood/fancy/blue,
-/turf/open/indestructible/ground/stellercarpet/thirtytwo,
-/area/f13/building)
 "kY" = (
 /obj/structure/flora/tree/jungle,
 /turf/open/indestructible/ground/outside/dirt{
@@ -1768,33 +1396,12 @@
 /obj/structure/table/wood,
 /turf/open/floor/plating/dirt/virgosand,
 /area/f13/caves)
-"lo" = (
-/obj/structure/closet/fridge,
-/obj/effect/spawner/lootdrop/f13/foodspawner,
-/obj/machinery/light,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "bar"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
 "lr" = (
 /obj/structure/closet/crate/bin/trash_fallout,
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"ls" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 8
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/turf/open/indestructible/ground/outside/water,
-/area/f13/underground/cave/vault/fourfivefour)
 "lt" = (
 /obj/structure/window/fulltile/wood,
 /turf/open/indestructible/ground/outside/civ/woodalt{
@@ -1818,23 +1425,6 @@
 	},
 /turf/open/floor/grass,
 /area/arfs/mansion)
-"lx" = (
-/obj/machinery/light{
-	dir = 1;
-	layer = 2.9
-	},
-/turf/open/floor/f13/wood,
-/area/f13/underground/cave/vault/fourfivefour)
-"ly" = (
-/turf/open/floor/plasteel/whitegreen/corner{
-	dir = 1
-	},
-/area/f13/building)
-"lA" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/grass/jungle,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "lG" = (
 /obj/structure/flora/wasteplant/fever_blossom,
 /obj/structure/flora/ausbushes/leafybush,
@@ -1845,37 +1435,6 @@
 "lH" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13,
-/area/f13/building)
-"lI" = (
-/obj/structure/bed/double,
-/obj/item/bedsheet/doublesheetpurple,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"lJ" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/structure/chair/sofa/left{
-	dir = 4
-	},
-/turf/open/floor/f13/wood,
-/area/f13/building)
-"lN" = (
-/turf/open/floor/plasteel/white/side{
-	dir = 8
-	},
-/area/f13/building)
-"lO" = (
-/obj/structure/christmas/xmaslights{
-	dir = 1
-	},
-/obj/structure/christmas/xmaslights{
-	dir = 8
-	},
-/obj/structure/chair/sofa/left{
-	dir = 4
-	},
-/turf/open/floor/f13/wood,
 /area/f13/building)
 "lP" = (
 /obj/effect/decal/cleanable/glitter/blue,
@@ -1917,19 +1476,6 @@
 	},
 /turf/open/floor/carpet/orange,
 /area/arfs/mansion)
-"lX" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"lZ" = (
-/obj/machinery/door/airlock/grunge/abandoned,
-/obj/structure/flora/tree/jungle,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "ma" = (
 /obj/structure/flora/ausbushes/leafybush,
 /obj/effect/turf_decal/weather/grassedgevirgo{
@@ -1973,10 +1519,6 @@
 /obj/effect/spawner/lootdrop/f13/rare_toys,
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
-"mg" = (
-/obj/structure/bookcase/manuals/research_and_development,
-/turf/open/floor/carpet/red,
-/area/f13/building)
 "mh" = (
 /obj/effect/turf_decal/weather/splinefancy{
 	dir = 8
@@ -2072,30 +1614,9 @@
 /obj/item/weldingtool,
 /turf/open/floor/plasteel/f13,
 /area/f13/building)
-"mL" = (
-/obj/machinery/light{
-	dir = 1;
-	light_color = "#706891"
-	},
-/obj/structure/table/wood,
-/obj/item/paper_bin,
-/obj/item/pen,
-/turf/open/floor/carpet/blue,
-/area/f13/building)
 "mM" = (
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/arfs/mansion/bar)
-"mN" = (
-/obj/structure/ladder/unbreakable{
-	id = "andybase"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/building)
-"mO" = (
-/turf/open/floor/plasteel/white/side{
-	dir = 4
-	},
-/area/f13/building)
 "mQ" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 8
@@ -2104,19 +1625,77 @@
 /obj/effect/turf_decal/weather/grassedgevirgo,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/caves)
-"mZ" = (
-/obj/machinery/door/poddoor/shutters/old/preopen{
-	id = "OwenHideawayS"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/f13/building)
-"nc" = (
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
-"ne" = (
-/obj/structure/bookcase,
-/turf/open/floor/carpet/red,
-/area/f13/building)
+"mS" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/weapon/spacecasinocash/c1,
+/obj/item/weapon/spacecasinocash/c1,
+/obj/item/weapon/spacecasinocash/c1,
+/obj/item/weapon/spacecasinocash/c1,
+/obj/item/weapon/spacecasinocash/c1,
+/obj/item/weapon/spacecasinocash/c1,
+/obj/item/weapon/spacecasinocash/c1,
+/obj/item/weapon/spacecasinocash/c1,
+/obj/item/weapon/spacecasinocash/c1,
+/obj/item/weapon/spacecasinocash/c1,
+/obj/item/weapon/spacecasinocash/c1,
+/obj/item/weapon/spacecasinocash/c1,
+/obj/item/weapon/spacecasinocash/c1,
+/obj/item/weapon/spacecasinocash/c1,
+/obj/item/weapon/spacecasinocash/c1,
+/obj/item/weapon/spacecasinocash/c1,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
+"nb" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/dice/fourdd6,
+/obj/item/dice/fourdd6,
+/obj/item/dice/fourdd6,
+/obj/item/dice/fourdd6,
+/obj/item/dice/eightbd20,
+/obj/item/dice/eightbd20,
+/obj/item/dice/eightbd20,
+/obj/item/dice/eightbd20,
+/obj/item/dice/d8,
+/obj/item/dice/d8,
+/obj/item/dice/d6,
+/obj/item/dice/d6,
+/obj/item/dice/d6,
+/obj/item/dice/d6,
+/obj/item/dice/d4,
+/obj/item/dice/d4,
+/obj/item/dice/d4,
+/obj/item/dice/d4,
+/obj/item/dice/d20,
+/obj/item/dice/d20,
+/obj/item/dice/d20,
+/obj/item/dice/d20,
+/obj/item/dice/d2,
+/obj/item/dice/d2,
+/obj/item/dice/d2,
+/obj/item/dice/d2,
+/obj/item/dice/d12,
+/obj/item/dice/d12,
+/obj/item/dice/d12,
+/obj/item/dice/d12,
+/obj/item/dice/d100,
+/obj/item/dice/d100,
+/obj/item/dice/d100,
+/obj/item/dice/d100,
+/obj/item/dice/d10,
+/obj/item/dice/d10,
+/obj/item/dice/d10,
+/obj/item/dice/d10,
+/obj/item/dice/d1,
+/obj/item/dice/d1,
+/obj/item/dice/d1,
+/obj/item/dice/d1,
+/obj/item/dice/d00,
+/obj/item/dice/d00,
+/obj/item/dice/d00,
+/obj/item/dice/d00,
+/obj/item/dice/fudge,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "nf" = (
 /obj/structure/stairs/west{
 	dir = 2
@@ -2126,54 +1705,12 @@
 	},
 /turf/open/indestructible/ground/outside/civ/grassdark,
 /area/f13/caves)
-"ng" = (
-/obj/machinery/button/door{
-	name = "Shutter Bolts";
-	id = "OwenHideawayS";
-	pixel_y = -25
-	},
-/turf/open/floor/plasteel/white/side{
-	dir = 1
-	},
-/area/f13/building)
-"ni" = (
-/turf/open/floor/plasteel/white/side,
-/area/f13/building)
 "nj" = (
 /obj/machinery/photocopier,
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
 /area/arfs/mansion/library)
-"nm" = (
-/obj/structure/table/wood/bar,
-/obj/item/pizzabox/meat,
-/obj/item/pizzabox/margherita{
-	pixel_y = 10
-	},
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
-"nn" = (
-/obj/machinery/light{
-	dir = 4;
-	light_color = "#c1caff"
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam"
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam";
-	pixel_y = 16
-	},
-/turf/open/indestructible/ground/outside/water{
-	name = "hot spring";
-	color = "#BBBBBB"
-	},
-/area/f13/building)
 "nq" = (
 /obj/structure/chair/sofa/corner{
 	color = "#666666";
@@ -2205,15 +1742,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/pool)
-"ny" = (
-/obj/structure/table/wood,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
-"nz" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/tree/jungle/small,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "nA" = (
 /turf/open/floor/plasteel/dark/side{
 	dir = 9
@@ -2226,19 +1754,6 @@
 	},
 /turf/open/floor/grass,
 /area/arfs/mansion)
-"nD" = (
-/obj/item/stack/sheet/mineral/wood/fifty,
-/obj/item/storage/box/matches,
-/turf/open/floor/f13/wood,
-/area/f13/building)
-"nF" = (
-/obj/structure/table/reinforced,
-/obj/item/kitchen/rollingpin,
-/obj/item/kitchen/knife/butcher,
-/turf/open/floor/plasteel/whiteblue/side{
-	dir = 1
-	},
-/area/f13/building)
 "nI" = (
 /obj/effect/turf_decal/weather/splinefancy{
 	dir = 1
@@ -2246,11 +1761,8 @@
 /turf/open/floor/carpet/black,
 /area/arfs/mansion)
 "nK" = (
-/obj/structure/mirror{
-	pixel_y = -32
-	},
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/turf/closed/wall/f13/vault,
+/area/f13/caves)
 "nL" = (
 /turf/open/floor/grass,
 /area/arfs/mansion)
@@ -2361,26 +1873,12 @@
 /obj/item/reagent_containers/food/snacks/customizable/pizza,
 /turf/open/floor/plasteel/f13/pizza,
 /area/arfs/mansion)
-"oj" = (
-/obj/structure/flora/ausbushes/grassybush,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
-"om" = (
-/obj/machinery/seed_extractor,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "ou" = (
 /obj/structure/toilet{
 	dir = 1
 	},
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion)
-"ov" = (
-/obj/structure/chair/sofa/right{
-	dir = 1
-	},
-/turf/open/floor/carpet/blue,
-/area/f13/underground/cave/vault/fourfivefour)
 "ox" = (
 /obj/structure/table/glass,
 /obj/machinery/chem_dispenser/drinks/fullupgrade{
@@ -2427,17 +1925,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"oI" = (
-/turf/open/floor/f13/wood,
-/area/f13/building)
-"oJ" = (
-/obj/structure/table/reinforced,
-/obj/machinery/computer/monitor/secret,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "floorrustysolid"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
 "oK" = (
 /obj/effect/turf_decal/weather/splinefancy{
 	dir = 1
@@ -2470,11 +1957,6 @@
 	color = "#7393B3"
 	},
 /area/arfs/mansion/stripclub)
-"oT" = (
-/obj/structure/flora/tree/jungle,
-/obj/structure/flora/grass/jungle,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "oU" = (
 /turf/open/indestructible/ground/outside/roaddirt{
 	icon = 'icons/turf/f13floors2.dmi';
@@ -2493,19 +1975,6 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/arfs/mansion)
-"oX" = (
-/obj/item/flashlight/lantern,
-/obj/structure/rack,
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 8
-	},
-/turf/open/floor/f13{
-	icon_state = "dark"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
 "oY" = (
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/arfs/mansion)
@@ -2523,30 +1992,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"pi" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
-	},
-/obj/effect/turf_decal/weather/dirt,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"pl" = (
-/obj/structure/chair/comfy/brown{
-	dir = 4;
-	icon_state = "comfychair"
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "floorrustysolid"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
-"pm" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/plasteel/white,
-/area/f13/building)
 "pn" = (
 /obj/structure/chair/comfy/black{
 	dir = 8
@@ -2555,23 +2000,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
-"po" = (
-/turf/open/floor/plasteel/white/side{
-	dir = 9
-	},
-/area/f13/building)
-"pr" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/grassybush,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
-"ps" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
-	},
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "pt" = (
 /obj/effect/turf_decal/weather/grassedgevirgo,
 /obj/effect/turf_decal/weather/grassedgevirgo{
@@ -2591,12 +2019,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/pool)
-"py" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/building)
 "pz" = (
 /obj/structure/sink/cupboard{
 	pixel_y = 11
@@ -2611,13 +2033,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"pC" = (
-/obj/machinery/light{
-	dir = 1;
-	light_color = "#706891"
-	},
-/turf/open/floor/plasteel/white/side,
-/area/f13/building)
 "pD" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/structure/glowshroom,
@@ -2652,10 +2067,6 @@
 /obj/item/reagent_containers/food/snacks/pizza/mushroom,
 /turf/open/floor/plasteel/f13/pizza,
 /area/arfs/mansion)
-"pN" = (
-/obj/structure/closet/crate/large,
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/building)
 "pO" = (
 /obj/structure/table/abductor,
 /obj/item/stack/sheet/mineral/silver/fifty{
@@ -2694,50 +2105,6 @@
 	},
 /turf/open/floor/mineral/silver,
 /area/arfs/mansion)
-"pP" = (
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#e8eaff"
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam"
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam";
-	pixel_y = 0;
-	pixel_x = 19
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam";
-	pixel_y = 16
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam";
-	pixel_y = 12;
-	pixel_x = 17
-	},
-/turf/open/indestructible/ground/outside/water{
-	name = "hot spring";
-	color = "#BBBBBB"
-	},
-/area/f13/building)
-"pR" = (
-/obj/machinery/shower{
-	dir = 1
-	},
-/obj/structure/curtain{
-	color = "#ffc0cb"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
-/area/f13/building)
 "pT" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -2770,13 +2137,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/dark,
 /area/arfs/mansion)
-"qe" = (
-/obj/machinery/light{
-	dir = 1;
-	layer = 2.9
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/building)
 "qg" = (
 /obj/machinery/light{
 	dir = 1;
@@ -2787,19 +2147,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/arfs/mansion)
-"qh" = (
-/obj/structure/flora/junglebush/b,
-/obj/structure/flora/grass/jungle,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
-"qi" = (
-/obj/machinery/light{
-	dir = 1;
-	layer = 2.9
-	},
-/obj/structure/table/optable,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "ql" = (
 /obj/structure/decoration/vent,
 /obj/structure/curtain,
@@ -2826,6 +2173,13 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
+"qo" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/stack/f13Cash/caps/twofivezero,
+/obj/item/stack/f13Cash/caps/twofivezero,
+/obj/item/stack/f13Cash/caps/threezerozero,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "qp" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 5
@@ -2850,42 +2204,6 @@
 /obj/machinery/biogenerator,
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/arfs/mansion)
-"qs" = (
-/obj/structure/table/reinforced,
-/obj/machinery/reagentgrinder{
-	pixel_y = 5
-	},
-/turf/open/floor/plasteel/whiteblue/side{
-	dir = 1
-	},
-/area/f13/building)
-"qt" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"qu" = (
-/obj/structure/curtain{
-	color = "#ffc0cb"
-	},
-/obj/structure/flora/grass/jungle,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"qv" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"qz" = (
-/obj/structure/christmas/xmaslights{
-	dir = 4
-	},
-/obj/structure/chair/sofa/right{
-	dir = 8
-	},
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "qB" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
@@ -2919,12 +2237,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"qG" = (
-/obj/machinery/light,
-/turf/open/floor/plasteel/white/corner{
-	dir = 4
-	},
-/area/f13/building)
 "qJ" = (
 /obj/effect/turf_decal/weather/grassedgevirgocorner{
 	dir = 5
@@ -2937,17 +2249,6 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/arfs/mansion)
-"qO" = (
-/turf/open/floor/plasteel/white/side{
-	dir = 5
-	},
-/area/f13/building)
-"qP" = (
-/obj/structure/chair/right{
-	dir = 8
-	},
-/turf/open/indestructible/ground/stellercarpet/twentyseven,
-/area/f13/building)
 "qQ" = (
 /obj/machinery/light{
 	light_color = "#e8eaff"
@@ -3005,11 +2306,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"ra" = (
-/obj/structure/table/glass,
-/obj/item/flashlight/lamp,
-/turf/open/floor/carpet/purple,
-/area/f13/building)
 "rf" = (
 /obj/effect/turf_decal/weather/grassedgevirgocorner{
 	dir = 9
@@ -3026,14 +2322,6 @@
 /obj/item/bedsheet/huge/doublesheetpurple,
 /turf/open/floor/carpet,
 /area/arfs/mansion)
-"rj" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/effect/decal/cleanable/glass,
-/obj/structure/flora/wasteplant/wild_yucca,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "rk" = (
 /mob/living/simple_animal/cow/brahmin/cow/tan,
 /turf/open/floor/grass,
@@ -3088,11 +2376,6 @@
 /obj/item/instrument/violin/golden,
 /turf/open/floor/mineral/silver,
 /area/arfs/mansion)
-"rB" = (
-/turf/open/floor/plasteel/white/corner{
-	dir = 1
-	},
-/area/f13/building)
 "rD" = (
 /obj/structure/curtain,
 /obj/machinery/door/window/survival_pod{
@@ -3116,14 +2399,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"rF" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/structure/closet/crate/large,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/turf/open/floor/carpet/red,
-/area/f13/building)
 "rG" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/frenchtoast,
@@ -3183,10 +2458,6 @@
 /obj/item/stack/cable_coil/thirty,
 /turf/open/floor/plasteel/f13,
 /area/f13/building)
-"sb" = (
-/obj/structure/flora/ausbushes/brflowers,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "se" = (
 /obj/structure/flora/wasteplant/fever_blossom,
 /obj/effect/decal/cleanable/glitter/blue,
@@ -3234,18 +2505,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"sq" = (
-/obj/structure/campfire/stove,
-/turf/open/floor/f13/wood,
-/area/f13/building)
-"sr" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/whiteblue/side{
-	dir = 10
-	},
-/area/f13/building)
 "st" = (
 /obj/effect/turf_decal/weather/grassedgevirgocorner{
 	dir = 9
@@ -3279,32 +2538,6 @@
 	dir = 5
 	},
 /area/arfs/mansion)
-"sB" = (
-/obj/machinery/chem_dispenser,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
-"sC" = (
-/turf/open/floor/carpet/blue,
-/area/f13/underground/cave/vault/fourfivefour)
-"sE" = (
-/obj/structure/table/wood/settler,
-/obj/machinery/computer/terminal{
-	dir = 1;
-	termtag = "Business"
-	},
-/obj/machinery/light/small,
-/turf/open/floor/carpet/red,
-/area/f13/building)
-"sH" = (
-/obj/structure/closet/fridge,
-/obj/effect/spawner/lootdrop/f13/foodspawner,
-/obj/item/reagent_containers/food/snacks/grown/pumpkin,
-/obj/item/reagent_containers/food/snacks/grown/pumpkin,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "bar"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
 "sK" = (
 /obj/structure/glowshroom/shadowshroom,
 /obj/effect/turf_decal/weather/dirtcorner{
@@ -3326,11 +2559,6 @@
 /obj/item/pizzabox/pineapple,
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
-"sR" = (
-/obj/structure/table/reinforced,
-/obj/effect/spawner/lootdrop/three_course_meal,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "sS" = (
 /obj/structure/spacevine{
 	icon = 'icons/effects/effects.dmi';
@@ -3408,26 +2636,6 @@
 	},
 /turf/open/floor/grass,
 /area/arfs/mansion)
-"ti" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/effect/decal/cleanable/glass,
-/obj/effect/decal/cleanable/glass,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"tj" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/structure/janitorialcart,
-/obj/item/mop,
-/obj/item/reagent_containers/glass/bucket,
-/obj/item/reagent_containers/spray/cleaner,
-/obj/item/crafting/abraxo,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "tk" = (
 /obj/structure/chair/sofa/left{
 	dir = 1;
@@ -3471,12 +2679,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"tr" = (
-/obj/structure/chair/sofa/left{
-	dir = 4
-	},
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "ts" = (
 /obj/machinery/light{
 	bulb_colour = "#BC8F8F";
@@ -3505,24 +2707,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"tD" = (
-/obj/structure/christmas/xmaslights{
-	dir = 8
-	},
-/obj/structure/chair/sofa/left{
-	dir = 4
-	},
-/turf/open/floor/f13/wood,
-/area/f13/building)
-"tE" = (
-/obj/structure/closet/fridge,
-/obj/effect/spawner/lootdrop/f13/foodspawner,
-/obj/item/reagent_containers/food/snacks/grown/pineapple,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "bar"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
 "tF" = (
 /obj/structure/bed/chair/hammock_kbraid_n,
 /turf/open/floor/plating/dirt/virgosand,
@@ -3598,10 +2782,6 @@
 /obj/item/storage/firstaid/fire,
 /turf/open/floor/plasteel/neutral,
 /area/arfs/mansion)
-"ue" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "ui" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/green,
@@ -3613,11 +2793,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"ul" = (
-/obj/machinery/light,
-/obj/structure/bed/roller,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "un" = (
 /obj/item/ship_in_a_bottle,
 /obj/structure/table/abductor,
@@ -3639,15 +2814,6 @@
 	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/arfs/mansion/bar)
-"us" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/effect/decal/cleanable/glass,
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "uu" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/dropper,
@@ -3674,12 +2840,6 @@
 "uD" = (
 /turf/open/floor/carpet/black,
 /area/arfs/mansion)
-"uE" = (
-/obj/structure/curtain{
-	color = "#ffc0cb"
-	},
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "uI" = (
 /obj/structure/table/abductor,
 /obj/item/toy/plush/bird/sylas,
@@ -3704,16 +2864,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
-"uL" = (
-/turf/open/floor/plasteel/white/corner{
-	dir = 8
-	},
-/area/f13/building)
-"uO" = (
-/turf/open/floor/plasteel/whiteblue/corner{
-	dir = 4
-	},
-/area/f13/building)
 "uP" = (
 /obj/structure/table/abductor,
 /obj/item/pizzabox/meat,
@@ -3723,11 +2873,6 @@
 /obj/item/kitchen/knife,
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
-"uQ" = (
-/obj/structure/bed/double,
-/obj/item/bedsheet/deerdouble,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "uU" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/carpet/royalblue,
@@ -3751,10 +2896,6 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/arfs/mansion)
-"uY" = (
-/obj/structure/table/glass,
-/turf/open/floor/plasteel/whiteblue/side,
-/area/f13/building)
 "uZ" = (
 /obj/item/reagent_containers/food/snacks/pizza/mothic_firecracker,
 /obj/machinery/light{
@@ -3785,11 +2926,6 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion)
-"vi" = (
-/turf/closed/wall/r_wall/f13vault{
-	icon_state = "2-i"
-	},
-/area/f13/building)
 "vj" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 4
@@ -3811,12 +2947,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/library)
-"vq" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
 "vt" = (
 /obj/structure/flora/wasteplant/wild_broc,
 /obj/structure/flora/ausbushes/leafybush,
@@ -3964,19 +3094,6 @@
 	color = "#b8884e"
 	},
 /area/f13/caves)
-"vQ" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 10
-	},
-/obj/structure/flora/tallgrass1,
-/turf/open/indestructible/ground/outside/water,
-/area/f13/underground/cave/vault/fourfivefour)
-"vR" = (
-/obj/structure/curtain{
-	color = "#ffc0cb"
-	},
-/turf/open/floor/carpet/purple,
-/area/f13/building)
 "vS" = (
 /obj/structure/hammock_kbraid_s,
 /turf/open/floor/plating/dirt/virgosand,
@@ -4025,20 +3142,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"we" = (
-/obj/structure/christmas/xmaslights{
-	dir = 1
-	},
-/obj/structure/christmas/xmaslights{
-	dir = 8
-	},
-/obj/structure/closet/crate/wooden{
-	pixel_y = 10
-	},
-/obj/item/stack/sheet/mineral/wood/fifty,
-/obj/item/lighter/fusion,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "wf" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/structure/flora/ausbushes/leafybush,
@@ -4061,10 +3164,6 @@
 /obj/item/soap/deluxe,
 /turf/open/floor/plasteel/f13/vault_floor/neutral/white/whitepurplechess,
 /area/arfs/mansion)
-"wh" = (
-/obj/machinery/hydroponics/constructable,
-/turf/open/floor/plasteel/white,
-/area/f13/building)
 "wi" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 9
@@ -4115,20 +3214,6 @@
 	color = "#7393B3"
 	},
 /area/arfs/mansion/stripclub)
-"wt" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/wasteplant/wild_yucca,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"wu" = (
-/obj/structure/bookcase/manuals/medical,
-/obj/machinery/light,
-/turf/open/floor/carpet/red,
-/area/f13/building)
-"wy" = (
-/obj/machinery/iv_drip/telescopic,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "wz" = (
 /obj/structure/table/abductor,
 /obj/machinery/light{
@@ -4147,10 +3232,6 @@
 	color = "#7393B3"
 	},
 /area/arfs/mansion/stripclub)
-"wF" = (
-/obj/machinery/door/airlock/public/glass,
-/turf/open/floor/fakespace,
-/area/f13/building)
 "wH" = (
 /obj/structure/glowshroom/shadowshroom,
 /obj/effect/turf_decal/weather/grassedgevirgo{
@@ -4160,30 +3241,12 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"wJ" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/grassybush,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"wL" = (
-/obj/structure/table/reinforced,
-/obj/machinery/computer/secure_data,
-/turf/open/floor/f13{
-	icon_state = "floorrustysolid"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
-"wO" = (
-/obj/structure/falsewall/wood/f13,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"wP" = (
-/obj/structure/flora/wasteplant/wild_buffalogourd,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"wV" = (
-/obj/structure/bed/roller,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+"wI" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/stack/spacecash/c1000,
+/obj/item/stack/spacecash/c1000,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "wW" = (
 /obj/structure/chair/office/dark{
 	dir = 8
@@ -4241,11 +3304,22 @@
 /obj/item/reagent_containers/food/snacks/fudgedice,
 /turf/open/floor/carpet/royalblack,
 /area/arfs/mansion/bar)
-"xl" = (
-/obj/structure/flora/ausbushes/pointybush,
-/obj/structure/flora/wild_plant/flower/blue_two,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
+"xm" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/weapon/spacecasinocash/c20,
+/obj/item/weapon/spacecasinocash/c20,
+/obj/item/weapon/spacecasinocash/c20,
+/obj/item/weapon/spacecasinocash/c20,
+/obj/item/weapon/spacecasinocash/c20,
+/obj/item/weapon/spacecasinocash/c20,
+/obj/item/weapon/spacecasinocash/c20,
+/obj/item/weapon/spacecasinocash/c20,
+/obj/item/weapon/spacecasinocash/c20,
+/obj/item/weapon/spacecasinocash/c20,
+/obj/item/weapon/spacecasinocash/c20,
+/obj/item/weapon/spacecasinocash/c20,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "xn" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/cable_coil/random/five,
@@ -4271,12 +3345,24 @@
 	},
 /turf/open/floor/carpet/black,
 /area/arfs/mansion)
-"xs" = (
-/obj/structure/chair/right{
-	dir = 4
-	},
-/turf/open/indestructible/ground/stellercarpet/sixteen,
-/area/f13/building)
+"xu" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/weapon/spacecasinocash/c1000,
+/obj/item/weapon/spacecasinocash/c1000,
+/obj/item/weapon/spacecasinocash/c1000,
+/obj/item/weapon/spacecasinocash/c1000,
+/obj/item/weapon/spacecasinocash/c1000,
+/obj/item/weapon/spacecasinocash/c1000,
+/obj/item/weapon/spacecasinocash/c1000,
+/obj/item/weapon/spacecasinocash/c1000,
+/obj/item/weapon/spacecasinocash/c1000,
+/obj/item/weapon/spacecasinocash/c1000,
+/obj/item/weapon/spacecasinocash/c1000,
+/obj/item/weapon/spacecasinocash/c1000,
+/obj/item/weapon/spacecasinocash/c1000,
+/obj/item/weapon/spacecasinocash/c1000,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "xv" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
@@ -4370,13 +3456,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"xO" = (
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#e8eaff"
-	},
-/turf/open/floor/plasteel/white/corner,
-/area/f13/building)
 "xQ" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/effect/turf_decal/weather/grassedgevirgo{
@@ -4420,16 +3499,6 @@
 /obj/item/reagent_containers/food/drinks/bottle/bawls,
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/arfs/mansion/bar)
-"xU" = (
-/obj/structure/christmas/xmaslights{
-	dir = 8
-	},
-/obj/structure/christmas/xmaslights,
-/obj/structure/chair/sofa/right{
-	dir = 4
-	},
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "xV" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 5
@@ -4442,11 +3511,6 @@
 /obj/machinery/hydroponics/constructable,
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/arfs/mansion)
-"yb" = (
-/turf/open/floor/plasteel/whitegreen/side{
-	dir = 6
-	},
-/area/f13/building)
 "yc" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/structure/glowshroom,
@@ -4479,33 +3543,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"yl" = (
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/underground/cave/vault/fourfivefour)
-"yn" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 8
-	},
-/obj/structure/flora/tallgrass1,
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam"
-	},
-/turf/open/indestructible/ground/outside/water,
-/area/f13/underground/cave/vault/fourfivefour)
 "yr" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/effect/turf_decal/weather/grassedgevirgo{
@@ -4575,10 +3612,8 @@
 	},
 /area/arfs/mansion)
 "yB" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
+/turf/open/floor/plating/wooden2,
+/area/f13/caves)
 "yD" = (
 /obj/machinery/vending/kink,
 /turf/open/floor/plasteel/f13,
@@ -4613,30 +3648,43 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion)
-"yL" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "floorrustysolid"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
-"yN" = (
-/obj/structure/christmas/xmaslights{
-	dir = 1
-	},
-/obj/machinery/light{
-	dir = 1;
-	light_color = "#706891"
-	},
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "yO" = (
 /obj/machinery/gear_painter,
 /turf/open/floor/carpet,
 /area/arfs/mansion)
+"yQ" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/weapon/spacecasinocash/c50,
+/obj/item/weapon/spacecasinocash/c50,
+/obj/item/weapon/spacecasinocash/c50,
+/obj/item/weapon/spacecasinocash/c50,
+/obj/item/weapon/spacecasinocash/c50,
+/obj/item/weapon/spacecasinocash/c50,
+/obj/item/weapon/spacecasinocash/c50,
+/obj/item/weapon/spacecasinocash/c50,
+/obj/item/weapon/spacecasinocash/c50,
+/obj/item/weapon/spacecasinocash/c50,
+/obj/item/weapon/spacecasinocash/c500,
+/obj/item/weapon/spacecasinocash/c500,
+/obj/item/weapon/spacecasinocash/c500,
+/obj/item/weapon/spacecasinocash/c500,
+/obj/item/weapon/spacecasinocash/c500,
+/obj/item/weapon/spacecasinocash/c500,
+/obj/item/weapon/spacecasinocash/c500,
+/obj/item/weapon/spacecasinocash/c500,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "yT" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/weapon/storage/wallet/casino/brown,
+/obj/item/weapon/storage/wallet/casino/brown,
+/obj/item/weapon/storage/wallet/casino/brown,
+/obj/item/weapon/storage/wallet/casino/brown,
+/obj/item/weapon/storage/wallet/casino/brown,
+/obj/item/weapon/storage/wallet/casino/brown,
+/obj/item/weapon/storage/wallet/casino/brown,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "yW" = (
 /obj/machinery/light{
 	bulb_colour = "#BC8F8F";
@@ -4662,12 +3710,6 @@
 	},
 /turf/open/floor/grass,
 /area/arfs/mansion)
-"ze" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/underground/cave/vault/fourfivefour)
 "zf" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/spacevine,
@@ -4716,10 +3758,6 @@
 	},
 /turf/open/floor/plating/dirt/virgosand,
 /area/f13/caves)
-"zv" = (
-/obj/machinery/vending/boozeomat,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "zA" = (
 /obj/structure/chair/sofa/right{
 	color = "#353535";
@@ -4727,12 +3765,6 @@
 	},
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
-"zC" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "zE" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/spray/cleaner,
@@ -4742,10 +3774,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"zF" = (
-/obj/structure/bookcase/manuals,
-/turf/open/floor/carpet/red,
-/area/f13/building)
 "zG" = (
 /obj/structure/cave/stalagmite/five,
 /obj/effect/decal/cleanable/glitter/blue,
@@ -4770,19 +3798,10 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"zM" = (
-/obj/structure/flora/grass/jungle,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "zO" = (
 /obj/structure/table/reinforced,
 /obj/item/defibrillator/compact/combat/loaded,
 /turf/open/floor/plasteel/f13,
-/area/f13/building)
-"zQ" = (
-/obj/structure/bed/double,
-/obj/item/bedsheet/doublesheetblue,
-/turf/open/floor/carpet/royalblue,
 /area/f13/building)
 "zR" = (
 /obj/structure/window/reinforced/tinted{
@@ -4818,10 +3837,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"Ab" = (
-/obj/structure/rack/shelf_metal,
-/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
-/area/f13/building)
 "Ac" = (
 /turf/open/floor/plasteel/dark/side{
 	dir = 6
@@ -4839,24 +3854,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"Ae" = (
-/obj/machinery/light{
-	dir = 1;
-	light_color = "#706891"
-	},
-/obj/structure/table/reinforced,
-/obj/item/watertank,
-/obj/item/reagent_containers/glass/bucket/plastic,
-/obj/item/reagent_containers/glass/bucket/plastic,
-/obj/item/reagent_containers/glass/bucket/plastic,
-/obj/item/plant_analyzer,
-/obj/item/storage/bag/plants,
-/obj/item/cultivator,
-/obj/item/shovel/spade,
-/turf/open/floor/plasteel/whitegreen/side{
-	dir = 1
-	},
-/area/f13/building)
 "Af" = (
 /obj/structure/decoration/vent,
 /obj/machinery/shower{
@@ -4892,13 +3889,6 @@
 	dir = 10
 	},
 /area/arfs/mansion)
-"Az" = (
-/obj/machinery/light,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "bar"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
 "AB" = (
 /obj/machinery/light{
 	dir = 4;
@@ -4918,37 +3908,11 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"AH" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "dark"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
-"AI" = (
-/obj/structure/table/reinforced,
-/obj/machinery/chem_dispenser/drinks/beer{
-	dir = 4;
-	pixel_x = -20;
-	pixel_y = 3
-	},
-/obj/item/reagent_containers/food/drinks/shaker,
-/obj/item/reagent_containers/glass/rag,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "AN" = (
 /obj/structure/table/reinforced,
 /obj/item/wirecutters,
 /turf/open/floor/plasteel/f13,
 /area/f13/building)
-"AO" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/leafybush,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "AQ" = (
 /obj/machinery/door/airlock/public/glass,
 /obj/effect/turf_decal/weather/splinefancy{
@@ -4961,29 +3925,10 @@
 	dir = 1
 	},
 /area/arfs/mansion)
-"AX" = (
-/obj/machinery/light{
-	dir = 1;
-	light_color = "#706891"
-	},
-/turf/open/floor/plasteel/white/corner,
-/area/f13/building)
 "AY" = (
 /obj/structure/closet/locker/fridge,
 /turf/open/floor/plasteel/dark,
 /area/arfs/mansion)
-"Ba" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"Bb" = (
-/obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/seedspawner,
-/obj/effect/spawner/lootdrop/f13/seedspawner,
-/obj/item/seeds/random,
-/obj/item/seeds/random,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "Bc" = (
 /obj/effect/turf_decal/weather/grassedgevirgocorner{
 	dir = 10
@@ -5016,31 +3961,12 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"Bm" = (
-/obj/structure/table/glass,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "Bp" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 4
 	},
 /turf/open/floor/plating/dirt/virgosand,
 /area/f13/caves)
-"Bq" = (
-/turf/open/floor/plasteel/white/side{
-	dir = 10
-	},
-/area/f13/building)
-"Br" = (
-/obj/machinery/hydroponics/constructable,
-/turf/open/floor/plasteel/whitegreen/side,
-/area/f13/building)
-"Bv" = (
-/obj/structure/flora/ausbushes/grassybush,
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/chair/wood/wings,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "Bw" = (
 /obj/structure/table/wood,
 /obj/machinery/light{
@@ -5058,11 +3984,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/arfs/mansion)
 "BA" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "BE" = (
 /obj/machinery/sleeper/clockwork{
 	dir = 4
@@ -5111,16 +4034,13 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"BT" = (
-/obj/structure/chair/comfy/black{
-	dir = 8
-	},
-/turf/open/floor/carpet/blue,
-/area/f13/building)
-"BW" = (
-/obj/structure/flora/tree/pine/xmas/presents,
-/turf/open/floor/f13/wood,
-/area/f13/building)
+"BS" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/stack/spacecash/c10000,
+/obj/item/stack/spacecash/c10000,
+/obj/item/stack/spacecash/c10000,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "Ca" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-24"
@@ -5132,11 +4052,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
-"Cb" = (
-/obj/structure/table/glass,
-/obj/machinery/reagentgrinder,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "Cc" = (
 /obj/machinery/door/airlock/public/glass,
 /obj/effect/turf_decal/weather/splinefancy{
@@ -5160,9 +4075,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"Cm" = (
-/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
-/area/f13/building)
 "Co" = (
 /obj/effect/turf_decal/weather/splineplain,
 /turf/open/indestructible/ground/outside/civ/woodalt{
@@ -5189,13 +4101,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"Cw" = (
-/obj/structure/table,
-/obj/item/kitchen/knife/butcher{
-	icon_state = "cleaver"
-	},
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "Cx" = (
 /obj/structure/table/glass,
 /obj/item/storage/firstaid/o2,
@@ -5221,30 +4126,6 @@
 /obj/machinery/vending/cola,
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
-"CE" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/grass/jungle,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"CI" = (
-/obj/machinery/smartfridge/food,
-/turf/closed/wall/r_wall/f13/vault,
-/area/f13/building)
-"CR" = (
-/obj/structure/sink{
-	icon_state = "water";
-	name = "water";
-	pixel_x = 7;
-	pixel_y = -12
-	},
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/underground/cave/vault/fourfivefour)
 "CS" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
@@ -5256,12 +4137,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"CT" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "CU" = (
 /obj/structure/chair/comfy/black{
 	dir = 8
@@ -5289,9 +4164,6 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion)
-"CZ" = (
-/turf/open/floor/plasteel/white/corner,
-/area/f13/building)
 "Db" = (
 /obj/structure/chair/bench,
 /obj/machinery/light{
@@ -5301,22 +4173,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/pool)
-"Df" = (
-/obj/structure/christmas/xmaslights{
-	dir = 1
-	},
-/obj/structure/christmas/xmaslights{
-	dir = 4
-	},
-/obj/structure/chair/sofa/right{
-	dir = 8
-	},
-/turf/open/floor/f13/wood,
-/area/f13/building)
-"Dh" = (
-/obj/structure/bookcase/manuals/engineering,
-/turf/open/floor/carpet/red,
-/area/f13/building)
 "Dj" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/item/clothing/under/misc/gear_harness,
@@ -5357,26 +4213,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"Dm" = (
-/obj/effect/turf_decal/weather/dirt,
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/turf/open/indestructible/ground/outside/water,
-/area/f13/underground/cave/vault/fourfivefour)
-"Dn" = (
-/obj/structure/closet/fridge,
-/obj/effect/spawner/lootdrop/f13/foodspawner,
-/obj/item/reagent_containers/food/snacks/grown/vanillapod,
-/obj/item/reagent_containers/food/snacks/grown/vanillapod,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "bar"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
 "Dr" = (
 /obj/structure/weightmachine/stacklifter,
 /turf/open/floor/plasteel/f13,
@@ -5384,12 +4220,6 @@
 "Du" = (
 /turf/open/floor/plating/dirt/virgosand,
 /area/f13/caves)
-"Dw" = (
-/obj/structure/chair/sofa{
-	dir = 1
-	},
-/turf/open/floor/carpet/blue,
-/area/f13/underground/cave/vault/fourfivefour)
 "Dy" = (
 /obj/machinery/door/airlock/glass_large{
 	glass = 0
@@ -5466,10 +4296,6 @@
 /obj/item/reagent_containers/food/snacks/pizza/mothic_firecracker,
 /turf/open/floor/plasteel/f13/pizza,
 /area/arfs/mansion)
-"DV" = (
-/obj/structure/chair/wood/wings,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "DX" = (
 /obj/structure/table/abductor,
 /obj/effect/spawner/lootdrop/f13/common_toys,
@@ -5485,9 +4311,6 @@
 /obj/effect/spawner/lootdrop/f13/common_toys,
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
-"DY" = (
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave/vault/fourfivefour)
 "Ea" = (
 /obj/effect/turf_decal/weather/splinefancycorner{
 	dir = 8
@@ -5514,29 +4337,17 @@
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/carpet/blue,
 /area/arfs/mansion/bar)
-"Ek" = (
-/obj/machinery/light,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"Er" = (
-/turf/open/floor/plasteel/white/side{
-	dir = 6
-	},
-/area/f13/building)
+"Eo" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/stack/f13Cash/caps/threezerozero,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "Es" = (
 /obj/machinery/dna_scannernew{
 	pixel_x = -4
 	},
 /turf/open/floor/plasteel/f13,
 /area/f13/building)
-"Et" = (
-/turf/open/floor/carpet/red,
-/area/f13/building)
-"Ew" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/leafybush,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "Ey" = (
 /obj/machinery/vending/hydroseeds,
 /obj/machinery/light{
@@ -5559,10 +4370,6 @@
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/arfs/mansion/pool)
-"EI" = (
-/obj/structure/flora/junglebush/b,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "EJ" = (
 /obj/machinery/plantgenes,
 /obj/structure/table/glass,
@@ -5573,17 +4380,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/arfs/mansion)
-"EO" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/grassybush,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"ER" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp,
-/turf/open/floor/carpet/blue,
-/area/f13/building)
 "ET" = (
 /obj/structure/window/fulltile/wood,
 /turf/open/indestructible/ground/outside/civ/woodalt{
@@ -5649,21 +4445,25 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
-"Fe" = (
-/obj/structure/simple_door/bunker/glass,
-/obj/structure/curtain{
-	color = "red"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor{
-	icon_state = "floordirty"
-	},
-/area/f13/building)
 "Ff" = (
-/obj/machinery/door/poddoor/shutters/old/preopen{
-	id = "OwenHideawayS"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/building)
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/stack/spacecash/c10,
+/obj/item/stack/spacecash/c10,
+/obj/item/stack/spacecash/c1,
+/obj/item/stack/spacecash/c1,
+/obj/item/stack/spacecash/c1,
+/obj/item/stack/spacecash/c1,
+/obj/item/stack/spacecash/c1,
+/obj/item/stack/spacecash/c1,
+/obj/item/stack/spacecash/c1,
+/obj/item/stack/spacecash/c1,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
+"Fi" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/voodoo,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "Fj" = (
 /obj/structure/spacevine{
 	icon = 'icons/effects/effects.dmi';
@@ -5723,23 +4523,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"Fq" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/weather/dirt{
-	dir = 8
-	},
-/turf/open/floor/f13{
-	icon_state = "bar"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
-"Ft" = (
-/obj/machinery/light,
-/obj/structure/flora/grass/jungle,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "Fu" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
@@ -5819,17 +4602,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
-"FR" = (
-/obj/structure/table/reinforced,
-/obj/machinery/computer/terminal{
-	dir = 1;
-	termtag = "Business"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "floorrustysolid"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
 "FS" = (
 /obj/structure/sink{
 	icon_state = "water";
@@ -5882,12 +4654,26 @@
 /obj/structure/closet/crate/bin/trash_fallout,
 /turf/open/floor/plasteel/dark,
 /area/arfs/mansion)
-"FW" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
+"FZ" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/stack/sheet/mineral/diamond/fifty{
+	pixel_y = 4;
+	pixel_x = -6
 	},
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/underground/cave/vault/fourfivefour)
+/obj/item/stack/sheet/mineral/diamond/fifty{
+	pixel_y = -4;
+	pixel_x = -4
+	},
+/obj/item/stack/sheet/mineral/diamond/fifty{
+	pixel_y = -4;
+	pixel_x = 6
+	},
+/obj/item/stack/sheet/mineral/diamond/fifty{
+	pixel_y = 4;
+	pixel_x = 6
+	},
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "Ga" = (
 /obj/structure/bed/double,
 /obj/item/bedsheet/huge/doublesheetblue,
@@ -5895,11 +4681,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"Gb" = (
-/obj/machinery/light,
-/obj/structure/christmas/xmaslights,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "Gd" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/wasteplant/fever_blossom,
@@ -5951,17 +4732,15 @@
 /obj/structure/closet/crate/bin/trash_fallout,
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/arfs/mansion/bar)
-"Gp" = (
-/turf/open/floor/carpet/purple,
-/area/f13/building)
 "Gq" = (
-/obj/structure/flora/ausbushes/grassybush,
-/obj/machinery/light{
-	dir = 1;
-	layer = 2.9
-	},
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/feather,
+/obj/item/feather,
+/obj/item/feather,
+/obj/item/feather,
+/obj/item/feather,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "Gt" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/structure/glowshroom,
@@ -6006,20 +4785,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/arfs/mansion)
-"GA" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/structure/christmas/xmaslights{
-	dir = 8
-	},
-/obj/structure/table/wood/fancy,
-/turf/open/floor/f13/wood,
-/area/f13/building)
-"GI" = (
-/obj/machinery/light,
-/turf/open/floor/f13/wood,
-/area/f13/underground/cave/vault/fourfivefour)
 "GJ" = (
 /obj/machinery/shower{
 	dir = 1
@@ -6031,19 +4796,6 @@
 "GK" = (
 /obj/effect/fake_stairs/north,
 /turf/open/floor/plasteel/f13,
-/area/f13/building)
-"GL" = (
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#e8eaff"
-	},
-/turf/open/floor/plasteel/white/corner{
-	dir = 4
-	},
-/area/f13/building)
-"GO" = (
-/obj/structure/fireplace,
-/turf/open/floor/f13/wood,
 /area/f13/building)
 "GQ" = (
 /obj/structure/sink{
@@ -6104,20 +4856,12 @@
 "Hg" = (
 /turf/open/water/seadeep,
 /area/f13/caves)
-"Hh" = (
-/obj/machinery/door/airlock/glass_large,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "Hi" = (
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/open/indestructible/ground/outside/dirt{
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"Hk" = (
-/obj/structure/table/wood,
-/turf/open/floor/carpet/blue,
-/area/f13/building)
 "Hl" = (
 /obj/structure/flora/ausbushes/leafybush,
 /obj/effect/turf_decal/weather/grassedgevirgocorner{
@@ -6138,14 +4882,6 @@
 /obj/item/reagent_containers/rag/towel/random,
 /turf/open/floor/plasteel/cafeteria,
 /area/arfs/mansion/pool)
-"Hp" = (
-/obj/structure/table/reinforced,
-/obj/item/reagent_containers/glass/beaker/large,
-/obj/item/reagent_containers/glass/beaker/large,
-/turf/open/floor/plasteel/whiteblue/side{
-	dir = 1
-	},
-/area/f13/building)
 "Hs" = (
 /obj/structure/table/abductor,
 /obj/structure/railing/dancing_pole{
@@ -6158,19 +4894,6 @@
 	color = "#7393B3"
 	},
 /area/arfs/mansion/stripclub)
-"Hw" = (
-/obj/machinery/light{
-	bulb_colour = "#BC8F8F";
-	dir = 4;
-	light_color = "#BC8F8F";
-	name = "bar light"
-	},
-/obj/structure/christmas/xmaslights{
-	dir = 4
-	},
-/obj/structure/table/wood/fancy,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "Hy" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/structure/cave/stalagmite,
@@ -6179,11 +4902,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"Hz" = (
-/turf/open/floor/plasteel/white/side{
-	dir = 1
-	},
-/area/f13/building)
 "HC" = (
 /turf/open/floor/carpet/royalblue,
 /area/arfs/mansion)
@@ -6211,11 +4929,6 @@
 "HJ" = (
 /turf/open/floor/carpet/royalblack,
 /area/arfs/mansion/bar)
-"HK" = (
-/turf/open/floor/plasteel/whiteblue/side{
-	dir = 5
-	},
-/area/f13/building)
 "HO" = (
 /obj/structure/decoration/vent,
 /obj/machinery/shower{
@@ -6226,98 +4939,22 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion)
-"HQ" = (
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
 "HS" = (
 /obj/machinery/door/poddoor{
 	id = "pool"
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/arfs/mansion/pool)
-"HU" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 8
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/water,
-/area/f13/underground/cave/vault/fourfivefour)
-"HV" = (
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#e8eaff"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/building)
-"HX" = (
-/obj/machinery/processor,
-/turf/open/floor/plasteel/whiteblue/side{
-	dir = 1
-	},
-/area/f13/building)
 "HY" = (
 /obj/structure/glowshroom,
 /obj/effect/turf_decal/weather/dirt,
 /turf/open/indestructible/ground/outside/civ/grassdark,
 /area/f13/caves)
-"Ia" = (
-/obj/structure/curtain{
-	color = "#00008B"
-	},
-/turf/open/floor/carpet/royalblue,
-/area/f13/building)
-"Ib" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white/side{
-	dir = 8
-	},
-/area/f13/building)
-"Ih" = (
-/obj/structure/chair/wood{
-	dir = 4
-	},
-/turf/open/floor/carpet/blue,
-/area/f13/building)
 "Ii" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/weather/splinefancy,
 /turf/open/floor/carpet/green,
 /area/arfs/mansion)
-"Ij" = (
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam"
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam";
-	pixel_y = 0;
-	pixel_x = 19
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam";
-	pixel_y = 16
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam";
-	pixel_y = 12;
-	pixel_x = 17
-	},
-/turf/open/indestructible/ground/outside/water{
-	name = "hot spring";
-	color = "#BBBBBB"
-	},
-/area/f13/building)
 "In" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/structure/flora/ausbushes/leafybush,
@@ -6329,13 +4966,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"Ip" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/structure/flora/grass/jungle,
-/turf/closed/wall/f13/wood,
-/area/f13/underground/cave/vault/fourfivefour)
 "Iq" = (
 /obj/structure/table/abductor,
 /obj/effect/turf_decal/weather/splineplain{
@@ -6348,10 +4978,6 @@
 "Is" = (
 /turf/closed/wall/mineral/iron,
 /area/arfs/mansion/arcade)
-"It" = (
-/obj/machinery/door/airlock/public/glass,
-/turf/open/floor/plasteel/white,
-/area/f13/building)
 "Iu" = (
 /turf/closed/wall/mineral/iron,
 /area/arfs/mansion/stripclub)
@@ -6406,10 +5032,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"IG" = (
-/obj/machinery/light,
-/turf/open/floor/carpet/blue,
-/area/f13/building)
 "IK" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 4
@@ -6444,29 +5066,6 @@
 	},
 /turf/open/water/seashallow,
 /area/arfs/mansion/pool)
-"IN" = (
-/obj/structure/flora/grass/jungle,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"IO" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/brflowers,
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
-"IP" = (
-/obj/structure/table/reinforced,
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "floorrustysolid"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
 "IS" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green,
@@ -6480,16 +5079,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"IV" = (
-/obj/structure/flora/chomp/potplant1,
-/turf/open/floor/f13/wood,
-/area/f13/building)
-"IX" = (
-/obj/structure/flora/tree/jungle/small,
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "IY" = (
 /obj/structure/glowshroom,
 /obj/effect/turf_decal/weather/dirt{
@@ -6530,66 +5119,12 @@
 /obj/effect/spawner/lootdrop/f13/rare_toys,
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
-"Jj" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "floorrustysolid"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
-"Jk" = (
-/obj/machinery/chem_dispenser/drinks/beer/fullupgrade,
-/obj/structure/table/wood/bar,
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
 "Jn" = (
 /obj/structure/bookcase,
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
 /area/arfs/mansion/library)
-"Jq" = (
-/obj/structure/ladder/unbreakable{
-	id = "toxbase";
-	height = 1
-	},
-/obj/structure/sink{
-	icon_state = "water";
-	name = "water";
-	pixel_x = 1;
-	pixel_y = 21
-	},
-/obj/structure/sink{
-	icon_state = "water";
-	name = "water";
-	pixel_x = 13;
-	pixel_y = 21
-	},
-/obj/structure/sink{
-	icon_state = "water";
-	name = "water";
-	pixel_x = -11;
-	pixel_y = 20
-	},
-/obj/effect/turf_decal/weather/dirt,
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam"
-	},
-/turf/open/indestructible/ground/outside/water,
-/area/f13/underground/cave/vault/fourfivefour)
 "Jt" = (
 /obj/structure/chair/sofa{
 	color = "#666666";
@@ -6599,11 +5134,10 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"Jv" = (
-/obj/structure/table/glass,
-/obj/item/flashlight/lamp,
-/turf/open/floor/carpet/royalblue,
-/area/f13/building)
+"Jz" = (
+/obj/structure/rack/shelf_metal/modern,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "JA" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/structure/flora/ausbushes/leafybush,
@@ -6617,10 +5151,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"JB" = (
-/obj/structure/flora/tree/jungle/small,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "JD" = (
 /obj/structure/flora/ausbushes/leafybush,
 /obj/effect/decal/cleanable/glitter/blue,
@@ -6638,15 +5168,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/library)
-"JI" = (
-/turf/open/floor/plasteel/whiteblue/side{
-	dir = 8
-	},
-/area/f13/building)
-"JK" = (
-/obj/structure/simple_door/bunker,
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
 "JL" = (
 /obj/effect/turf_decal/weather/splinefancycorner{
 	dir = 8
@@ -6657,11 +5178,18 @@
 /turf/open/floor/carpet/blue,
 /area/arfs/mansion)
 "JM" = (
-/obj/structure/chair/left{
-	dir = 4
-	},
-/turf/open/indestructible/ground/stellercarpet/twenty,
-/area/f13/building)
+/obj/item/weapon/casino_platinum_chip,
+/obj/item/weapon/casino_platinum_chip,
+/obj/item/weapon/casino_platinum_chip,
+/obj/item/weapon/casino_platinum_chip,
+/obj/item/weapon/casino_platinum_chip,
+/obj/item/weapon/casino_platinum_chip,
+/obj/item/weapon/casino_platinum_chip,
+/obj/item/weapon/casino_platinum_chip,
+/obj/item/weapon/casino_platinum_chip,
+/obj/structure/rack/shelf_metal/modern,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "JN" = (
 /obj/machinery/recharge_station,
 /obj/effect/turf_decal/weather/splineplain,
@@ -6680,26 +5208,6 @@
 "JU" = (
 /turf/open/floor/carpet/purple,
 /area/arfs/mansion)
-"JW" = (
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam"
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam";
-	pixel_y = 16
-	},
-/turf/open/indestructible/ground/outside/water{
-	name = "hot spring";
-	color = "#BBBBBB"
-	},
-/area/f13/building)
-"JY" = (
-/turf/open/floor/plasteel/whiteblue/side,
-/area/f13/building)
 "JZ" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/beakers,
@@ -6735,26 +5243,26 @@
 	},
 /turf/open/floor/plating/dirt/virgosand,
 /area/f13/caves)
-"Kn" = (
-/obj/effect/turf_decal/weather/dirt,
-/obj/structure/spacevine{
-	name = "Mutant Vines"
+"Kq" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/stack/sheet/mineral/plasma/fifty{
+	pixel_y = 7;
+	pixel_x = -9
 	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam"
+/obj/item/stack/sheet/mineral/plasma/fifty{
+	pixel_y = -5;
+	pixel_x = -7
 	},
-/turf/open/indestructible/ground/outside/water,
-/area/f13/underground/cave/vault/fourfivefour)
-"Ks" = (
-/obj/structure/closet/fridge,
-/obj/effect/spawner/lootdrop/f13/foodspawner,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "bar"
+/obj/item/stack/sheet/mineral/plasma/fifty{
+	pixel_y = -5;
+	pixel_x = 3
 	},
-/area/f13/underground/cave/vault/fourfivefour)
+/obj/item/stack/sheet/mineral/plasma/fifty{
+	pixel_y = 7;
+	pixel_x = 3
+	},
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "Kx" = (
 /obj/machinery/light{
 	pixel_x = -16
@@ -6762,26 +5270,6 @@
 /obj/structure/table/wood,
 /turf/open/floor/carpet,
 /area/arfs/mansion)
-"Ky" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/structure/closet/secure_closet/freezer/kitchen,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/storage/fancy/egg_box,
-/obj/item/storage/fancy/egg_box,
-/obj/item/storage/fancy/egg_box,
-/turf/open/floor/plasteel/whiteblue/side{
-	dir = 5
-	},
-/area/f13/building)
 "KA" = (
 /obj/machinery/light{
 	light_color = "#e8eaff"
@@ -6799,13 +5287,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"KD" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/structure/flora/grass/jungle,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "KH" = (
 /obj/machinery/light{
 	dir = 4;
@@ -6822,9 +5303,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
-"KJ" = (
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "KM" = (
 /obj/structure/spacevine,
 /turf/open/indestructible/ground/outside/dirt{
@@ -6871,10 +5349,6 @@
 	dir = 1
 	},
 /area/f13/caves)
-"Lb" = (
-/obj/machinery/dna_scannernew,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "Lc" = (
 /obj/machinery/washing_machine,
 /obj/structure/bedsheetbin/towel{
@@ -6903,25 +5377,6 @@
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/arfs/mansion/pool)
-"Lg" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
-	},
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"Lh" = (
-/obj/machinery/light,
-/turf/open/floor/plasteel/white/corner{
-	dir = 1
-	},
-/area/f13/building)
-"Li" = (
-/obj/structure/flora/tree/jungle,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "Ll" = (
 /obj/structure/flora/ausbushes/leafybush,
 /obj/effect/decal/cleanable/glitter/blue,
@@ -6950,30 +5405,12 @@
 /obj/machinery/vending/cola/starkist,
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
-"Lq" = (
-/obj/structure/flora/tree/jungle/small,
-/obj/structure/flora/grass/jungle,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
-"Lr" = (
-/obj/machinery/seed_extractor,
-/turf/open/floor/plasteel/whitegreen/side{
-	dir = 9
-	},
-/area/f13/building)
 "Lz" = (
 /obj/effect/turf_decal/weather/splinefancycorner{
 	dir = 4
 	},
 /turf/open/floor/carpet/black,
 /area/arfs/mansion)
-"LA" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = 10
-	},
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "LB" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/rag/towel/random,
@@ -6981,25 +5418,10 @@
 /obj/item/reagent_containers/rag/towel/random,
 /turf/open/floor/plasteel/cafeteria,
 /area/arfs/mansion/pool)
-"LC" = (
-/obj/machinery/door/airlock/ckey/highsecurity/andy,
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/f13/building)
 "LF" = (
 /obj/structure/table/glass,
 /turf/open/floor/plasteel/f13/whitemarble,
 /area/arfs/mansion/bar)
-"LJ" = (
-/obj/structure/table/reinforced{
-	layer = 3
-	},
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"LK" = (
-/obj/structure/table/wood/poker,
-/obj/item/toy/cards/deck,
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
 "LL" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/item/smithing/special/jewelry/ring,
@@ -7036,12 +5458,6 @@
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/arfs/mansion/pool)
-"LU" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "dark"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
 "LV" = (
 /obj/structure/table/abductor,
 /obj/machinery/light{
@@ -7052,10 +5468,6 @@
 /obj/item/bouquet/sunflower,
 /turf/open/floor/mineral/silver,
 /area/arfs/mansion)
-"LX" = (
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/fakespace,
-/area/f13/building)
 "LZ" = (
 /obj/structure/table/glass,
 /obj/effect/turf_decal/weather/splineplain{
@@ -7066,10 +5478,6 @@
 /obj/item/clothing/under/misc/bathrobe,
 /turf/open/floor/plasteel/cafeteria,
 /area/arfs/mansion/pool)
-"Ma" = (
-/obj/structure/flora/wild_plant/flower/orange,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "Mb" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 8
@@ -7089,20 +5497,6 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/arfs/mansion/library)
-"Mh" = (
-/obj/machinery/door/airlock/public/glass,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
-"Mj" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = 12
-	},
-/obj/structure/mirror{
-	pixel_x = 32
-	},
-/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
-/area/f13/building)
 "Mk" = (
 /obj/structure/table/wood/poker,
 /obj/item/storage/box/dice,
@@ -7117,11 +5511,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"Mm" = (
-/obj/item/stack/sheet/mineral/wood/fifty,
-/obj/item/storage/box/matches,
-/turf/open/floor/carpet/blue,
-/area/f13/underground/cave/vault/fourfivefour)
 "Mo" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/weather/splinefancy{
@@ -7132,26 +5521,10 @@
 "Mq" = (
 /turf/open/floor/plasteel/dark,
 /area/arfs/mansion)
-"Mr" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white/corner{
-	dir = 1
-	},
-/area/f13/building)
 "Mt" = (
 /obj/machinery/door/airlock/glass_large,
 /turf/open/floor/plasteel/cafeteria,
 /area/arfs/mansion/pool)
-"Mu" = (
-/obj/structure/sink/kitchen{
-	pixel_y = 22
-	},
-/turf/open/floor/plasteel/whitegreen/side{
-	dir = 9
-	},
-/area/f13/building)
 "Mw" = (
 /obj/structure/chair/sofa{
 	color = "#666666";
@@ -7168,10 +5541,6 @@
 	},
 /turf/open/floor/carpet,
 /area/arfs/mansion)
-"Mz" = (
-/obj/structure/flora/ausbushes/leafybush,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "MB" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/condiment/bbqsauce{
@@ -7346,9 +5715,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"MP" = (
-/turf/open/floor/fakespace,
-/area/f13/building)
 "MQ" = (
 /obj/structure/table/wood,
 /obj/item/papercutter,
@@ -7417,15 +5783,6 @@
 	},
 /turf/open/water/seashallow,
 /area/arfs/mansion/pool)
-"Na" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "bar"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
 "Nc" = (
 /obj/structure/chair/comfy/plywood,
 /turf/open/floor/plating/dirt/virgosand,
@@ -7451,13 +5808,6 @@
 "Nh" = (
 /turf/closed/wall/mineral/iron,
 /area/arfs/mansion/pool)
-"Ni" = (
-/obj/machinery/light{
-	dir = 1;
-	layer = 2.9
-	},
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "Nm" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/item/clothing/suit/armor/light/duster/town/leather,
@@ -7494,21 +5844,6 @@
 /obj/machinery/computer/arcade/battle,
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
-"Nw" = (
-/obj/structure/chair/wood/wings{
-	dir = 1
-	},
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"Nz" = (
-/obj/machinery/light{
-	dir = 1;
-	light_color = "#706891"
-	},
-/turf/open/floor/plasteel/white/corner{
-	dir = 8
-	},
-/area/f13/building)
 "NA" = (
 /obj/machinery/mineral/wasteland_vendor/supermedical,
 /turf/open/floor/plasteel/neutral,
@@ -7520,12 +5855,6 @@
 /obj/item/pizzabox/infinite,
 /turf/open/floor/plasteel/f13/pizza,
 /area/arfs/mansion)
-"ND" = (
-/obj/machinery/light,
-/turf/open/floor/plasteel/white/side{
-	dir = 1
-	},
-/area/f13/building)
 "NK" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/weather/splineplain{
@@ -7535,12 +5864,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"NM" = (
-/obj/structure/chair/comfy/purple{
-	dir = 1
-	},
-/turf/open/floor/carpet/red,
-/area/f13/building)
 "NP" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/glass/rag,
@@ -7552,13 +5875,6 @@
 	},
 /turf/closed/wall/mineral/iron,
 /area/arfs/mansion)
-"NR" = (
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#e8eaff"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
-/area/f13/building)
 "NS" = (
 /obj/machinery/computer/arcade/amputation{
 	dir = 1
@@ -7662,12 +5978,6 @@
 /obj/item/reagent_containers/food/drinks/bottle/bawls,
 /turf/open/floor/plasteel/f13/whitemarble,
 /area/arfs/mansion/bar)
-"Ow" = (
-/obj/structure/flora/junglebush/large,
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "Ox" = (
 /obj/structure/glowshroom{
 	color = "#4F7942";
@@ -7688,15 +5998,6 @@
 	},
 /turf/open/water/seashallow,
 /area/f13/caves)
-"OA" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "floorrustysolid"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
 "OB" = (
 /obj/structure/flora/wasteplant/wild_broc,
 /obj/structure/flora/ausbushes/leafybush,
@@ -7716,10 +6017,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"OF" = (
-/obj/machinery/sleeper/clockwork,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "OH" = (
 /obj/structure/table/glass,
 /obj/item/modular_computer/laptop/preset,
@@ -7742,11 +6039,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"OM" = (
-/obj/structure/flora/ausbushes/pointybush,
-/obj/structure/flora/wasteplant/wild_mesquite,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "ON" = (
 /obj/structure/curtain,
 /obj/structure/window/reinforced/survival_pod,
@@ -7756,14 +6048,6 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion)
-"OS" = (
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/building)
-"OU" = (
-/obj/machinery/chem_dispenser/drinks/fullupgrade,
-/obj/structure/table/wood/bar,
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
 "OW" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/effect/decal/cleanable/glitter/blue,
@@ -7864,26 +6148,12 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"Pu" = (
-/obj/structure/chair/left{
-	dir = 8
-	},
-/turf/open/indestructible/ground/stellercarpet/thirtysix,
-/area/f13/building)
 "Px" = (
 /obj/effect/turf_decal/weather/splinefancyfull,
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"PB" = (
-/obj/structure/table/glass,
-/obj/item/soap/deluxe,
-/obj/item/storage/box/masks,
-/obj/item/storage/box/gloves,
-/obj/item/storage/backpack/duffelbag/med/surgery,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "PC" = (
 /obj/structure/chair/comfy/black{
 	dir = 1
@@ -7911,21 +6181,6 @@
 /obj/machinery/door/airlock,
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion)
-"PM" = (
-/obj/effect/turf_decal/weather/dirt,
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam"
-	},
-/turf/open/indestructible/ground/outside/water,
-/area/f13/underground/cave/vault/fourfivefour)
 "PP" = (
 /obj/item/kirbyplants/random,
 /turf/open/indestructible/ground/outside/civ/woodalt{
@@ -7974,22 +6229,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
-"Qf" = (
-/obj/structure/closet/crate/freezer,
-/obj/item/reagent_containers/food/snacks/icecreamsandwich,
-/obj/item/reagent_containers/food/snacks/icecreamsandwich,
-/obj/item/reagent_containers/food/snacks/icecreamsandwich,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "bar"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
-"Qi" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/leafybush,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "Qo" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-10"
@@ -8004,10 +6243,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"Qq" = (
-/obj/structure/flora/wasteplant/wild_fungus,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave/vault/fourfivefour)
 "Qr" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /turf/closed/indestructible/rock,
@@ -8024,14 +6259,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
-"Qy" = (
-/obj/item/pizzabox/pineapple,
-/obj/structure/table/wood/bar,
-/obj/item/pizzabox/vegetable{
-	pixel_y = 10
-	},
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
 "QA" = (
 /obj/structure/curtain,
 /obj/structure/window/reinforced/survival_pod{
@@ -8043,16 +6270,6 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion)
-"QF" = (
-/obj/structure/flora/wild_plant/flower/blue,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"QG" = (
-/obj/structure/chair/stool/retro/backed{
-	dir = 1
-	},
-/turf/open/floor/fakespace,
-/area/f13/building)
 "QI" = (
 /obj/structure/closet/locker/medcabinet{
 	pixel_y = 26
@@ -8066,25 +6283,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"QR" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/whitegreen/side{
-	dir = 4
-	},
-/area/f13/building)
-"QW" = (
-/obj/structure/table/wood/fancy/monochrome,
-/obj/item/reagent_containers/glass/rag/towel,
-/obj/item/reagent_containers/glass/rag/towel{
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/glass/rag/towel{
-	pixel_y = 10
-	},
-/turf/open/floor/carpet/purple,
-/area/f13/building)
 "QY" = (
 /obj/effect/turf_decal/weather/splinefancy,
 /turf/open/floor/carpet/blue,
@@ -8131,15 +6329,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"Rj" = (
-/obj/structure/flora/ausbushes/pointybush,
-/obj/structure/flora/ausbushes/leafybush,
-/obj/machinery/light{
-	dir = 1;
-	layer = 2.9
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "Rl" = (
 /obj/machinery/vending/dinnerware,
 /turf/open/floor/plasteel/dark,
@@ -8151,6 +6340,26 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
+"Rp" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/stack/sheet/mineral/abductor/ten{
+	pixel_y = 3;
+	pixel_x = -6
+	},
+/obj/item/stack/sheet/mineral/abductor/ten{
+	pixel_y = -3;
+	pixel_x = -6
+	},
+/obj/item/stack/sheet/mineral/abductor/ten{
+	pixel_y = -3;
+	pixel_x = 4
+	},
+/obj/item/stack/sheet/mineral/abductor/ten{
+	pixel_y = 3;
+	pixel_x = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "Rr" = (
 /obj/machinery/door/airlock/public/glass,
 /obj/effect/turf_decal/weather/splinefancy{
@@ -8178,11 +6387,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"Rx" = (
-/obj/structure/bed/double,
-/obj/item/bedsheet/doublesheetpurple,
-/turf/open/floor/carpet/purple,
-/area/f13/building)
 "Ry" = (
 /obj/structure/table/abductor,
 /obj/item/reagent_containers/food/snacks/grown/apple/gold,
@@ -8255,10 +6459,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"RM" = (
-/obj/machinery/smartfridge/chemistry/preloaded,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "RN" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/effect/turf_decal/weather/grassedgevirgo{
@@ -8314,13 +6514,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
-"Sh" = (
-/obj/structure/closet/crate/wooden{
-	pixel_y = 10
-	},
-/obj/item/stack/sheet/mineral/wood/fifty,
-/turf/open/floor/carpet/red,
-/area/f13/building)
 "Si" = (
 /obj/machinery/light{
 	dir = 1;
@@ -8334,12 +6527,6 @@
 /obj/machinery/vending/kink,
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
-"Sk" = (
-/obj/effect/decal/cleanable/glass,
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "Sl" = (
 /obj/structure/table/abductor,
 /obj/item/coin/uranium,
@@ -8372,9 +6559,6 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/arfs/mansion)
-"Ss" = (
-/turf/open/floor/carpet/blue,
-/area/f13/building)
 "Su" = (
 /obj/effect/turf_decal/weather/grassedgevirgo,
 /obj/structure/destructible/tribal_torch/lit{
@@ -8389,14 +6573,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"Sy" = (
-/obj/structure/dresser,
-/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
-/area/f13/building)
-"SA" = (
-/obj/machinery/chem_master,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "SB" = (
 /obj/effect/turf_decal/weather/splinefancy,
 /obj/effect/turf_decal/weather/splinefancy{
@@ -8408,12 +6584,16 @@
 /obj/structure/punching_bag,
 /turf/open/floor/plasteel/f13,
 /area/f13/building)
-"SD" = (
-/obj/structure/flora/junglebush/b,
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/closed/wall/f13/wood,
-/area/f13/underground/cave/vault/fourfivefour)
+"SE" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/weapon/storage/wallet/casino/white,
+/obj/item/weapon/storage/wallet/casino/white,
+/obj/item/weapon/storage/wallet/casino/white,
+/obj/item/weapon/storage/wallet/casino/white,
+/obj/item/weapon/storage/wallet/casino/white,
+/obj/item/weapon/storage/wallet/casino/white,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "SG" = (
 /obj/structure/chair/office/dark{
 	dir = 4
@@ -8422,14 +6602,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/library)
-"SH" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/whiteblue/side{
-	dir = 9
-	},
-/area/f13/building)
 "SM" = (
 /obj/structure/glowshroom,
 /obj/effect/turf_decal/weather/grassedgevirgo{
@@ -8473,14 +6645,14 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"SY" = (
-/obj/structure/flora/grass/jungle,
-/turf/closed/wall/f13/wood,
-/area/f13/underground/cave/vault/fourfivefour)
 "Td" = (
-/obj/structure/table/wood,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/toy/cards/deck/casino,
+/obj/item/toy/cards/deck/casino,
+/obj/item/toy/cards/deck/casino,
+/obj/item/toy/cards/deck/casino,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "Te" = (
 /obj/structure/table/reinforced,
 /obj/machinery/reagentgrinder{
@@ -8502,39 +6674,18 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
-"Tj" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/fakespace,
-/area/f13/building)
-"Tk" = (
-/obj/structure/flora/tree/jungle/small,
-/obj/structure/flora/grass/jungle,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "Tn" = (
 /obj/machinery/vending/coffee,
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
-"To" = (
-/obj/machinery/smartfridge/bottlerack,
-/turf/open/floor/carpet/red,
-/area/f13/building)
 "Tt" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 8
 	},
 /turf/open/water/seashallow,
 /area/arfs/mansion/pool)
-"Tu" = (
-/obj/structure/chair/folding{
-	dir = 8
-	},
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
 "Tv" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 1
@@ -8557,34 +6708,20 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"Tz" = (
-/obj/structure/window/reinforced{
-	color = "#3e3d42";
-	dir = 8
-	},
-/obj/structure/toilet{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
-/area/f13/building)
-"TF" = (
-/obj/structure/chair/folding{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
+"TA" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/stack/f13Cash/caps/twofivezero,
+/obj/item/stack/f13Cash/caps/twofivezero,
+/obj/item/stack/f13Cash/caps/twofivezero,
+/obj/item/stack/f13Cash/caps/threezerozero,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "TH" = (
 /obj/machinery/door/airlock,
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"TI" = (
-/obj/structure/chair/sofa/left{
-	dir = 4
-	},
-/turf/open/floor/carpet/blue,
-/area/f13/underground/cave/vault/fourfivefour)
 "TJ" = (
 /obj/structure/table/glass,
 /obj/item/storage/fancy/heart_box,
@@ -8593,16 +6730,10 @@
 	},
 /turf/open/floor/carpet,
 /area/arfs/mansion)
-"TN" = (
-/obj/machinery/door/airlock/highsecurity{
-	id_tag = "OwenHideaway"
-	},
-/turf/closed/wall/f13/wood,
-/area/f13/underground/cave/vault/fourfivefour)
-"TP" = (
-/obj/machinery/light,
-/turf/open/floor/f13/wood,
-/area/f13/building)
+"TL" = (
+/obj/machinery/door/airlock/diamond,
+/turf/open/floor/plating/wooden2,
+/area/f13/caves)
 "TQ" = (
 /obj/effect/turf_decal/weather/splinefancycorner{
 	dir = 1
@@ -8701,17 +6832,22 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"Uq" = (
-/turf/open/floor/plasteel/white/corner{
-	dir = 4
-	},
-/area/f13/building)
+"Us" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/weapon/storage/wallet/casino,
+/obj/item/weapon/storage/wallet/casino,
+/obj/item/weapon/storage/wallet/casino,
+/obj/item/weapon/storage/wallet/casino,
+/obj/item/weapon/storage/wallet/casino,
+/obj/item/weapon/storage/wallet/casino,
+/obj/item/weapon/storage/wallet/casino,
+/obj/item/weapon/storage/wallet/casino,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "Uu" = (
-/obj/structure/sink/kitchen{
-	pixel_y = 24
-	},
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
+/obj/machinery/door/airlock/bronze,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "Uw" = (
 /obj/structure/table/abductor,
 /obj/item/reagent_containers/food/drinks/bottle/bio_carton,
@@ -8747,14 +6883,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/library)
-"UD" = (
-/obj/structure/wreck/trash/brokenvendor,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"UE" = (
-/obj/machinery/door/airlock,
-/turf/open/floor/plasteel/f13/vault_floor/blue,
-/area/f13/building)
 "UH" = (
 /obj/structure/table/glass,
 /obj/machinery/chem_dispenser/drinks/beer/fullupgrade{
@@ -8765,39 +6893,6 @@
 	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/arfs/mansion/stripclub)
-"UI" = (
-/obj/machinery/light{
-	bulb_colour = "#BC8F8F";
-	dir = 4;
-	light_color = "#BC8F8F";
-	name = "bar light"
-	},
-/obj/item/stack/sheet/mineral/wood/fifty,
-/obj/item/storage/box/matches,
-/turf/open/floor/f13/wood,
-/area/f13/building)
-"UM" = (
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam"
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam";
-	pixel_y = 0;
-	pixel_x = 19
-	},
-/obj/machinery/shower{
-	pixel_y = 16;
-	layer = 4.9
-	},
-/turf/open/indestructible/ground/outside/water{
-	name = "hot spring";
-	color = "#BBBBBB"
-	},
-/area/f13/building)
 "UO" = (
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion/pool)
@@ -8805,10 +6900,6 @@
 /obj/structure/closet/crate/bin/trash_fallout,
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
-"US" = (
-/obj/structure/chair/office/dark,
-/turf/open/floor/carpet/red,
-/area/f13/building)
 "UX" = (
 /obj/structure/rack/large/shelf,
 /turf/open/floor/carpet,
@@ -8823,20 +6914,12 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"Vb" = (
-/obj/structure/chair/wood/wings,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "Vc" = (
 /obj/machinery/door/airlock/abductor,
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"Ve" = (
-/obj/structure/flora/junglebush/large,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "Vi" = (
 /obj/structure/cave/supportbeams,
 /turf/open/indestructible/ground/outside/dirt{
@@ -8849,10 +6932,6 @@
 	},
 /turf/open/floor/carpet,
 /area/arfs/mansion)
-"Vk" = (
-/obj/machinery/nuclearbomb/beer,
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
 "Vl" = (
 /obj/structure/chair/office,
 /turf/open/floor/carpet,
@@ -8864,14 +6943,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"Vr" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white/corner{
-	dir = 8
-	},
-/area/f13/building)
 "Vv" = (
 /obj/structure/closet/locker/medcabinet{
 	pixel_y = -37
@@ -8919,6 +6990,26 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/library)
+"VG" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/stack/sheet/mineral/silver/fifty{
+	pixel_y = 5;
+	pixel_x = -6
+	},
+/obj/item/stack/sheet/mineral/silver/fifty{
+	pixel_y = -7;
+	pixel_x = -5
+	},
+/obj/item/stack/sheet/mineral/silver/fifty{
+	pixel_y = -7;
+	pixel_x = 4
+	},
+/obj/item/stack/sheet/mineral/silver/fifty{
+	pixel_y = 5;
+	pixel_x = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "VK" = (
 /obj/machinery/door/airlock/vault,
 /turf/open/floor/mineral/silver,
@@ -8950,6 +7041,20 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
+"VR" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/weapon/spacecasinocash/c200,
+/obj/item/weapon/spacecasinocash/c200,
+/obj/item/weapon/spacecasinocash/c200,
+/obj/item/weapon/spacecasinocash/c200,
+/obj/item/weapon/spacecasinocash/c200,
+/obj/item/weapon/spacecasinocash/c200,
+/obj/item/weapon/spacecasinocash/c200,
+/obj/item/weapon/spacecasinocash/c200,
+/obj/item/weapon/spacecasinocash/c200,
+/obj/item/weapon/spacecasinocash/c50,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "VS" = (
 /obj/machinery/seed_extractor,
 /turf/open/floor/plasteel/f13/vault_floor/green,
@@ -8973,14 +7078,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"VW" = (
-/obj/structure/table/glass,
-/obj/item/storage/box/pillbottles,
-/obj/item/storage/box/beakers,
-/obj/item/storage/box/syringes,
-/obj/item/storage/box/medsprays,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "VY" = (
 /obj/structure/sink/cupboard{
 	pixel_y = 12
@@ -8993,17 +7090,6 @@
 	},
 /turf/open/floor/plasteel/f13/pizza,
 /area/arfs/mansion)
-"Wa" = (
-/obj/structure/bed/double,
-/obj/item/bedsheet/doublesheetbrown,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"Wb" = (
-/obj/structure/flora/tree/jungle/small,
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "Wd" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 1
@@ -9030,14 +7116,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"Wh" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "Wi" = (
 /obj/machinery/door/airlock/glass_large,
 /turf/open/floor/carpet/blue,
@@ -9048,20 +7126,6 @@
 	},
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
-"Wn" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/underground/cave/vault/fourfivefour)
 "Wo" = (
 /obj/structure/chair/office/dark,
 /turf/open/indestructible/ground/outside/civ/woodalt{
@@ -9092,10 +7156,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"WD" = (
-/obj/machinery/microwave/stove,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/underground/cave/vault/fourfivefour)
 "WF" = (
 /obj/structure/spacevine{
 	icon = 'icons/effects/effects.dmi';
@@ -9128,16 +7188,21 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"WL" = (
-/obj/machinery/light/broken{
-	dir = 8;
-	icon_state = "tube-broken"
+"WK" = (
+/obj/item/stack/sheet/greatergem{
+	pixel_x = 4;
+	pixel_y = 12
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "floorrustysolid"
+/obj/item/stack/sheet/greatergem,
+/obj/item/stack/sheet/greatergem{
+	pixel_x = -11
 	},
-/area/f13/underground/cave/vault/fourfivefour)
+/obj/item/stack/sheet/greatergem{
+	pixel_x = 4
+	},
+/obj/structure/rack/shelf_metal/modern,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "WM" = (
 /obj/structure/sink/greyscale{
 	dir = 4;
@@ -9149,9 +7214,6 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion)
-"WN" = (
-/turf/closed/wall/f13/wood,
-/area/f13/underground/cave/vault/fourfivefour)
 "WP" = (
 /obj/machinery/computer/cloning{
 	req_access = null
@@ -9161,40 +7223,6 @@
 	},
 /turf/open/floor/plasteel/f13,
 /area/f13/building)
-"WQ" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/effect/decal/cleanable/glass,
-/obj/effect/decal/cleanable/glass,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"WT" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 8
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 9
-	},
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/obj/structure/spacevine{
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "smoke";
-	name = "steam"
-	},
-/turf/open/indestructible/ground/outside/water,
-/area/f13/underground/cave/vault/fourfivefour)
 "WU" = (
 /obj/structure/chair/sofa/right{
 	dir = 4;
@@ -9235,11 +7263,12 @@
 	},
 /area/arfs/mansion)
 "WX" = (
-/obj/structure/chair/stool/retro/backed{
-	dir = 8
-	},
-/turf/open/floor/f13/wood,
-/area/f13/building)
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/stack/f13Cash/caps/twozerozero,
+/obj/item/stack/f13Cash/caps/twozerozero,
+/obj/item/stack/f13Cash/caps/twozerozero,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "WY" = (
 /obj/structure/table/glass,
 /obj/structure/bedsheetbin/towel{
@@ -9249,11 +7278,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"Xa" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "Xc" = (
 /obj/effect/turf_decal/weather/grassedgevirgocorner{
 	dir = 6
@@ -9279,24 +7303,6 @@
 /obj/item/reagent_containers/food/condiment/enzyme,
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/arfs/mansion)
-"Xi" = (
-/obj/structure/table,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
-"Xs" = (
-/obj/structure/christmas/xmaslights{
-	dir = 1
-	},
-/obj/structure/christmas/xmaslights{
-	dir = 4
-	},
-/obj/structure/closet/crate/wooden{
-	pixel_y = 10
-	},
-/obj/item/stack/sheet/mineral/wood/fifty,
-/obj/item/lighter/fusion,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "Xt" = (
 /obj/machinery/washing_machine,
 /obj/structure/bedsheetbin/towel{
@@ -9306,10 +7312,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"Xu" = (
-/obj/structure/flora/wasteplant/wild_punga,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "Xv" = (
 /obj/structure/bed/double,
 /obj/item/bedsheet/huge/doublebipride,
@@ -9327,27 +7329,12 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"XB" = (
-/obj/structure/fireplace{
-	dir = 8
-	},
-/turf/open/floor/carpet/blue,
-/area/f13/underground/cave/vault/fourfivefour)
 "XC" = (
 /obj/effect/turf_decal/weather/splinefancy{
 	dir = 6
 	},
 /turf/open/floor/carpet/blue,
 /area/arfs/mansion)
-"XD" = (
-/obj/structure/christmas/xmaslights{
-	dir = 4
-	},
-/obj/structure/chair/sofa/left{
-	dir = 8
-	},
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "XE" = (
 /obj/machinery/light{
 	light_color = "#e8eaff"
@@ -9381,10 +7368,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"XW" = (
-/obj/machinery/door/airlock/public/glass,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "XY" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 4
@@ -9416,13 +7399,6 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion)
-"Ye" = (
-/obj/machinery/door/airlock/public,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "bar"
-	},
-/area/f13/underground/cave/vault/fourfivefour)
 "Yg" = (
 /obj/structure/table/abductor,
 /obj/item/toy/plush/chikorita,
@@ -9435,12 +7411,6 @@
 /obj/effect/spawner/lootdrop/f13/common_toys,
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
-"Yh" = (
-/obj/structure/table/glass,
-/obj/item/reagent_containers/blood/radaway,
-/obj/item/reagent_containers/blood/radaway,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "Yk" = (
 /obj/machinery/door/airlock/bronze,
 /turf/open/indestructible/ground/outside/civ/woodalt{
@@ -9456,17 +7426,6 @@
 	color = "#7393B3"
 	},
 /area/arfs/mansion/stripclub)
-"Yn" = (
-/obj/machinery/vending/hydroseeds,
-/turf/open/floor/plasteel/whitegreen/side{
-	dir = 5
-	},
-/area/f13/building)
-"Yp" = (
-/turf/open/floor/plasteel/whitegreen/side{
-	dir = 4
-	},
-/area/f13/building)
 "Yq" = (
 /obj/effect/turf_decal/weather/grassedgevirgo,
 /obj/structure/destructible/tribal_torch/lit{
@@ -9481,15 +7440,6 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
-"Yt" = (
-/obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/seedspawner,
-/obj/effect/spawner/lootdrop/f13/seedspawner,
-/obj/item/seeds/cocoapod,
-/obj/item/seeds/random,
-/obj/item/seeds/random,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "Yv" = (
 /mob/living/simple_animal/cow/brahmin/cow,
 /turf/open/floor/grass,
@@ -9508,14 +7458,6 @@
 /obj/machinery/door/airlock/centcom,
 /turf/open/floor/plasteel/f13,
 /area/f13/building)
-"YG" = (
-/obj/machinery/light{
-	dir = 1;
-	layer = 2.9
-	},
-/obj/machinery/chem_heater,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "YI" = (
 /obj/structure/decoration/vent,
 /obj/machinery/shower{
@@ -9533,12 +7475,6 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"YN" = (
-/obj/machinery/smartfridge/food,
-/turf/open/floor/plasteel/whiteblue/side{
-	dir = 5
-	},
-/area/f13/building)
 "YT" = (
 /obj/structure/falsewall/iron,
 /turf/closed/wall/mineral/iron,
@@ -9684,13 +7620,13 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
-"ZS" = (
-/turf/open/floor/f13/wood,
-/area/f13/underground/cave/vault/fourfivefour)
-"ZU" = (
-/obj/machinery/light,
-/turf/open/floor/fakespace,
-/area/f13/building)
+"ZP" = (
+/obj/structure/rack/shelf_metal/modern,
+/obj/item/stack/spacecash/c100,
+/obj/item/stack/spacecash/c100,
+/obj/item/stack/spacecash/c100,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "ZW" = (
 /obj/structure/glowshroom/shadowshroom,
 /obj/effect/decal/cleanable/glitter/blue,
@@ -10928,22 +8864,22 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
 cr
 cr
 cr
@@ -11080,22 +9016,22 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
+nK
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
@@ -11232,22 +9168,22 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
+nK
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
@@ -11384,22 +9320,22 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
+nK
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
@@ -11536,26 +9472,26 @@ cr
 cr
 cr
 cr
+nK
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-vi
-vi
-vi
-vi
 cr
 cr
 cr
@@ -11688,26 +9624,26 @@ cr
 cr
 cr
 cr
+nK
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-vi
-mN
-OS
-vi
 cr
 cr
 cr
@@ -11840,26 +9776,26 @@ cr
 cr
 cr
 cr
+nK
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+nK
+nK
+TL
+nK
+nK
+nK
 cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-vi
-qe
-OS
-vi
 cr
 cr
 cr
@@ -11992,26 +9928,26 @@ cr
 cr
 cr
 cr
+nK
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+yB
+nK
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-vi
-OS
-OS
-vi
 cr
 cr
 cr
@@ -12144,26 +10080,26 @@ cr
 cr
 cr
 cr
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-vi
-OS
-OS
-vi
 cr
 cr
 cr
@@ -12296,26 +10232,26 @@ cr
 cr
 cr
 cr
+nK
+nb
+BA
+Gq
+BA
+BA
+BA
+BA
+nK
+yB
+yB
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-vi
-OS
-OS
-vi
 cr
 cr
 cr
@@ -12448,26 +10384,26 @@ cr
 cr
 cr
 cr
+nK
+cp
+BA
+cg
+BA
+BA
+BA
+BA
+nK
+yB
+yB
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-vi
-OS
-OS
-vi
 cr
 cr
 cr
@@ -12600,26 +10536,26 @@ cr
 cr
 cr
 cr
+nK
+Rp
+BA
+WK
+BA
+BA
+BA
+BA
+nK
+yB
+yB
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-vi
-OS
-OS
-vi
 cr
 cr
 cr
@@ -12752,26 +10688,26 @@ cr
 cr
 cr
 cr
+nK
+FZ
+BA
+Jz
+BA
+BA
+BA
+BA
+Uu
+yB
+yB
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-vi
-qe
-OS
-vi
 cr
 cr
 cr
@@ -12904,26 +10840,26 @@ cr
 cr
 cr
 cr
+nK
+jx
+BA
+Jz
+BA
+BA
+BA
+BA
+Uu
+yB
+yB
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-vi
-OS
-OS
-vi
 cr
 cr
 cr
@@ -13056,26 +10992,26 @@ cr
 cr
 cr
 cr
+nK
+Kq
+BA
+Jz
+BA
+BA
+BA
+BA
+Uu
+yB
+yB
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-vi
-OS
-OS
-vi
 cr
 cr
 cr
@@ -13208,26 +11144,26 @@ cr
 cr
 cr
 cr
+nK
+Fi
+BA
+VG
+BA
+BA
+BA
+BA
+nK
+yB
+yB
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-vi
-OS
-OS
-vi
 cr
 cr
 cr
@@ -13360,26 +11296,26 @@ cr
 cr
 cr
 cr
+nK
+BA
+BA
+BA
+BA
+BA
+BA
+BA
+nK
+yB
+yB
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-vi
-OS
-OS
-vi
 cr
 cr
 cr
@@ -13512,6 +11448,22 @@ cr
 cr
 cr
 cr
+nK
+BA
+BA
+BA
+BA
+BA
+BA
+BA
+nK
+yB
+yB
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
@@ -13528,10 +11480,6 @@ cr
 cr
 cr
 cr
-vi
-OS
-OS
-vi
 cr
 cr
 cr
@@ -13547,19 +11495,7 @@ cr
 cr
 cr
 cr
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
+cr
 cr
 cr
 cr
@@ -13664,6 +11600,22 @@ cr
 cr
 cr
 cr
+nK
+BA
+BA
+BA
+BA
+BA
+BA
+BA
+nK
+yB
+yB
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
@@ -13680,38 +11632,22 @@ cr
 cr
 cr
 cr
-vi
-qe
-OS
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-WN
-EO
-qt
-ue
-zM
-KJ
-Ft
-WN
-WD
-ks
-iH
-Qf
-WN
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -13816,6 +11752,22 @@ cr
 cr
 cr
 cr
+nK
+BA
+BA
+BA
+BA
+BA
+BA
+BA
+nK
+yB
+yB
+yB
+yB
+yB
+yB
+nK
 cr
 cr
 cr
@@ -13832,53 +11784,37 @@ cr
 cr
 cr
 cr
-vi
-OS
-OS
-fV
-OS
-HV
-OS
-HV
-OS
-HV
-OS
-HV
-OS
-HV
-OS
-HV
-fV
-HV
-OS
-wO
-EO
-qt
-KJ
-IN
-KJ
-zM
-Xi
-cD
-Fq
-fs
-Az
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-js
-js
-js
-js
-js
-js
-js
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -13968,6 +11904,22 @@ cr
 cr
 cr
 cr
+nK
+BA
+BA
+BA
+BA
+BA
+BA
+BA
+nK
+nK
+nK
+nK
+yB
+yB
+yB
+nK
 cr
 cr
 cr
@@ -13984,53 +11936,37 @@ cr
 cr
 cr
 cr
-vi
-OS
-OS
-fV
-OS
-OS
-OS
-OS
-OS
-OS
-OS
-OS
-OS
-OS
-OS
-OS
-fV
-OS
-OS
-WN
-Gq
-Bv
-Td
-Td
-Nw
-cD
-Cw
-cD
-Na
-fs
-Dn
-WN
-IN
-qu
-KJ
-CE
-ha
-qu
-KJ
-WN
-js
-yL
-yL
-WL
-yL
-yL
-js
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -14120,69 +12056,69 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-vi
-OS
-OS
-fV
-OS
-py
-OS
-py
-OS
-py
-OS
-py
-pN
-py
-OS
-py
-fV
-py
-OS
-wO
-EI
-Vb
+nK
+BA
+BA
+BA
+BA
+BA
+BA
+BA
+BA
+BA
 Td
-Td
-Nw
-KJ
-ez
-KJ
-Na
-fs
-Ks
-WN
-dy
-qu
-KJ
-cN
-IN
-uE
-lI
-WN
-js
-OA
-oJ
-yL
-FR
-yL
-js
+nK
+yB
+yB
+yB
+nK
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -14272,6 +12208,22 @@ cr
 cr
 cr
 cr
+nK
+mS
+id
+ds
+xu
+xm
+VR
+yQ
+BA
+BA
+JM
+nK
+yB
+yB
+yB
+nK
 cr
 cr
 cr
@@ -14288,53 +12240,37 @@ cr
 cr
 cr
 cr
-vi
-OS
-OS
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-WN
-QF
-DV
-ny
-Td
-Nw
-Ek
-WN
-bP
-fs
-fs
-tE
-WN
-WN
-WN
-KJ
-KJ
-KJ
-WN
-WN
-WN
-js
-cD
-wL
-pl
-IP
-yL
-js
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -14424,6 +12360,22 @@ cr
 cr
 cr
 cr
+nK
+BA
+BA
+BA
+BA
+BA
+BA
+BA
+BA
+BA
+gF
+nK
+yB
+yB
+yB
+nK
 cr
 cr
 cr
@@ -14440,10 +12392,6 @@ cr
 cr
 cr
 cr
-vi
-OS
-OS
-vi
 cr
 cr
 cr
@@ -14459,34 +12407,22 @@ cr
 cr
 cr
 cr
-WN
-wP
-sb
-cD
-KJ
-KJ
-EI
-Ye
-fs
-fs
-fs
-lo
-WN
-IN
-uE
-IN
-Li
-KJ
-uE
-IN
-WN
-js
-cD
-Ba
-LJ
-sR
-Jj
-js
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -14576,6 +12512,22 @@ cr
 cr
 cr
 cr
+nK
+BA
+BA
+BA
+BA
+BA
+BA
+BA
+BA
+BA
+eY
+nK
+yB
+fP
+yB
+nK
 cr
 cr
 cr
@@ -14592,10 +12544,6 @@ cr
 cr
 cr
 cr
-vi
-qe
-OS
-vi
 cr
 cr
 cr
@@ -14611,34 +12559,22 @@ cr
 cr
 cr
 cr
-WN
-Rj
-cD
-cD
-Ve
-KJ
-iQ
-WN
-gK
-fs
-fs
-sH
-WN
-Wa
-uE
-CE
-IN
-KJ
-uE
-uQ
-WN
-js
-ei
-IN
-zM
-zM
-IN
-js
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -14728,6 +12664,22 @@ cr
 cr
 cr
 cr
+nK
+WX
+iq
+TA
+qo
+fx
+fx
+Eo
+BA
+BA
+SE
+nK
+yB
+yB
+yB
+nK
 cr
 cr
 cr
@@ -14744,10 +12696,6 @@ cr
 cr
 cr
 cr
-vi
-OS
-OS
-vi
 cr
 cr
 cr
@@ -14756,41 +12704,29 @@ cr
 cr
 cr
 cr
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-KJ
-Ve
-KJ
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-IN
-WN
-WN
-WN
-WN
-js
-js
-js
-jz
-js
-js
-js
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -14880,6 +12816,22 @@ cr
 cr
 cr
 cr
+nK
+BA
+BA
+BA
+BA
+BA
+BA
+BA
+BA
+BA
+Us
+nK
+nK
+nK
+nK
+nK
 cr
 cr
 cr
@@ -14896,10 +12848,6 @@ cr
 cr
 cr
 cr
-vi
-OS
-OS
-vi
 cr
 cr
 cr
@@ -14908,41 +12856,29 @@ cr
 cr
 cr
 cr
-WN
-bi
-Bb
-Bb
-Yt
-SY
-wt
-IN
-IN
-oj
-Ma
-zM
-qh
-cD
-ue
-ue
-qt
-Tk
-WN
-KJ
-IN
-Tk
-Lg
-ps
-pi
-KJ
-KJ
-cD
-js
-KJ
-IN
-IN
-AH
-LU
-js
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -15023,17 +12959,27 @@ cr
 cr
 cr
 cr
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+nK
+BS
+BS
+wI
+wI
+ZP
+ZP
+Ff
+BA
+BA
+yT
+nK
 cr
 cr
 cr
@@ -15048,10 +12994,6 @@ cr
 cr
 cr
 cr
-vi
-OS
-OS
-vi
 cr
 cr
 cr
@@ -15060,41 +13002,35 @@ cr
 cr
 cr
 cr
-WN
-gF
-qt
-qt
-KD
-Ip
-KD
-Wh
-qt
-oj
-zM
-Ew
-zM
-yB
-zM
-zM
-qt
-bc
-WN
-KJ
-oT
-IN
-EI
-KJ
-KJ
-KJ
-KJ
-jq
-js
-OM
-fF
-ls
-HU
-vQ
-js
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -15175,17 +13111,27 @@ cr
 cr
 cr
 cr
-vi
-jp
-jp
-jp
-jp
-jp
-jp
-jp
-jp
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
 cr
 cr
 cr
@@ -15200,10 +13146,6 @@ cr
 cr
 cr
 cr
-vi
-OS
-OS
-vi
 cr
 cr
 cr
@@ -15212,41 +13154,35 @@ cr
 cr
 cr
 cr
-WN
-nz
-yT
-KJ
-fP
-WN
-qv
-lX
-yT
-pr
-AO
-zM
-IX
-yB
-IX
-zC
-Ow
-cD
-WN
-KJ
-cD
-IN
-cD
-zM
-zM
-IN
-KJ
-KJ
-js
-IN
-IO
-ze
-Wn
-Dm
-js
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -15327,17 +13263,6 @@ cr
 cr
 cr
 cr
-vi
-jp
-aW
-BA
-nc
-jp
-OF
-BA
-nc
-jp
-vi
 cr
 cr
 cr
@@ -15352,11 +13277,6 @@ cr
 cr
 cr
 cr
-vi
-qe
-OS
-vi
-vi
 cr
 cr
 cr
@@ -15364,41 +13284,57 @@ cr
 cr
 cr
 cr
-WN
-aQ
-KJ
-KJ
-KJ
-Hh
-qv
-fP
-Xa
-CT
-cD
-zM
-yB
-yB
-zM
-Qi
-cD
-zM
-cD
-KJ
-cD
-zM
-zM
-Wb
-IN
-IN
-KJ
-KJ
-lZ
-qt
-IO
-FW
-WT
-Kn
-js
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -15479,17 +13415,6 @@ cr
 cr
 cr
 cr
-vi
-jp
-fE
-nc
-nc
-Mh
-nc
-nc
-nK
-jp
-vi
 cr
 cr
 cr
@@ -15504,53 +13429,64 @@ cr
 cr
 cr
 cr
-vi
-OS
-OS
-OS
-vi
-vi
 cr
 cr
 cr
 cr
 cr
 cr
-WN
-bx
-KJ
-KJ
-KJ
-KJ
-es
-iR
-fP
-fj
-cD
-Lq
-yB
-yB
-IX
-lA
-zM
-IN
-cD
-cD
-cD
-zM
-yB
-yT
-IN
-KJ
-cD
-cD
-js
-Wb
-IO
-CR
-iq
-Jq
-js
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -15631,78 +13567,78 @@ cr
 cr
 cr
 cr
-vi
-jp
-Lb
-gB
-nc
-jp
-OF
-nc
-nc
-jp
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-cr
-cr
-vi
-vi
-OS
-OS
-OS
-vi
-vi
 cr
 cr
 cr
 cr
 cr
-WN
-om
-KJ
-KJ
-KJ
-WN
-es
-us
-lX
-fp
-IN
-IN
-qt
-IN
-yB
-ue
-zM
-IN
-WN
-cD
-cD
-qh
-zM
-IN
-IN
-JB
-cD
-cD
-js
-IN
-dJ
-ze
-yn
-Kn
-js
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -15783,78 +13719,78 @@ cr
 cr
 cr
 cr
-vi
-jp
-jp
-jp
-jp
-jp
-jp
-Mh
-jp
-jp
-jp
-jp
-jp
-jp
-jp
-jp
-jp
-jp
-jp
-jp
-jp
-jp
-vi
-cr
-cr
-cr
-vi
-vi
-OS
-OS
-OS
-vi
 cr
 cr
 cr
 cr
 cr
-WN
-KJ
-KJ
-KJ
-KJ
-TN
-WQ
-ti
-us
-Sk
-qt
-Tk
-qt
-Wb
-qt
-yT
-qt
-kw
-WN
-KJ
-cD
-zM
-zM
-zM
-cD
-cD
-cD
-bc
-js
-gS
-Xu
-ze
-yl
-PM
-js
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -15935,78 +13871,78 @@ cr
 cr
 cr
 cr
-vi
-vi
-jp
-sB
-nc
-nc
-RM
-nc
-hT
-di
-gl
-jp
-Ab
-NR
-pR
-jp
-tj
-jp
-Ab
-NR
-pR
-jp
-vi
-cr
-cr
-cr
-cr
-vi
-OS
-OS
-OS
-vi
 cr
 cr
 cr
 cr
 cr
-WN
-Uu
-KJ
-KJ
-KJ
-WN
-es
-fP
-rj
-KJ
-cD
-zM
-zM
-IN
-yT
-qt
-Wb
-UD
-WN
-KJ
-KD
-ip
-KD
-qv
-cD
-KJ
-Ve
-cD
-js
-xl
-oX
-DY
-Qq
-kE
-js
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -16088,77 +14024,77 @@ cr
 cr
 cr
 cr
-vi
-jp
-YG
-nc
-nc
-VW
-nc
-nc
-nc
-ul
-jp
-Sy
-Cm
-Tz
-jp
-fz
-jp
-Sy
-Cm
-Tz
-jp
-vi
-cr
-cr
-cr
-cr
-vi
-vi
-OS
-OS
-vi
 cr
 cr
 cr
 cr
 cr
-WN
-jT
-KJ
-jT
-KJ
-WN
-KD
-KD
-KD
-KJ
-cD
-cD
-cD
-KJ
-KJ
-Tk
-IN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-js
-js
-js
-js
-js
-js
-js
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -16240,60 +14176,60 @@ cr
 cr
 cr
 cr
-vi
-jp
-SA
-nc
-nc
-Bm
-nc
-nc
-nc
-wV
-jp
-Cm
-Cm
-Mj
-jp
-nc
-jp
-Cm
-Cm
-Mj
-jp
-vi
 cr
 cr
 cr
 cr
 cr
-vi
-OS
-OS
-vi
 cr
 cr
 cr
 cr
 cr
-WN
-Ni
-KJ
-KJ
-KJ
-WN
-KD
-KD
-IN
-IN
-Mz
-WN
-WN
-WN
-WN
-WN
-WN
-WN
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -16392,54 +14328,54 @@ cr
 cr
 cr
 cr
-vi
-jp
-Cb
-LA
-nc
-Mh
-nc
-nc
-wy
-jp
-jp
-jp
-UE
-jp
-jp
-Mh
-jp
-jp
-UE
-jp
-jp
-jp
-vi
-cr
-cr
-cr
-cr
-vi
-qe
-OS
-vi
 cr
 cr
 cr
 cr
 cr
-WN
-jT
-KJ
-jT
-KJ
-WN
-ip
-wJ
-cD
-EI
-Ve
-WN
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -16544,54 +14480,54 @@ cr
 cr
 cr
 cr
-vi
-jp
-jp
-jp
-jp
-jp
-nc
-Yh
-jp
-jp
-xO
-mO
-mO
-mO
-mO
-mO
-mO
-mO
-mO
-mO
-GL
-jp
-jp
-vi
-cr
-cr
-cr
-vi
-OS
-OS
-vi
 cr
 cr
 cr
 cr
 cr
-WN
-WN
-WN
-WN
-WN
-WN
-IN
-wJ
-gH
-WN
-WN
-WN
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -16696,38 +14632,6 @@ cr
 cr
 cr
 cr
-vi
-jp
-ho
-nc
-nc
-Mh
-nc
-jp
-jp
-CZ
-Er
-cR
-cR
-cR
-cR
-cR
-cR
-cR
-cR
-cR
-qO
-Uq
-jp
-jp
-vi
-cr
-cr
-vi
-OS
-OS
-vi
-vi
 cr
 cr
 cr
@@ -16736,14 +14640,46 @@ cr
 cr
 cr
 cr
-SY
-ZS
-ZS
-ZS
-ZS
-ZS
-ZS
-WN
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -16848,38 +14784,6 @@ cr
 cr
 cr
 cr
-vi
-jp
-qi
-nc
-nc
-jp
-Mh
-jp
-CZ
-Er
-po
-lN
-lN
-lN
-lN
-be
-lN
-lN
-lN
-lN
-Bq
-qO
-Uq
-jp
-jp
-vi
-cr
-vi
-OS
-OS
-OS
-vi
 cr
 cr
 cr
@@ -16888,14 +14792,46 @@ cr
 cr
 cr
 cr
-WN
-lx
-ZS
-ZS
-ZS
-ZS
-GI
-WN
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -16999,39 +14935,6 @@ cr
 cr
 cr
 cr
-vi
-vi
-jp
-PB
-LA
-gB
-jp
-CZ
-mO
-Er
-po
-rB
-jp
-jp
-jp
-jp
-jp
-jp
-jp
-jp
-jp
-uL
-Bq
-qO
-Uq
-jp
-jp
-vi
-vi
-vi
-OS
-OS
-vi
 cr
 cr
 cr
@@ -17040,14 +14943,47 @@ cr
 cr
 cr
 cr
-WN
-ZS
-TI
-eW
-eW
-gz
-ZS
-WN
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -17150,40 +15086,6 @@ cr
 (50,1,1) = {"
 cr
 cr
-vi
-vi
-jp
-jp
-jp
-jp
-jp
-jp
-ni
-cR
-po
-rB
-jp
-jp
-Mu
-aS
-bG
-fZ
-jp
-dW
-AI
-jp
-jp
-uL
-Bq
-qO
-Uq
-jp
-jp
-vi
-vi
-vi
-qe
-vi
 cr
 cr
 cr
@@ -17192,14 +15094,48 @@ cr
 cr
 cr
 cr
-SD
-ZS
-sC
-sC
-sC
-Dw
-ZS
-WN
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -17302,40 +15238,6 @@ cr
 (51,1,1) = {"
 cr
 cr
-vi
-jp
-jp
-Ia
-tr
-eU
-jp
-AX
-Er
-po
-rB
-jp
-jp
-cj
-ly
-wh
-cR
-Br
-jp
-oI
-oI
-zv
-jp
-jp
-uL
-Bq
-qO
-qG
-jp
-vi
-cr
-vi
-OS
-vi
 cr
 cr
 cr
@@ -17344,14 +15246,48 @@ cr
 cr
 cr
 cr
-jc
-ZS
-Mm
-XB
-sC
-ov
-ZS
-WN
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -17454,40 +15390,6 @@ cr
 (52,1,1) = {"
 cr
 cr
-vi
-jp
-Jv
-Ia
-oI
-oI
-gn
-ni
-cR
-Hz
-jp
-jp
-Lr
-ly
-cR
-wh
-cR
-Br
-jp
-bW
-oI
-oI
-ij
-jp
-jp
-ni
-cR
-Hz
-jp
-vi
-vi
-vi
-fV
-vi
 cr
 cr
 cr
@@ -17496,14 +15398,48 @@ cr
 cr
 cr
 cr
-WN
-WN
-WN
-WN
-WN
-WN
-WN
-WN
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -17605,41 +15541,41 @@ cr
 "}
 (53,1,1) = {"
 cr
-vi
-vi
-jp
-zQ
-Ia
-UI
-sq
-jp
-ni
-cR
-Hz
-jp
-gu
-ly
-cR
-cR
-wh
-cR
-Br
-jp
-oI
-oI
-oI
-oI
-oI
-jp
-ni
-cR
-Hz
-mZ
-LC
-Ff
-HV
-OS
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -17756,42 +15692,42 @@ cr
 cr
 "}
 (54,1,1) = {"
-vi
-vi
-jp
-jp
-jp
-jp
-jp
-jp
-jp
-ni
-cR
-Hz
-jp
-Ae
-cR
-cR
-cR
-wh
-cR
-Br
-jp
-oI
-gI
-gI
-gI
-gI
-jp
-ni
-cR
-Hz
-mZ
-LC
-Ff
-OS
-OS
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -17908,42 +15844,42 @@ cr
 cr
 "}
 (55,1,1) = {"
-vi
-jp
-jp
-lO
-eo
-GA
-tD
-xU
-jp
-ni
-cR
-Hz
-jp
-Yn
-Yp
-Yp
-Yp
-QR
-Yp
-yb
-jp
-oI
-WX
-WX
-WX
-WX
-jp
-ni
-cR
-Hz
-mZ
-LC
-Ff
-py
-pN
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -18060,42 +15996,42 @@ cr
 cr
 "}
 (56,1,1) = {"
-vi
-jp
-we
-oI
-oI
-oI
-oI
-oI
-kA
-ni
-cR
-Hz
-jp
-jp
-It
-It
-CI
-jp
-jp
-jp
-jp
-oI
-oI
-oI
-oI
-oI
-jp
-ni
-cR
-ng
-jp
-vi
-vi
-vi
-vi
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -18212,38 +16148,38 @@ cr
 cr
 "}
 (57,1,1) = {"
-vi
-jp
-yN
-oI
-oI
-oI
-oI
-ar
-LX
-ni
-cR
-Hz
-jp
-SH
-JI
-JI
-JI
-sr
-wF
-MP
-MP
-JM
-xs
-MP
-JM
-xs
-eT
-ni
-cR
-Hz
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -18364,38 +16300,38 @@ cr
 cr
 "}
 (58,1,1) = {"
-vi
-jp
-GO
-oI
-oI
-BW
-oI
-Gb
-LX
-pC
-cR
-Hz
-jp
-HX
-cR
-cR
-cR
-JY
-jp
-MP
-MP
-kR
-eJ
-MP
-kR
-eJ
-eT
-ni
-cR
-ND
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -18516,38 +16452,38 @@ cr
 cr
 "}
 (59,1,1) = {"
-vi
-jp
-yN
-oI
-oI
-oI
-oI
-ar
-LX
-ni
-cR
-Hz
-jp
-nF
-cR
-pm
-cR
-uY
-bQ
-MP
-MP
-qP
-Pu
-MP
-qP
-Pu
-eT
-ni
-cR
-Hz
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -18668,38 +16604,38 @@ cr
 cr
 "}
 (60,1,1) = {"
-vi
-jp
-Xs
-oI
-oI
-oI
-oI
-oI
-kA
-ni
-cR
-Hz
-jp
-Hp
-cR
-pm
-cR
-uY
-QG
-MP
-MP
-MP
-MP
-MP
-MP
-ZU
-jp
-ni
-cR
-Hz
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -18820,38 +16756,38 @@ cr
 cr
 "}
 (61,1,1) = {"
-vi
-jp
-jp
-Df
-XD
-Hw
-qz
-kM
-jp
-ni
-cR
-Hz
-jp
-az
-cR
-pm
-cR
-uY
-QG
-MP
-MP
-JM
-xs
-MP
-JM
-xs
-eT
-ni
-cR
-Hz
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -18972,38 +16908,38 @@ cr
 cr
 "}
 (62,1,1) = {"
-vi
-vi
-jp
-jp
-jp
-jp
-jp
-jp
-jp
-ni
-cR
-Hz
-jp
-qs
-cR
-pm
-cR
-uY
-QG
-MP
-MP
-kR
-eJ
-MP
-kR
-eJ
-eT
-ni
-cR
-Hz
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -19126,36 +17062,36 @@ cr
 (63,1,1) = {"
 cr
 cr
-vi
-jp
-ra
-vR
-lJ
-eU
-jp
-ni
-cR
-Hz
-jp
-Ky
-uO
-pm
-cR
-uY
-QG
-MP
-MP
-qP
-Pu
-MP
-qP
-Pu
-eT
-ni
-cR
-Hz
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -19278,36 +17214,36 @@ cr
 (64,1,1) = {"
 cr
 cr
-vi
-jp
-Rx
-vR
-oI
-oI
-gn
-ni
-cR
-Hz
-jp
-jp
-HK
-uO
-cR
-uY
-bQ
-MP
-MP
-MP
-MP
-MP
-MP
-jp
-jp
-ni
-cR
-Hz
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -19430,36 +17366,36 @@ cr
 (65,1,1) = {"
 cr
 cr
-vi
-jp
-jp
-vR
-nD
-sq
-jp
-Nz
-Bq
-qO
-Uq
-jp
-jp
-cU
-uO
-JY
-jp
-MP
-MP
-MP
-MP
-Tj
-jp
-jp
-CZ
-Er
-po
-Lh
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -19582,36 +17518,36 @@ cr
 (66,1,1) = {"
 cr
 cr
-vi
-vi
-jp
-jp
-jp
-jp
-jp
-jp
-uL
-Bq
-qO
-Uq
-jp
-jp
-YN
-aj
-wF
-MP
-MP
-MP
-MP
-jp
-jp
-CZ
-Er
-po
-rB
-jp
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -19735,35 +17671,35 @@ cr
 cr
 cr
 cr
-vi
-vi
-jp
-ik
-bk
-IV
-jp
-jp
-ni
-cR
-qO
-Uq
-jp
-jp
-jp
-jp
-jp
-wF
-wF
-jp
-jp
-CZ
-Er
-lN
-rB
-jp
-jp
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -19888,34 +17824,34 @@ cr
 cr
 cr
 cr
-vi
-jp
-oI
-oI
-oI
-oI
-XW
-uL
-lN
-Bq
-qO
-mO
-mO
-mO
-mO
-mO
-mO
-mO
-mO
-mO
-Er
-Hz
-jp
-JK
-jp
-jp
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -20040,34 +17976,34 @@ cr
 cr
 cr
 cr
-vi
-jp
-bW
-oI
-oI
-TP
-jp
-jp
-jp
-uL
-Bq
-cR
-cR
-cR
-cR
-cR
-cR
-cR
-cR
-cR
-po
-rB
-jp
-HQ
-vq
-Vk
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -20192,35 +18128,35 @@ cr
 cr
 cr
 cr
-vi
-jp
-Ss
-Ih
-Ss
-Ss
-jp
-vi
-jp
-jp
-Vr
-lN
-lN
-lN
-lN
-Ib
-lN
-lN
-lN
-lN
-Mr
-jp
-jp
-HQ
-HQ
-HQ
-jp
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -20344,35 +18280,35 @@ cr
 cr
 cr
 cr
-vi
-jp
-ER
-eD
-Hk
-Ss
-jp
-vi
-jp
-jp
-jp
-jp
-iy
-jp
-jp
-jp
-jp
-jp
-jp
-Fe
-jp
-jp
-jp
-HQ
-HQ
-HQ
-HQ
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -20496,35 +18432,35 @@ cr
 cr
 cr
 cr
-vi
-jp
-Hk
-BT
-Ss
-Ss
-jp
-vi
-jp
-Sh
-Et
-Et
-Et
-Et
-Dh
-jp
-UM
-pP
-Ij
-Gp
-jp
-vi
-jp
-aV
-HQ
-TF
-TF
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -20648,35 +18584,35 @@ cr
 cr
 cr
 cr
-vi
-jp
-mL
-Ss
-Ss
-IG
-jp
-vi
-jp
-Et
-Et
-NM
-Et
-Et
-mg
-jp
-UM
-Ij
-Ij
-Gp
-jp
-vi
-jp
-OU
-HQ
-LK
-ji
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -20800,35 +18736,35 @@ cr
 cr
 cr
 cr
-vi
-jp
-jp
-jp
-jp
-jp
-jp
-vi
-jp
-ed
-Et
-gO
-Et
-Et
-wu
-jp
-UM
-Ij
-Ij
-Gp
-jp
-vi
-jp
-Jk
-HQ
-Tu
-Tu
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -20952,35 +18888,35 @@ cr
 cr
 cr
 cr
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-jp
-Et
-Et
-NM
-Et
-Et
-zF
-jp
-jA
-nn
-JW
-QW
-jp
-vi
-jp
-jp
-nm
-Qy
-jp
-jp
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -21111,28 +19047,28 @@ cr
 cr
 cr
 cr
-vi
-jp
-To
-Et
-Et
-Et
-Et
-ne
-jp
-jp
-jp
-jp
-jp
-jp
-vi
-vi
-jp
-jp
-jp
-jp
-vi
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -21263,27 +19199,27 @@ cr
 cr
 cr
 cr
-vi
-jp
-jp
-rF
-Et
-US
-sE
-jp
-jp
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -21415,16 +19351,16 @@ cr
 cr
 cr
 cr
-vi
-vi
-jp
-jp
-jp
-jp
-jp
-jp
-vi
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr
@@ -21568,14 +19504,14 @@ cr
 cr
 cr
 cr
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
+cr
+cr
+cr
+cr
+cr
+cr
+cr
+cr
 cr
 cr
 cr

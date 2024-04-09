@@ -496,7 +496,7 @@ GLOBAL_LIST_INIT(dirt_loots, list(
 	AM.water_act(5)
 
 /turf/open/indestructible/ground/outside/water/Exited(atom/movable/AM, atom/newloc)
-	. = ..()	
+	. = ..()
 	if(istype(AM, /mob/living))
 		var/mob/living/L = AM
 		L.update_water()
@@ -1425,3 +1425,24 @@ GLOBAL_LIST_INIT(dirt_loots, list(
 	name = "steller carpet"
 	icon = 'icons/turf/floors/carpet.dmi'
 	icon_state = "stellar_carpet-255"
+
+/turf/open/indestructible/ground/gaycarpet
+	name = "pink carpet"
+	icon = 'icons/turf/floors/carpet.dmi'
+	icon_state = "gaycarpet"
+
+/turf/open/indestructible/ground/geocarpet
+	name = "geocarpet"
+	icon = 'icons/turf/floors/carpet.dmi'
+	icon_state = "geocarpet"
+
+/turf/open/indestructible/ground/green
+	name = "green"
+	icon = 'icons/turf/floors/carpet.dmi'
+	icon_state = "green"
+
+/turf/open/indestructible/ground/retrocarpet
+	name = "retrocarpet"
+	icon = 'icons/turf/floors/carpet.dmi'
+	icon_state = "retrocarpet"
+
