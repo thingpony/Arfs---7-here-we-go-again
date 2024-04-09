@@ -7,6 +7,7 @@
 		#include "map_files/hamlet_arfs/hamlet_lower.dmm"
 		#include "map_files/hamlet_arfs/hamlet.dmm"
 		#include "map_files/hamlet_arfs/hamlet_upper.dmm"
+		#include "map_files/hamlet_arfs/underground.dmm"
 		#ifdef TRAVISBUILDING
 			#include "templates.dm"
 		#endif
