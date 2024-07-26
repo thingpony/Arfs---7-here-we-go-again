@@ -2517,7 +2517,7 @@
 #include "code\modules\mafia\map_pieces.dm"
 #include "code\modules\mafia\outfits.dm"
 #include "code\modules\mafia\roles.dm"
-#include "code\modules\mapping\map_config.dm"
+#include "code\modules\mapping\map_config_arfs.dm"
 #include "code\modules\mapping\map_orientation_pattern.dm"
 #include "code\modules\mapping\map_template.dm"
 #include "code\modules\mapping\mapping_helpers.dm"
