@@ -105,6 +105,13 @@
 	using.hud = src
 	static_inventory += using
 
+	using = new /atom/movable/screen/craft
+	using.icon = ui_style
+	if(!widescreenlayout) // CIT CHANGE
+		using.screen_loc = ui_boxcraft // CIT CHANGE
+	using.hud = src
+	static_inventory += using
+
 	action_intent = new /atom/movable/screen/act_intent/segmented
 	action_intent.icon_state = mymob.a_intent
 	action_intent.hud = src
@@ -566,7 +573,7 @@
 		if(do_after(src, 3 SECONDS, target = src))
 			src.hair_style = new_style
 			src.update_hair()
-	
+
 	new_style = input(src, "Select the second hair style", "Grooming")  as null|anything in GLOB.hair_styles_list
 
 	if(new_style)  //if we selected a new hairstyle then make the player wait some time and in the meantime play a cool combing sound.
