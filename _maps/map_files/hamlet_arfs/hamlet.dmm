@@ -734,6 +734,24 @@
 	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
+"dD" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 4
+	},
+/obj/item/sign_backing{
+	pixel_y = -4
+	},
+/obj/item/weapon/spacecasinocash/c20{
+	anchored = 1
+	},
+/obj/item/stack/spacecash{
+	pixel_y = -10;
+	pixel_x = 2;
+	anchored = 1
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "dE" = (
 /obj/structure/bed/roller,
 /obj/item/defibrillator/compact/loaded,
@@ -892,6 +910,16 @@
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
 	dir = 10
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"eC" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d"
+	},
+/obj/structure/lamp_post/biglamp{
+	pixel_x = -2;
+	light_on = 1
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
@@ -2646,6 +2674,17 @@
 /obj/structure/flora/ausbushes/palebush,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
+"nh" = (
+/obj/structure/lamp_post/biglamp{
+	pixel_x = -2;
+	light_on = 1
+	},
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "nk" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/wild_plant/flower/blue_two,
@@ -3188,6 +3227,17 @@
 /obj/machinery/photocopier,
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
+"pJ" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d"
+	},
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 4
+	},
+/obj/structure/cave/signleft,
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "pO" = (
 /obj/structure/table/wood/fancy,
 /obj/item/tea_plate,
@@ -3257,6 +3307,13 @@
 	},
 /area/f13/building/tribal/cave)
 "qm" = (
+
+/obj/structure/sign/basic{
+	pixel_y = -4
+	},
+/obj/item/card/id/tribetattoo{
+	anchored = 1
+=======
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
 	dir = 5
@@ -3264,6 +3321,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
 	dir = 9
+
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
@@ -3362,6 +3420,17 @@
 "qL" = (
 /obj/structure/playground/ride/black,
 /turf/open/indestructible/ground/outside/dirt/bigsandturf,
+/area/f13/wasteland)
+"qM" = (
+/obj/structure/lamp_post/biglamp{
+	pixel_x = -2;
+	light_on = 1
+	},
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "qR" = (
 /obj/structure/closet/locker/fridge,
@@ -4378,6 +4447,16 @@
 	},
 /turf/open/water,
 /area/f13/wasteland)
+"wb" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d"
+	},
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "wc" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -4475,6 +4554,13 @@
 /obj/structure/table/abductor,
 /obj/structure/railing,
 /turf/open/indestructible/ground/stellercarpet/fourtyeight,
+/area/f13/wasteland)
+"wB" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d"
+	},
+/obj/structure/cave/signright,
+/turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "wC" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -4711,6 +4797,21 @@
 /obj/structure/flora/tree/jungle/small,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/genericbush,
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"yn" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 4
+	},
+/obj/item/sign_backing{
+	pixel_y = -9
+	},
+/obj/item/toy/poolnoodle/blue,
+/obj/effect/turf_decal/arrows/white{
+	dir = 1;
+	pixel_y = 4
+	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "yp" = (
@@ -5508,6 +5609,33 @@
 "CQ" = (
 /turf/open/floor/carpet/orange,
 /area/f13/building)
+"CT" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 6
+	},
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 10
+	},
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/wild_plant/flower/blue,
+/obj/structure/flora/wild_plant/flower/orange{
+	pixel_y = 14
+	},
+/obj/structure/flora/wild_plant/flower/pink{
+	pixel_y = 5;
+	pixel_x = 11
+	},
+/obj/structure/flora/wild_plant/flower/white{
+	pixel_y = 17;
+	pixel_x = 10
+	},
+/obj/structure/flora/wild_plant/flower/white{
+	pixel_y = 17
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "CU" = (
 /turf/open/floor/carpet/blue,
 /area/f13/building)
@@ -5582,6 +5710,22 @@
 	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
+"Dl" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 4
+	},
+/obj/effect/turf_decal/weather/dirtcorner{
+	dir = 1;
+	color = "#a98c5d"
+	},
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone";
+	color = "D3D3D3"
+	},
+/area/f13/wasteland)
 "Dm" = (
 /obj/effect/turf_decal/weather/dirtcorner{
 	dir = 1;
@@ -5911,6 +6055,10 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/f13/building)
+"EP" = (
+/obj/structure/destructible/tribal_torch/lit,
+/turf/open/floor/plating/dirt/virgosand,
+/area/f13/wasteland)
 "EQ" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -6462,6 +6610,26 @@
 	color = "#A1BFFF"
 	},
 /area/f13/building/tribal/cave)
+"HY" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 5
+	},
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 9
+	},
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/wild_plant/flower/purple,
+/obj/structure/flora/wild_plant/flower/purple_two{
+	pixel_y = 13
+	},
+/obj/structure/flora/wild_plant/flower/red_two{
+	pixel_y = 6;
+	pixel_x = 11
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "Ic" = (
 /turf/closed/indestructible/rock,
 /area/f13/building/tribal/cave)
@@ -8697,6 +8865,13 @@
 	color = "#a98c5d";
 	dir = 4
 	},
+
+/obj/structure/lamp_post/biglamp{
+	pixel_x = -2;
+	light_on = 1
+	},
+=======
+
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "SN" = (
@@ -8935,6 +9110,17 @@
 /obj/machinery/microwave/white_stove,
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/building)
+"TA" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 8
+	},
+/obj/structure/lamp_post/biglamp{
+	pixel_x = -2;
+	light_on = 1
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "TC" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 8
@@ -9027,6 +9213,15 @@
 	color = "#A1BFFF"
 	},
 /area/f13/building/tribal/cave)
+"TJ" = (
+/obj/structure/sign/basic{
+	pixel_y = -4
+	},
+/obj/item/toy/beach_ball{
+	anchored = 1
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "TM" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 10
@@ -9431,6 +9626,22 @@
 /obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
+"VJ" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 8
+	},
+/obj/effect/turf_decal/weather/dirtcorner{
+	dir = 4;
+	color = "#a98c5d"
+	},
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone";
+	color = "D3D3D3"
+	},
+/area/f13/wasteland)
 "VK" = (
 /obj/structure/playground/hopscotch_number{
 	pixel_y = -13;
@@ -12426,26 +12637,42 @@ wC
 wC
 wC
 wC
+
+AZ
+=======
+
 wC
 wC
 wC
 wC
 wC
 wC
+
+AZ
+=======
+
 wC
 wC
 wC
 wC
 wC
+
+AZ
+=======
+
 wC
 wC
 wC
 wC
 wC
+
+AZ
+=======
 wC
 wC
 wC
 wC
+
 wC
 wC
 wC
@@ -12575,7 +12802,11 @@ Ma
 KI
 rQ
 rQ
+
+VJ
+=======
 Rp
+
 wl
 wl
 wl
@@ -12725,8 +12956,13 @@ Ma
 Ma
 Ma
 cn
+
+HY
+CT
+=======
 qm
 gY
+
 ik
 pk
 pk
@@ -12879,7 +13115,11 @@ Ma
 KI
 LO
 LO
+
+Dl
+=======
 oh
+
 tV
 tV
 tV
@@ -12947,7 +13187,11 @@ pw
 YX
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 pk
 tV
@@ -13029,31 +13273,51 @@ Ma
 Ma
 Ma
 cn
+
+TA
+=======
+
+ih
+ih
+ih
+ih
+
+TA
+=======
+
 ih
 ih
 ih
 ih
 ih
 ih
+
+TA
+=======
+
 ih
 ih
 ih
 ih
 ih
+
+TA
+=======
+
 ih
 ih
 ih
 ih
 ih
+
+TA
+=======
 ih
 ih
 ih
 ih
 ih
-ih
-ih
-ih
-ih
+
 ih
 ih
 ih
@@ -13108,7 +13372,11 @@ fM
 dQ
 kl
 ih
+
+TA
+=======
 OI
+
 Qm
 Iw
 PX
@@ -13210,10 +13478,17 @@ EB
 EB
 EB
 EB
+
+eC
+ik
+gm
+WM
+=======
 xa
 ik
 gm
 np
+
 EB
 EB
 EB
@@ -13859,7 +14134,11 @@ Lh
 YX
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 qF
@@ -14274,10 +14553,17 @@ EB
 EB
 EB
 EB
+
+eC
+ik
+gm
+WM
+=======
 xa
 ik
 gm
 np
+
 EB
 EB
 EB
@@ -14771,7 +15057,11 @@ wC
 wC
 Ej
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -15794,10 +16084,17 @@ EB
 EB
 EB
 EB
+
+eC
+ik
+gm
+WM
+=======
 xa
 ik
 gm
 np
+
 EB
 EB
 EB
@@ -16595,8 +16892,12 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
-ik
+>
+
 gm
 Va
 EB
@@ -16858,10 +17159,17 @@ EB
 EB
 EB
 EB
+
+eC
+ik
+gm
+WM
+=======
 xa
 ik
 gm
 np
+
 EB
 EB
 EB
@@ -17507,7 +17815,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 Va
@@ -17922,6 +18234,12 @@ EB
 EB
 EB
 EB
+
+eC
+ik
+gm
+WM
+=======
 xa
 ik
 gm
@@ -18354,31 +18672,54 @@ wC
 wC
 wC
 wC
+
+nh
+=======
 kp
+
 wC
 wC
 wC
 wC
+
+nh
+=======
 kp
+
 wC
 wC
 wC
 wC
+
+nh
+=======
 kp
+
 wC
 wC
 wC
 wC
+
+nh
+=======
 kp
+
 wC
 wC
 wC
 wC
 wC
+
+nh
+yn
+dD
+pJ
+=======
 kp
 Vl
 VM
 bc
+
 ik
 gm
 np
@@ -18810,31 +19151,54 @@ ih
 ih
 ih
 ih
+
+qM
+=======
 hY
+
 ih
 ih
 ih
 ih
+
+qM
+=======
 hY
+
 ih
 ih
 ih
 ih
+
+qM
+=======
 hY
+
 ih
 ih
 ih
 ih
+
+qM
+=======
 hY
+
 ih
 ih
 ih
 ih
 ih
+
+qM
+ih
+ih
+wb
+=======
 hY
 ih
 ih
 Uh
+
 ik
 gm
 np
@@ -19331,7 +19695,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -20243,7 +20611,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -20859,13 +21231,21 @@ ih
 ih
 ih
 ih
+
+TA
+=======
 OI
+
 ih
 ih
 ih
 ih
 ih
+
+TA
+=======
 OI
+
 ih
 ih
 ih
@@ -21155,7 +21535,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -21173,7 +21557,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -22030,7 +22418,11 @@ Hm
 jK
 ih
 ih
+
+TA
+=======
 OI
+
 Fu
 ik
 pk
@@ -22041,6 +22433,15 @@ pk
 gm
 WP
 ih
+
+TA
+ih
+ih
+TA
+ih
+ih
+TA
+=======
 OI
 ih
 ih
@@ -22048,24 +22449,37 @@ OI
 ih
 ih
 OI
+
 eA
 ik
 gm
 Dg
 ih
+
+TA
+=======
 OI
+
 ih
 ih
 ih
 ih
 ih
+
+TA
+=======
 OI
+
 ih
 ih
 ih
 ih
 ih
+
+TA
+=======
 OI
+
 ih
 PE
 ik
@@ -22218,8 +22632,13 @@ EB
 EB
 EB
 EB
+
+TJ
+wB
+=======
 bl
 Tn
+
 ik
 gm
 np
@@ -22491,7 +22910,11 @@ Dv
 Cc
 pa
 Id
+
+TA
+=======
 OI
+
 Cc
 pa
 Id
@@ -22503,8 +22926,13 @@ EB
 EB
 EB
 EB
+
+qm
+wB
+=======
 Ro
 Tn
+
 ik
 gm
 np
@@ -22675,7 +23103,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -23112,7 +23544,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -23891,7 +24327,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -24480,7 +24920,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -25107,7 +25551,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -25696,7 +26144,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -26323,7 +26775,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -26760,7 +27216,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -27387,7 +27847,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -27420,7 +27884,11 @@ dS
 dS
 dS
 dS
+
+EP
+=======
 nl
+
 dS
 dS
 dS
@@ -27715,7 +28183,11 @@ dS
 dS
 dS
 dS
+
+EP
+=======
 nl
+
 dS
 dS
 dS
@@ -28186,7 +28658,11 @@ dS
 Ra
 dS
 dS
+
+EP
+=======
 nl
+
 dS
 dS
 dS
@@ -28257,26 +28733,41 @@ IK
 IK
 Zf
 KB
+
+TA
+=======
+OI
+
+ih
+ih
+ih
+ih
+ih
+ih
+
+TA
+=======
+OI
+
+ih
+ih
+ih
+ih
+ih
+
+TA
+=======
 OI
 ih
 ih
 ih
 ih
 ih
-ih
+
+TA
+=======
 OI
-ih
-ih
-ih
-ih
-ih
-OI
-ih
-ih
-ih
-ih
-ih
-OI
+
 ih
 ih
 ih
@@ -28327,7 +28818,11 @@ dS
 dS
 dS
 dS
+
+EP
+=======
 nl
+
 dS
 dS
 dS
@@ -28349,7 +28844,11 @@ Ha
 dS
 dS
 dS
+
+EP
+=======
 nl
+
 Ie
 "}
 (121,1,1) = {"
@@ -28451,7 +28950,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -28584,7 +29087,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -28637,7 +29144,11 @@ dS
 dS
 dS
 dS
+
+EP
+=======
 nl
+
 dS
 dS
 dS
@@ -28778,7 +29289,11 @@ dS
 dS
 dS
 dS
+
+EP
+=======
 nl
+
 dS
 dS
 dS
@@ -28787,7 +29302,11 @@ dS
 dS
 wU
 dS
+
+EP
+=======
 nl
+
 dS
 dS
 dS
@@ -28796,12 +29315,20 @@ dS
 dS
 dS
 dS
+
+EP
+=======
 nl
+
 dS
 dS
 dS
 dS
+
+EP
+=======
 nl
+
 dS
 dS
 dS
@@ -29219,13 +29746,21 @@ ih
 ih
 ih
 ih
+
+TA
+=======
 OI
+
 ih
 ih
 ih
 ih
 ih
+
+TA
+=======
 OI
+
 vO
 dS
 dS
@@ -29379,12 +29914,20 @@ EB
 EB
 EB
 Hn
+
+EP
+=======
 nl
+
 dS
 dS
 dS
 dS
+
+EP
+=======
 nl
+
 dS
 dS
 dS
@@ -29496,7 +30039,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -29547,7 +30094,11 @@ dS
 dS
 wn
 dS
+
+EP
+=======
 nl
+
 dS
 dS
 dS
@@ -29692,7 +30243,11 @@ dS
 dS
 dS
 dS
+
+EP
+=======
 nl
+
 dS
 dS
 dS
@@ -30408,7 +30963,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -31320,7 +31879,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -31508,13 +32071,21 @@ EB
 EB
 Hn
 dS
+
+EP
+=======
 nl
+
 dS
 dS
 dS
 RI
 dS
+
+EP
+=======
 nl
+
 gA
 fV
 fV
@@ -32232,7 +32803,11 @@ EB
 EB
 EB
 EB
+
+eC
+=======
 Es
+
 ik
 gm
 WM
@@ -32423,7 +32998,11 @@ dS
 dS
 dS
 dS
+
+EP
+=======
 nl
+
 dS
 dS
 dS
@@ -32578,7 +33157,11 @@ dS
 dS
 dS
 dS
+
+EP
+=======
 nl
+
 gA
 fV
 fV
