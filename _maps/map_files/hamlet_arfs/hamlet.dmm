@@ -213,6 +213,17 @@
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
+"bc" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d"
+	},
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 4
+	},
+/obj/structure/cave/signleft,
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "be" = (
 /obj/structure/railing/wooden_fencing,
 /obj/effect/turf_decal/weather/dirt{
@@ -247,6 +258,15 @@
 /area/f13/wasteland)
 "bk" = (
 /obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"bl" = (
+/obj/structure/sign/basic{
+	pixel_y = -4
+	},
+/obj/item/toy/beach_ball{
+	anchored = 1
+	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "bp" = (
@@ -1381,6 +1401,17 @@
 	color = "#BBBBBB"
 	},
 /area/f13/building)
+"gY" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 6
+	},
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 10
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "hb" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-18"
@@ -1614,6 +1645,17 @@
 /obj/structure/table/wood,
 /turf/open/floor/carpet/orange,
 /area/f13/building)
+"hY" = (
+/obj/structure/lamp_post/biglamp{
+	pixel_x = -2;
+	light_on = 1
+	},
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "hZ" = (
 /obj/machinery/newscaster,
 /turf/closed/indestructible/wood,
@@ -2020,6 +2062,17 @@
 	dir = 1
 	},
 /area/f13/building)
+"kp" = (
+/obj/structure/lamp_post/biglamp{
+	pixel_x = -2;
+	light_on = 1
+	},
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "kq" = (
 /obj/structure/flora/brushwoodalt,
 /turf/open/indestructible/ground/outside/civ/grass0,
@@ -2602,6 +2655,10 @@
 	},
 /turf/open/indestructible/ground/outside/dirt/bigdirtturf2,
 /area/f13/wasteland)
+"nl" = (
+/obj/structure/destructible/tribal_torch/lit,
+/turf/open/floor/plating/dirt/virgosand,
+/area/f13/wasteland)
 "nn" = (
 /turf/open/indestructible/ground/outside/roaddirt{
 	icon = 'icons/turf/f13floors2.dmi';
@@ -2756,6 +2813,22 @@
 	dir = 8
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"oh" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 4
+	},
+/obj/effect/turf_decal/weather/dirtcorner{
+	dir = 1;
+	color = "#a98c5d"
+	},
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone";
+	color = "D3D3D3"
+	},
 /area/f13/wasteland)
 "ol" = (
 /obj/effect/turf_decal/siding/green/corner{
@@ -2983,7 +3056,8 @@
 /obj/structure/flora/brushwoodalt,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/lamp_post/biglamp{
-	pixel_x = -2
+	pixel_x = -2;
+	light_on = 1
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
@@ -3182,6 +3256,17 @@
 	color = "#A1BFFF"
 	},
 /area/f13/building/tribal/cave)
+"qm" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 5
+	},
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 9
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "qn" = (
 /obj/structure/chair/wood/wings{
 	dir = 4
@@ -3254,7 +3339,8 @@
 	color = "#a98c5d"
 	},
 /obj/structure/lamp_post/biglamp{
-	pixel_x = -2
+	pixel_x = -2;
+	light_on = 1
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
@@ -3587,7 +3673,8 @@
 	dir = 4
 	},
 /obj/structure/lamp_post/biglamp{
-	pixel_x = -2
+	pixel_x = -2;
+	light_on = 1
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
@@ -5018,7 +5105,8 @@
 	dir = 4
 	},
 /obj/structure/lamp_post/biglamp{
-	pixel_x = -2
+	pixel_x = -2;
+	light_on = 1
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
@@ -5769,6 +5857,16 @@
 	dir = 10
 	},
 /turf/open/indestructible/ground/stellercarpet/fourtyeight,
+/area/f13/wasteland)
+"Es" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d"
+	},
+/obj/structure/lamp_post/biglamp{
+	pixel_x = -2;
+	light_on = 1
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "Et" = (
 /obj/structure/flora/brushwood,
@@ -7221,7 +7319,8 @@
 	},
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/lamp_post/biglamp{
-	pixel_x = -2
+	pixel_x = -2;
+	light_on = 1
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
@@ -7804,6 +7903,17 @@
 	},
 /turf/open/floor/plasteel/blue,
 /area/f13/building)
+"OI" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 8
+	},
+/obj/structure/lamp_post/biglamp{
+	pixel_x = -2;
+	light_on = 1
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "OJ" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d"
@@ -8192,7 +8302,8 @@
 	dir = 9
 	},
 /obj/structure/lamp_post/biglamp{
-	pixel_x = -2
+	pixel_x = -2;
+	light_on = 1
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
@@ -8283,6 +8394,31 @@
 	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
+"Ro" = (
+/obj/structure/sign/basic{
+	pixel_y = -4
+	},
+/obj/item/card/id/tribetattoo{
+	anchored = 1
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"Rp" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 8
+	},
+/obj/effect/turf_decal/weather/dirtcorner{
+	dir = 4;
+	color = "#a98c5d"
+	},
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone";
+	color = "D3D3D3"
+	},
+/area/f13/wasteland)
 "Rr" = (
 /turf/open/floor/carpet/purple,
 /area/f13/building)
@@ -8557,6 +8693,10 @@
 	pixel_y = -18;
 	pixel_x = -19
 	},
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 4
+	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "SN" = (
@@ -8566,7 +8706,8 @@
 	},
 /obj/structure/flora/jungle2,
 /obj/structure/lamp_post/biglamp{
-	pixel_x = -2
+	pixel_x = -2;
+	light_on = 1
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
@@ -8748,6 +8889,13 @@
 /obj/structure/flora/wild_plant/petunia/redwhite{
 	pixel_x = -23
 	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
+"Tn" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d"
+	},
+/obj/structure/cave/signright,
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "Tq" = (
@@ -8953,6 +9101,16 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/building/tribal/cave)
+"Uh" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d"
+	},
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "Ui" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -9146,7 +9304,8 @@
 /area/f13/wasteland)
 "Va" = (
 /obj/structure/lamp_post/biglamp{
-	pixel_x = -2
+	pixel_x = -2;
+	light_on = 1
 	},
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -9172,6 +9331,21 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/building)
+"Vl" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 4
+	},
+/obj/item/sign_backing{
+	pixel_y = -9
+	},
+/obj/item/toy/poolnoodle/blue,
+/obj/effect/turf_decal/arrows/white{
+	dir = 1;
+	pixel_y = 4
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
+/area/f13/wasteland)
 "Vn" = (
 /obj/effect/turf_decal/weather/dirt,
 /obj/effect/turf_decal/weather/dirt{
@@ -9263,6 +9437,24 @@
 	pixel_x = 2
 	},
 /turf/open/indestructible/ground/outside/dirt/bigsandturf,
+/area/f13/wasteland)
+"VM" = (
+/obj/effect/turf_decal/weather/dirt{
+	color = "#a98c5d";
+	dir = 4
+	},
+/obj/item/sign_backing{
+	pixel_y = -4
+	},
+/obj/item/weapon/spacecasinocash/c20{
+	anchored = 1
+	},
+/obj/item/stack/spacecash{
+	pixel_y = -10;
+	pixel_x = 2;
+	anchored = 1
+	},
+/turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
 "VO" = (
 /obj/structure/mineral_door/paperframe{
@@ -9395,7 +9587,8 @@
 	dir = 1
 	},
 /obj/structure/lamp_post/biglamp{
-	pixel_x = -2
+	pixel_x = -2;
+	light_on = 1
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
@@ -12229,37 +12422,37 @@ Ma
 Ma
 cn
 SL
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 EB
 EB
 EB
@@ -12380,39 +12573,39 @@ Ma
 Ma
 Ma
 KI
-pk
-pk
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+rQ
+rQ
+Rp
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+jP
+np
 EB
 EB
 EB
@@ -12532,39 +12725,39 @@ Ma
 Ma
 Ma
 cn
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+qm
+gY
+ik
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+pk
+gm
+np
 EB
 EB
 EB
@@ -12684,39 +12877,39 @@ Ma
 Ma
 Ma
 KI
+LO
+LO
+oh
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
 pk
-pk
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+gm
+np
 EB
 EB
 EB
@@ -12754,7 +12947,7 @@ pw
 YX
 EB
 EB
-UK
+Es
 ik
 pk
 tV
@@ -12836,39 +13029,39 @@ Ma
 Ma
 Ma
 cn
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+eA
+ik
+gm
+np
 EB
 EB
 EB
@@ -12915,7 +13108,7 @@ fM
 dQ
 kl
 ih
-Ea
+OI
 Qm
 Iw
 PX
@@ -13017,10 +13210,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -13169,10 +13362,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -13321,10 +13514,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -13473,10 +13666,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -13625,10 +13818,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -13666,7 +13859,7 @@ Lh
 YX
 EB
 EB
-UK
+Es
 ik
 gm
 qF
@@ -13777,10 +13970,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -13929,10 +14122,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -14081,10 +14274,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -14233,10 +14426,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -14385,10 +14578,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -14537,10 +14730,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -14578,7 +14771,7 @@ wC
 wC
 Ej
 EB
-UK
+Es
 ik
 gm
 WM
@@ -14689,10 +14882,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -14841,10 +15034,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -14993,10 +15186,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -15145,10 +15338,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -15297,10 +15490,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -15449,10 +15642,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -15601,10 +15794,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -15753,10 +15946,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -15905,10 +16098,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -16057,10 +16250,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -16209,10 +16402,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -16361,6 +16554,10 @@ EB
 EB
 EB
 EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -16398,11 +16595,7 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
-UK
+Es
 ik
 gm
 Va
@@ -16513,10 +16706,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -16665,10 +16858,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -16817,10 +17010,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -16969,10 +17162,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -17121,10 +17314,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -17273,6 +17466,10 @@ EB
 EB
 EB
 EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -17310,11 +17507,7 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
-UK
+Es
 ik
 gm
 Va
@@ -17425,10 +17618,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -17577,10 +17770,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -17729,10 +17922,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -17881,10 +18074,10 @@ EB
 EB
 EB
 EB
-EB
-EB
-EB
-EB
+xa
+ik
+gm
+np
 EB
 EB
 EB
@@ -18160,32 +18353,32 @@ Ts
 wC
 wC
 wC
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-xa
+wC
+kp
+wC
+wC
+wC
+wC
+kp
+wC
+wC
+wC
+wC
+kp
+wC
+wC
+wC
+wC
+kp
+wC
+wC
+wC
+wC
+wC
+kp
+Vl
+VM
+bc
 ik
 gm
 np
@@ -18229,7 +18422,7 @@ EB
 UK
 ik
 gm
-Va
+WM
 EB
 EB
 EB
@@ -18312,32 +18505,32 @@ wl
 wl
 wl
 wl
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
+wl
 pk
 gm
 np
@@ -18464,32 +18657,32 @@ tV
 tV
 tV
 tV
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
 pk
 gm
 np
@@ -18616,32 +18809,32 @@ bH
 ih
 ih
 ih
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-EB
-xa
+ih
+hY
+ih
+ih
+ih
+ih
+hY
+ih
+ih
+ih
+ih
+hY
+ih
+ih
+ih
+ih
+hY
+ih
+ih
+ih
+ih
+ih
+hY
+ih
+ih
+Uh
 ik
 gm
 np
@@ -19138,10 +19331,10 @@ EB
 EB
 EB
 EB
-UK
+Es
 ik
 gm
-Va
+WM
 EB
 EB
 EB
@@ -20050,10 +20243,10 @@ EB
 EB
 EB
 EB
-UK
+Es
 ik
 gm
-Va
+WM
 EB
 EB
 EB
@@ -20666,13 +20859,13 @@ ih
 ih
 ih
 ih
-Ea
+OI
 ih
 ih
 ih
 ih
 ih
-Ea
+OI
 ih
 ih
 ih
@@ -20962,10 +21155,10 @@ EB
 EB
 EB
 EB
-UK
+Es
 ik
 gm
-Va
+WM
 EB
 EB
 EB
@@ -20980,7 +21173,7 @@ EB
 EB
 EB
 EB
-UK
+Es
 ik
 gm
 WM
@@ -21395,7 +21588,7 @@ JR
 ss
 JR
 JR
-wC
+AZ
 wC
 wC
 AZ
@@ -21837,7 +22030,7 @@ Hm
 jK
 ih
 ih
-Ea
+OI
 Fu
 ik
 pk
@@ -21848,31 +22041,31 @@ pk
 gm
 WP
 ih
-Ea
+OI
 ih
 ih
-Ea
+OI
 ih
 ih
-ih
+OI
 eA
 ik
 gm
 Dg
 ih
-Ea
+OI
 ih
 ih
 ih
 ih
 ih
-Ea
+OI
 ih
 ih
 ih
 ih
 ih
-Ea
+OI
 ih
 PE
 ik
@@ -22025,8 +22218,8 @@ EB
 EB
 EB
 EB
-EB
-xa
+bl
+Tn
 ik
 gm
 np
@@ -22298,7 +22491,7 @@ Dv
 Cc
 pa
 Id
-Ea
+OI
 Cc
 pa
 Id
@@ -22310,8 +22503,8 @@ EB
 EB
 EB
 EB
-EB
-xa
+Ro
+Tn
 ik
 gm
 np
@@ -22482,10 +22675,10 @@ EB
 EB
 EB
 EB
-xa
+Es
 ik
 gm
-np
+WM
 EB
 EB
 YX
@@ -22919,10 +23112,10 @@ EB
 EB
 EB
 EB
-xa
+Es
 ik
 gm
-np
+WM
 EB
 EB
 EB
@@ -23698,10 +23891,10 @@ EB
 EB
 EB
 EB
-xa
+Es
 ik
 gm
-np
+WM
 EB
 EB
 EB
@@ -24287,10 +24480,10 @@ EB
 EB
 EB
 EB
-xa
+Es
 ik
 gm
-np
+WM
 EB
 EB
 EB
@@ -24914,10 +25107,10 @@ EB
 EB
 EB
 EB
-xa
+Es
 ik
 gm
-np
+WM
 EB
 EB
 EB
@@ -25503,10 +25696,10 @@ EB
 EB
 EB
 EB
-xa
+Es
 ik
 gm
-np
+WM
 EB
 EB
 EB
@@ -26130,10 +26323,10 @@ EB
 EB
 EB
 EB
-xa
+Es
 ik
 gm
-np
+WM
 EB
 EB
 EB
@@ -26567,10 +26760,10 @@ EB
 EB
 EB
 EB
-xa
+Es
 ik
 gm
-np
+WM
 EB
 EB
 EB
@@ -27194,10 +27387,10 @@ EB
 EB
 EB
 EB
-xa
+Es
 ik
 gm
-np
+WM
 EB
 EB
 EB
@@ -27227,7 +27420,7 @@ dS
 dS
 dS
 dS
-dS
+nl
 dS
 dS
 dS
@@ -27456,33 +27649,33 @@ Zk
 Zk
 Zf
 wC
+AZ
 wC
 wC
 wC
 wC
 wC
 wC
+AZ
 wC
 wC
 wC
 wC
 wC
+AZ
 wC
 wC
 wC
 wC
 wC
-wC
-wC
-wC
-wC
+AZ
 wC
 wC
 wC
 tg
 ik
 gm
-np
+WM
 EB
 EB
 EB
@@ -27522,7 +27715,7 @@ dS
 dS
 dS
 dS
-dS
+nl
 dS
 dS
 dS
@@ -27993,7 +28186,7 @@ dS
 Ra
 dS
 dS
-dS
+nl
 dS
 dS
 dS
@@ -28064,26 +28257,26 @@ IK
 IK
 Zf
 KB
+OI
 ih
 ih
 ih
 ih
 ih
 ih
+OI
 ih
 ih
 ih
 ih
 ih
+OI
 ih
 ih
 ih
 ih
 ih
-ih
-ih
-ih
-ih
+OI
 ih
 ih
 ih
@@ -28134,7 +28327,7 @@ dS
 dS
 dS
 dS
-dS
+nl
 dS
 dS
 dS
@@ -28156,7 +28349,7 @@ Ha
 dS
 dS
 dS
-dS
+nl
 Ie
 "}
 (121,1,1) = {"
@@ -28258,10 +28451,10 @@ EB
 EB
 EB
 EB
-xa
+Es
 ik
 gm
-np
+WM
 EB
 EB
 EB
@@ -28391,10 +28584,10 @@ EB
 EB
 EB
 EB
-xa
+Es
 ik
 gm
-np
+WM
 EB
 EB
 EB
@@ -28444,7 +28637,7 @@ dS
 dS
 dS
 dS
-dS
+nl
 dS
 dS
 dS
@@ -28570,13 +28763,13 @@ wC
 wC
 wC
 wC
+AZ
 wC
 wC
 wC
 wC
 wC
-wC
-wC
+AZ
 cH
 dS
 dS
@@ -28585,7 +28778,7 @@ dS
 dS
 dS
 dS
-dS
+nl
 dS
 dS
 dS
@@ -28594,6 +28787,7 @@ dS
 dS
 wU
 dS
+nl
 dS
 dS
 dS
@@ -28602,13 +28796,12 @@ dS
 dS
 dS
 dS
+nl
 dS
 dS
 dS
 dS
-dS
-dS
-dS
+nl
 dS
 dS
 dS
@@ -29026,13 +29219,13 @@ ih
 ih
 ih
 ih
+OI
 ih
 ih
 ih
 ih
 ih
-ih
-ih
+OI
 vO
 dS
 dS
@@ -29186,12 +29379,12 @@ EB
 EB
 EB
 Hn
+nl
 dS
 dS
 dS
 dS
-dS
-dS
+nl
 dS
 dS
 dS
@@ -29303,10 +29496,10 @@ EB
 EB
 EB
 EB
-xa
+Es
 ik
 gm
-np
+WM
 EB
 EB
 EB
@@ -29354,7 +29547,7 @@ dS
 dS
 wn
 dS
-dS
+nl
 dS
 dS
 dS
@@ -29499,7 +29692,7 @@ dS
 dS
 dS
 dS
-dS
+nl
 dS
 dS
 dS
@@ -30215,10 +30408,10 @@ EB
 EB
 EB
 EB
-xa
+Es
 ik
 gm
-np
+WM
 EB
 EB
 EB
@@ -31127,10 +31320,10 @@ EB
 EB
 EB
 EB
-xa
+Es
 ik
 gm
-np
+WM
 EB
 EB
 EB
@@ -31315,13 +31508,13 @@ EB
 EB
 Hn
 dS
-dS
+nl
 dS
 dS
 dS
 RI
 dS
-dS
+nl
 gA
 fV
 fV
@@ -32039,10 +32232,10 @@ EB
 EB
 EB
 EB
-xa
+Es
 ik
 gm
-np
+WM
 EB
 EB
 EB
@@ -32230,7 +32423,7 @@ dS
 dS
 dS
 dS
-dS
+nl
 dS
 dS
 dS
@@ -32385,7 +32578,7 @@ dS
 dS
 dS
 dS
-dS
+nl
 gA
 fV
 fV
