@@ -501,6 +501,14 @@
 	},
 /turf/open/floor/plasteel/cult,
 /area/f13/building/tribal)
+"dO" = (
+/obj/effect/landmark/start/f13/dualcitizen,
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone"
+	},
+/area/f13/tribe)
 "dT" = (
 /obj/structure/chair/sofa/corp{
 	dir = 4
@@ -982,6 +990,18 @@
 /obj/machinery/workbench/forge,
 /turf/open/floor/plasteel/cult,
 /area/f13/building/tribal)
+"ik" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 8;
+	color = "#777777"
+	},
+/obj/effect/landmark/start/f13/villager,
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone"
+	},
+/area/f13/tribe)
 "io" = (
 /obj/item/lock_bolt{
 	dir = 8
@@ -1073,6 +1093,14 @@
 	},
 /turf/open/floor/carpet/green,
 /area/f13/building)
+"jy" = (
+/obj/effect/landmark/start/f13/guardian,
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone"
+	},
+/area/f13/tribe)
 "jA" = (
 /obj/structure/flora/ausbushes,
 /turf/open/indestructible/ground/outside/civ/grass3{
@@ -1544,6 +1572,7 @@
 /obj/effect/turf_decal/weather/dirtcorner{
 	color = "#777777"
 	},
+/obj/effect/landmark/start/f13/druid,
 /turf/open/indestructible/ground/outside/roaddirt{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "khanstone";
@@ -3737,6 +3766,18 @@
 	},
 /turf/open/floor/carpet/purple,
 /area/f13/building/tribal)
+"ER" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 4;
+	color = "#777777"
+	},
+/obj/effect/landmark/start/f13/hunter,
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone"
+	},
+/area/f13/tribe)
 "EV" = (
 /obj/item/kitchen/knife,
 /obj/structure/craft_counter{
@@ -4012,6 +4053,18 @@
 	name = "ancient wall"
 	},
 /area/f13/building/tribal)
+"HG" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 4;
+	color = "#777777"
+	},
+/obj/effect/landmark/start/f13/tribal,
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone"
+	},
+/area/f13/tribe)
 "HR" = (
 /obj/structure/spacevine{
 	icon = 'icons/effects/effects.dmi';
@@ -4246,6 +4299,18 @@
 	dir = 10;
 	color = "#777777"
 	},
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone"
+	},
+/area/f13/tribe)
+"JO" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 8;
+	color = "#777777"
+	},
+/obj/effect/landmark/start/f13/Hhunter,
 /turf/open/indestructible/ground/outside/roaddirt{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "khanstone";
@@ -4602,6 +4667,7 @@
 	dir = 8;
 	color = "#777777"
 	},
+/obj/effect/landmark/start/f13/chief,
 /turf/open/indestructible/ground/outside/roaddirt{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "khanstone";
@@ -5227,6 +5293,14 @@
 	},
 /turf/open/floor/plasteel/cult,
 /area/f13/building/tribal)
+"Rh" = (
+/obj/effect/landmark/start/f13/spiritpledged,
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone"
+	},
+/area/f13/tribe)
 "Rk" = (
 /obj/structure/decoration/rag,
 /obj/structure/decoration/rag{
@@ -5506,6 +5580,18 @@
 	barefootstep = "grass";
 	clawfootstep = "grass";
 	footstep = "grass"
+	},
+/area/f13/tribe)
+"Sh" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 8;
+	color = "#777777"
+	},
+/obj/effect/landmark/start/f13/shaman,
+/turf/open/indestructible/ground/outside/roaddirt{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "khanstone";
+	name = "cobblestone"
 	},
 /area/f13/tribe)
 "Si" = (
@@ -24246,9 +24332,9 @@ oO
 YD
 CF
 mB
-Oj
-Oj
-Oj
+JO
+Sh
+ik
 zC
 Mn
 DR
@@ -24397,10 +24483,10 @@ Zp
 PJ
 FL
 CF
-Gu
-Gu
-Gu
-Gu
+dO
+jy
+Rh
+dO
 mX
 EN
 iq
@@ -24550,8 +24636,8 @@ jq
 oo
 CF
 MS
-kT
-kT
+ER
+HG
 kT
 zC
 Mn

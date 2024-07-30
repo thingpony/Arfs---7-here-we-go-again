@@ -156,28 +156,28 @@ GLOBAL_LIST_INIT(brotherhood_positions, list(
 GLOBAL_LIST_INIT(oasis_positions, list(
 	//"High Alderperson",
 	//"Councilperson",
-	"Sheriff",
-	"New Boston Security",
+	//"Sheriff",
+	//"New Boston Security",
 	//"Deputy Mayor",
 	//"Farmer",
 	//"Prospector",
 	//"Doctor",
 	//"Detective",
 	//"Guild Financier",
-	"Town Doctor",
-	"Town Scientist",
+	//"Town Doctor",
+	//"Town Scientist",
 	//"Texarkana Quartermaster",
-	"Guild Worker",
-	"Barkeep",
+	//"Guild Worker",
+	//"Barkeep",
 	"Citizen",
 	//"Preacher",
-	"Vertibird Pilot",
+	//"Vertibird Pilot",
 	//"New Boston Librarian",
 ))
 
 //Den Citizenship
 GLOBAL_LIST_INIT(den_positions, list(
-	"Den Citizen",
+	//"Den Citizen",
 ))
 
 //Gar Citizenship
@@ -248,23 +248,23 @@ GLOBAL_LIST_INIT(vault_positions, list(
 ))
 
 GLOBAL_LIST_INIT(wasteland_positions, list(
-	"Den Mob Boss",
-	"Den Mob Enforcer",
-	"Den Doctor",
+	//"Den Mob Boss",
+	//"Den Mob Enforcer",
+	//"Den Doctor",
 //	"Outlaw",
-	"Faithful",
-	"Vigilante",
-	"Far-Lands Tribals",
-	"Wastelander",
-	"Radio Operator",
-	"Backstage Character",
-	"Texarkana Ranger",
+	//"Faithful",
+	//"Vigilante",
+	//"Far-Lands Tribals",
+	//"Wastelander",
+	//"Radio Operator",
+	//"Backstage Character",
+	//"Texarkana Ranger",
 ))
 
 GLOBAL_LIST_INIT(tunnelrats_positions, list(
 	//"Redwater Slave",
 	//"Outlaw",
-	"Tunnel Rats Churl"
+	//"Tunnel Rats Churl"
 	//"Tunnel Rats Strongarm"
 	//"Redwater Overboss",
 ))
@@ -330,21 +330,21 @@ GLOBAL_LIST_INIT(followers_positions, list(
 ))
 
 GLOBAL_LIST_INIT(guild_positions, list(
-	"Guild Cataloger",
-	"Guild Healer",
-	"Guild Shopkeeper",
-	"Guild Kitcheneer",
-	"Guild Knight",
-	"Guild Financier"
+	//"Guild Cataloger",
+	//"Guild Healer",
+	//"Guild Shopkeeper",
+	//"Guild Kitcheneer",
+	//"Guild Knight",
+	//"Guild Financier"
 ))
 
 //Heavens Night
 GLOBAL_LIST_INIT(heavensnight_positions, list(
-	"Club Manager",
-	"Club Worker",
+	//"Club Manager",
+	//"Club Worker",
 ))
 
-/// TODO: Take all these horrible string-based roflcopters and have them 
+/// TODO: Take all these horrible string-based roflcopters and have them
 // job categories for rendering the late join menu
 GLOBAL_LIST_INIT(position_categories, list(
 	//	EXP_TYPE_NCR = list("jobs" = ncr_positions, "color" = "#ffeeaa"),
@@ -352,19 +352,19 @@ GLOBAL_LIST_INIT(position_categories, list(
 	// EXP_TYPE_FOLLOWERS = list("jobs" = followers_positions, "color" = "#ffeeaa"),
 	// EXP_TYPE_BROTHERHOOD = list("jobs" = brotherhood_positions, "color" = "#95a5a6"),
 	// EXP_TYPE_LEGION = list("jobs" = legion_positions, "color" = "#f81717"),
-	EXP_TYPE_WASTELAND = list("jobs" = wasteland_positions, "color" = "#5a5a5a"),
+	//EXP_TYPE_WASTELAND = list("jobs" = wasteland_positions, "color" = "#5a5a5a"),
 	// EXP_TYPE_ENCLAVE = list("jobs" = enclave_positions, "color" = "#323232"),
 	// EXP_TYPE_KHAN = list("jobs" = khan_positions, "color" = "#006666"),
-	"New Boston" = list("jobs" = oasis_positions, "color" = "#d7b088"),
-	"Den" = list("jobs" = den_positions, "color" = "#d7b088"),
-	"Guild" = list("jobs" = guild_positions, "color" = "#d45b3d"),
+	"Hamlet" = list("jobs" = oasis_positions, "color" = "#d7b088"),
+	//"Den" = list("jobs" = den_positions, "color" = "#d7b088"),
+	//"Guild" = list("jobs" = guild_positions, "color" = "#d45b3d"),
 	//"Garland" = list("jobs" = gar_positions, "color" = "#d7b088"),
-	EXP_TYPE_SILICON = list("jobs" = silicon_positions, "color" = "#4a4a4a"),
+	//EXP_TYPE_SILICON = list("jobs" = silicon_positions, "color" = "#4a4a4a"),
 	EXP_TYPE_TRIBAL = list("jobs" = tribal_positions, "color" = "#006666"),
 	//EXP_TYPE_BIKER = list("jobs" = biker_positions, "color" = "#eb872f"),
-	EXP_TYPE_CLUB = list("jobs" = heavensnight_positions, "color" = "#c94b8a"),
+	//EXP_TYPE_CLUB = list("jobs" = heavensnight_positions, "color" = "#c94b8a"),
 	//"debug" = list("jobs" = debug_positions, "color" = "#ff00ee"),
-	"Tunnel Rats" = list("jobs" = tunnelrats_positions, "color" = "#f81717"),
+	//"Tunnel Rats" = list("jobs" = tunnelrats_positions, "color" = "#f81717"),
 ))
 
 GLOBAL_LIST_INIT(exp_jobsmap, list(

@@ -5323,6 +5323,10 @@
 	},
 /turf/open/indestructible/ground/outside/civ/grass0,
 /area/f13/wasteland)
+"Cp" = (
+/obj/effect/landmark/start/f13/settler,
+/turf/open/indestructible/ground/outside/civ/woodalt,
+/area/f13/building)
 "Cs" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
@@ -12312,9 +12316,9 @@ xa
 YX
 ec
 ec
+Cp
 ec
-ec
-ec
+Cp
 YX
 Jl
 ec
@@ -13072,9 +13076,9 @@ xa
 YX
 ec
 ec
+Cp
 ec
-ec
-ec
+Cp
 YX
 ec
 ec
