@@ -19,7 +19,7 @@
 	// Config actually from the JSON - should default to Box
 	var/map_name = "Hamlet"
 	var/map_path = "map_files/hamlet_arfs"
-	var/map_file = list("hamlet_lower.dmm","hamlet.dmm","hamlet_upper.dmm")
+	var/map_file = list("underground.dmm","hamlet_lower.dmm","hamlet.dmm","hamlet_upper.dmm")
 	var/list/added_jobs = list()     //Overrides the "none" faction using job name
 	var/list/removed_jobs = list()   //Removes the "none" faction using job name - can also use #all# (case sensitive)
 
@@ -38,7 +38,7 @@
 						),
 					list(
 						ZTRAIT_GRAVITY = 1,
-						ZTRAIT_STATION = 1,
+						ZTRAIT_DUNGEON = 1,
 						ZTRAIT_NOPARALLAX = 1,
 						ZTRAIT_BASETURF = /turf/open/indestructible/ground/inside/mountain,
 						ZTRAIT_UP = 1,
@@ -52,7 +52,6 @@
 						ZTRAIT_GRAVITY = 1,
 						ZTRAIT_STATION = 1,
 						ZTRAIT_NOPARALLAX = 1,
-						ZTRAIT_ABOVE = 1,
 						ZTRAIT_BASETURF = /turf/open/indestructible/ground/inside/mountain,
 						ZTRAIT_UP = 1,
 						ZTRAIT_DOWN = -1,
@@ -60,6 +59,19 @@
 						Z_FORCE_X = 0,
 						Z_FORCE_Y = 0,
 						Z_FORCE_Z = 2,
+						),
+					list(
+						ZTRAIT_GRAVITY = 1,
+						ZTRAIT_STATION = 1,
+						ZTRAIT_NOPARALLAX = 1,
+						ZTRAIT_ABOVE = 1,
+						ZTRAIT_BASETURF = /turf/open/indestructible/ground/inside/mountain,
+						ZTRAIT_UP = 1,
+						ZTRAIT_DOWN = -1,
+						ZTRAIT_LINKAGE = CROSSLINKED,
+						Z_FORCE_X = 0,
+						Z_FORCE_Y = 0,
+						Z_FORCE_Z = 3,
 						)
 					)
 	var/space_ruin_levels = 0

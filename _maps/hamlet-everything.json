@@ -2,6 +2,7 @@
 	"map_name": "Hamlet",
 	"map_path": "map_files/hamlet_arfs",
 	"map_file": [
+		"underground.dmm",
 		"hamlet_lower.dmm",
 		"hamlet.dmm",
 		"hamlet_upper.dmm"
@@ -21,10 +22,23 @@
 			"Down": -1,
 			"No Parallax": true,
 			"Linkage" : "Cross",
-			"Name": "Lower Hamlet",
+			"Name": "Underground",
 			"Force X": 0,
 			"Force Y": 0,
 			"Force Z": 0
+		},
+		{
+			"Gravity": true,
+			"Baseturf": "/turf/open/indestructible/ground/inside/mountain",
+			"Dungeons": true,
+			"Up": 1,
+			"Down": -1,
+			"No Parallax": true,
+			"Linkage" : "Cross",
+			"Name": "Lower Hamlet",
+			"Force X": 0,
+			"Force Y": 0,
+			"Force Z": 1
 		},
 
 		{
@@ -38,9 +52,8 @@
 			"Name": "Hamlet",
 			"Force X": 0,
 			"Force Y": 0,
-			"Force Z": 1
+			"Force Z": 2
 		},
-
 		{
 			"Gravity": true,
 			"Baseturf": "/turf/open/transparent/openspace",
@@ -52,8 +65,9 @@
 			"Name": "Upper Hamlet",
 			"Force X": 0,
 			"Force Y": 0,
-			"Force Z": 2
+			"Force Z": 3
 		}
+
 	],
 	"minetype": "none"
 }
