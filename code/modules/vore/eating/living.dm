@@ -2,10 +2,16 @@
 /mob/living/ComponentInitialize()
 	. = ..()
 	RegisterSignal(src, list(COMSIG_MOB_CLIENT_LOGIN, COMSIG_MOB_KEY_CHANGE),PROC_REF(vorify))
+	RegisterSignal(src, list(COMSIG_MOB_NONPLAYER_VORIFY),PROC_REF(vorify_mob))
 
 /mob/living/proc/vorify()
 	if(!CHECK_PREFS(src, VOREPREF_MASTER))
 		return // no vore, no problem
+	if(SEND_SIGNAL(src, COMSIG_VORE_EXISTS))
+		return // already vorified
+	AddComponent(/datum/component/vore) // Vore is a component now. What a time to be alive
+
+/mob/living/proc/vorify_mob()
 	if(SEND_SIGNAL(src, COMSIG_VORE_EXISTS))
 		return // already vorified
 	AddComponent(/datum/component/vore) // Vore is a component now. What a time to be alive

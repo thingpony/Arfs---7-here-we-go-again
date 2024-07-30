@@ -732,6 +732,7 @@
 #define COMSIG_VORE_CHECK_EDIBILITY "can_i_eat_item" // (datum/source, obj/item/thing)
 /// Asks the mob if their vore is set up
 #define COMSIG_VORE_EXISTS "is_vore_time"
+#define COMSIG_MOB_NONPLAYER_VORIFY "vorify_mob_at_devour_time"
 
 /// Vore defines specifically for a belly
 /// Tells the belly trash happened

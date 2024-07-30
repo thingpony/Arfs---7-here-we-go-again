@@ -530,27 +530,32 @@
 		to_chat(master, span_warning("Something went wrong!"))
 		to_chat(movable_prey, span_warning("Something went wrong?"))
 		return FALSE
+	else
+		if(isliving(movable_prey)) // not all prey is living
+			var/mob/living/living_prey = movable_prey
+			if(!living_prey.ckey && !living_prey.client)
+				SEND_SIGNAL(movable_prey,COMSIG_MOB_NONPLAYER_VORIFY)
 	master.stop_pulling()
 
-	if(!isliving(movable_prey))
-		return TRUE // we're done here
-	var/mob/living/living_prey = movable_prey
-	// Inform Admins
-	var/prey_braindead
-	var/prey_stat
-	if(living_prey.ckey)
-		prey_stat = living_prey.stat//only return this if they're not an unmonkey or whatever
-		if(!living_prey.client)//if they disconnected, tell us
-			prey_braindead = TRUE
-	if (living_pred == master)
-		message_admins("[ADMIN_LOOKUPFLW(living_pred)] ate [ADMIN_LOOKUPFLW(living_prey)][!prey_braindead ? "" : " (BRAINDEAD)"][prey_stat ? " (DEAD/UNCONSCIOUS)" : ""].")
-		living_pred.log_message("[key_name(living_pred)] ate [key_name(living_prey)].", LOG_ATTACK)
-		living_prey.log_message("[key_name(living_prey)] was eaten by [key_name(living_pred)].", LOG_ATTACK)
-	else
-		message_admins("[ADMIN_LOOKUPFLW(master)] forced [ADMIN_LOOKUPFLW(living_pred)] to eat [ADMIN_LOOKUPFLW(living_prey)].")
-		master.log_message("[key_name(master)] forced [key_name(living_pred)] to eat [key_name(living_prey)].", LOG_ATTACK)
-		living_pred.log_message("[key_name(master)] forced [key_name(living_pred)] to eat [key_name(living_prey)].", LOG_ATTACK)
-		living_prey.log_message("[key_name(master)] forced [key_name(living_pred)] to eat [key_name(living_prey)].", LOG_ATTACK)
+	// if(!isliving(movable_prey))
+	// 	return TRUE // we're done here
+	// var/mob/living/living_prey = movable_prey
+	// // Inform Admins
+	// var/prey_braindead
+	// var/prey_stat
+	// if(living_prey.ckey)
+	// 	prey_stat = living_prey.stat//only return this if they're not an unmonkey or whatever
+	// 	if(!living_prey.client)//if they disconnected, tell us
+	// 		prey_braindead = TRUE
+	// if (living_pred == master)
+	// 	message_admins("[ADMIN_LOOKUPFLW(living_pred)] ate [ADMIN_LOOKUPFLW(living_prey)][!prey_braindead ? "" : " (BRAINDEAD)"][prey_stat ? " (DEAD/UNCONSCIOUS)" : ""].")
+	// 	living_pred.log_message("[key_name(living_pred)] ate [key_name(living_prey)].", LOG_ATTACK)
+	// 	living_prey.log_message("[key_name(living_prey)] was eaten by [key_name(living_pred)].", LOG_ATTACK)
+	// else
+	// 	message_admins("[ADMIN_LOOKUPFLW(master)] forced [ADMIN_LOOKUPFLW(living_pred)] to eat [ADMIN_LOOKUPFLW(living_prey)].")
+	// 	master.log_message("[key_name(master)] forced [key_name(living_pred)] to eat [key_name(living_prey)].", LOG_ATTACK)
+	// 	living_pred.log_message("[key_name(master)] forced [key_name(living_pred)] to eat [key_name(living_prey)].", LOG_ATTACK)
+	// 	living_prey.log_message("[key_name(master)] forced [key_name(living_pred)] to eat [key_name(living_prey)].", LOG_ATTACK)
 	return TRUE
 
 /datum/component/vore/proc/examine_bellies(datum/source, mob/examiner, list/examine_list)
@@ -599,6 +604,8 @@
 	if(!isbelly(master.loc))
 		return // you died fair and square!
 	var/client/probably_master = RESOLVEWEAKREF(client_cached)
+	if (!master.client && !master.ckey && !probably_master)
+		qdel(master) // Gurgle the non-sentient mobs
 	if(!probably_master)
 		return // must have left
 	var/die = alert(
