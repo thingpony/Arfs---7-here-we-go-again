@@ -1639,6 +1639,9 @@
 /obj/item/flashlight/lantern,
 /turf/open/floor/plasteel/cult,
 /area/f13/building/tribal)
+"mQ" = (
+/turf/open/indestructible,
+/area/f13/wasteland)
 "mT" = (
 /obj/structure/fence/wooden{
 	pixel_x = 13
@@ -2595,6 +2598,10 @@
 	},
 /turf/open/indestructible/ground/outside/civ/woodalt,
 /area/f13/building)
+"tI" = (
+/obj/machinery/telecomms/relay/preset/station,
+/turf/open/indestructible,
+/area/f13/wasteland)
 "tK" = (
 /obj/structure/railing/wood{
 	dir = 8
@@ -5973,6 +5980,9 @@
 	},
 /turf/open/water/seashallow,
 /area/f13/wasteland)
+"Uq" = (
+/turf/closed/indestructible/riveted,
+/area/f13/wasteland)
 "Uz" = (
 /mob/living/simple_animal/hostile/stalker{
 	faction = list("neutral");
@@ -6680,11 +6690,11 @@
 /area/f13/building/tribal)
 
 (1,1,1) = {"
-IZ
-IZ
-IZ
-IZ
-IZ
+Uq
+Uq
+Uq
+Uq
+Uq
 IZ
 IZ
 IZ
@@ -6832,11 +6842,11 @@ IZ
 IZ
 "}
 (2,1,1) = {"
-IZ
-IZ
-IZ
-IZ
-IZ
+Uq
+mQ
+mQ
+mQ
+Uq
 IZ
 IZ
 IZ
@@ -6984,11 +6994,11 @@ IZ
 IZ
 "}
 (3,1,1) = {"
-IZ
-IZ
-IZ
-IZ
-IZ
+Uq
+mQ
+tI
+mQ
+Uq
 IZ
 IZ
 IZ
@@ -7136,11 +7146,11 @@ IZ
 IZ
 "}
 (4,1,1) = {"
-IZ
-IZ
-IZ
-IZ
-IZ
+Uq
+mQ
+mQ
+mQ
+Uq
 IZ
 IZ
 IZ
@@ -7288,11 +7298,11 @@ IZ
 IZ
 "}
 (5,1,1) = {"
-IZ
-IZ
-IZ
-IZ
-IZ
+Uq
+Uq
+Uq
+Uq
+Uq
 IZ
 IZ
 IZ

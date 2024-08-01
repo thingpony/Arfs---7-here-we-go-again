@@ -422,6 +422,12 @@
 /obj/structure/curtain,
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion)
+"dc" = (
+/obj/machinery/telecomms/server/presets/responders,
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/tcommsat/server)
 "dd" = (
 /obj/machinery/computer/arcade/orion_trail,
 /turf/open/floor/carpet/arcade,
@@ -464,6 +470,13 @@
 /obj/structure/table/glass,
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/arfs/mansion/bar)
+"dF" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 8
+	},
+/obj/machinery/telecomms/server/presets/bos,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "dG" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -545,6 +558,12 @@
 	},
 /turf/open/floor/plasteel/f13/whitemarble,
 /area/arfs/mansion/bar)
+"ek" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 10
+	},
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "el" = (
 /obj/machinery/light{
 	light_color = "#e8eaff";
@@ -644,6 +663,10 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
+"fa" = (
+/obj/effect/turf_decal/stripes/asteroid/corner,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "fb" = (
 /obj/structure/table/glass,
 /obj/item/soap/deluxe{
@@ -701,6 +724,14 @@
 	},
 /turf/open/floor/plating/dirt/virgosand,
 /area/f13/caves)
+"fD" = (
+/obj/machinery/telecomms/server/presets/khans,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"fN" = (
+/obj/effect/turf_decal/stripes/asteroid/line,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "fO" = (
 /obj/effect/turf_decal/weather/grassedgevirgocorner{
 	dir = 5
@@ -1048,6 +1079,12 @@
 	},
 /turf/open/floor/mineral/silver,
 /area/arfs/mansion)
+"iy" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 1
+	},
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "iF" = (
 /obj/structure/table/wood,
 /obj/item/modular_computer/laptop/preset,
@@ -1138,6 +1175,10 @@
 "jp" = (
 /turf/closed/wall/r_wall/f13/vault,
 /area/f13/building)
+"jr" = (
+/obj/machinery/light/floor,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "jv" = (
 /turf/open/floor/plasteel/whiteblue/corner,
 /area/arfs/mansion)
@@ -1264,6 +1305,12 @@
 	},
 /turf/open/floor/carpet,
 /area/arfs/mansion)
+"jY" = (
+/obj/machinery/telecomms/server/presets/den,
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/tcommsat/server)
 "kb" = (
 /obj/machinery/door/airlock/public/glass,
 /obj/effect/turf_decal/weather/splinefancy{
@@ -1335,12 +1382,30 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
+"kH" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 8
+	},
+/obj/machinery/telecomms/broadcaster/preset_left,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"kK" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 4
+	},
+/obj/machinery/telecomms/server/presets/vault,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "kN" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 4
 	},
 /turf/open/floor/grass,
 /area/arfs/mansion)
+"kO" = (
+/obj/machinery/telecomms/server/presets/service,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "kP" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/item/flashlight/lamp/green,
@@ -1425,6 +1490,12 @@
 	},
 /turf/open/floor/grass,
 /area/arfs/mansion)
+"lC" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 6
+	},
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "lG" = (
 /obj/structure/flora/wasteplant/fever_blossom,
 /obj/structure/flora/ausbushes/leafybush,
@@ -1436,6 +1507,11 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13,
 /area/f13/building)
+"lO" = (
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/tcommsat/server)
 "lP" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/effect/decal/cleanable/glitter/blue,
@@ -1617,6 +1693,12 @@
 "mM" = (
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/arfs/mansion/bar)
+"mO" = (
+/obj/machinery/telecomms/server/presets/ncr,
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/tcommsat/server)
 "mQ" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 8
@@ -1737,6 +1819,10 @@
 "ns" = (
 /turf/open/water/beach,
 /area/f13/caves)
+"nv" = (
+/obj/machinery/telecomms/server/presets/engineering,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "nx" = (
 /turf/open/indestructible/ground/outside/civ/woodalt{
 	color = "#b8884e"
@@ -1984,6 +2070,12 @@
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/arfs/mansion/pool)
+"pg" = (
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/tcommsat/server)
 "ph" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -2237,6 +2329,13 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
+"qG" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 1
+	},
+/obj/machinery/ntnet_relay,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "qJ" = (
 /obj/effect/turf_decal/weather/grassedgevirgocorner{
 	dir = 5
@@ -2297,6 +2396,13 @@
 /obj/item/storage/box/beakers,
 /turf/open/floor/plasteel/dark,
 /area/arfs/mansion)
+"qX" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 6
+	},
+/obj/machinery/telecomms/bus/preset_three,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "qY" = (
 /obj/machinery/light{
 	dir = 8;
@@ -2414,6 +2520,13 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
+"rJ" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 8
+	},
+/obj/machinery/telecomms/server/presets/enclave,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "rK" = (
 /obj/structure/closet/crate/bin/trash_fallout,
 /turf/open/floor/plasteel/freezer,
@@ -2592,6 +2705,9 @@
 	},
 /turf/open/water/seashallow,
 /area/arfs/mansion/pool)
+"sU" = (
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "sW" = (
 /obj/machinery/shower{
 	dir = 4
@@ -2620,6 +2736,13 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
+"te" = (
+/obj/machinery/telecomms/processor/preset_one,
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/tcommsat/server)
 "tf" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
@@ -2822,6 +2945,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/arfs/mansion)
+"uw" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 9
+	},
+/obj/machinery/telecomms/bus/preset_one,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "uz" = (
 /obj/machinery/door/window/right{
 	dir = 8
@@ -2873,6 +3003,10 @@
 /obj/item/kitchen/knife,
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
+"uT" = (
+/obj/machinery/telecomms/server/presets/common,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "uU" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/carpet/royalblue,
@@ -3214,6 +3348,13 @@
 	color = "#7393B3"
 	},
 /area/arfs/mansion/stripclub)
+"wy" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 4
+	},
+/obj/machinery/telecomms/server/presets/command,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "wz" = (
 /obj/structure/table/abductor,
 /obj/machinery/light{
@@ -3521,6 +3662,13 @@
 	sunlight_state = 0
 	},
 /area/f13/caves)
+"ye" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 10
+	},
+/obj/machinery/telecomms/bus/preset_four,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "yf" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /turf/open/floor/plasteel/dark,
@@ -3790,6 +3938,13 @@
 	},
 /turf/open/floor/plasteel/f13,
 /area/f13/building)
+"zI" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 4
+	},
+/obj/machinery/telecomms/receiver/preset_right,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "zL" = (
 /obj/effect/turf_decal/weather/grassedgevirgo{
 	dir = 4
@@ -3825,6 +3980,12 @@
 	dir = 4
 	},
 /area/arfs/mansion)
+"zV" = (
+/obj/machinery/telecomms/server/presets/supply,
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/tcommsat/server)
 "zW" = (
 /obj/structure/decoration/vent,
 /turf/open/floor/plasteel/freezer,
@@ -4126,6 +4287,9 @@
 /obj/machinery/vending/cola,
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
+"CH" = (
+/turf/open/indestructible,
+/area/f13/caves)
 "CS" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
@@ -4706,6 +4870,13 @@
 	},
 /turf/open/floor/carpet/black,
 /area/arfs/mansion)
+"Gh" = (
+/obj/machinery/telecomms/processor/preset_three,
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/tcommsat/server)
 "Gk" = (
 /obj/structure/table/reinforced,
 /obj/item/soap/deluxe{
@@ -4719,6 +4890,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/arfs/mansion)
+"Gl" = (
+/obj/machinery/telecomms/server/presets/ranger,
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/tcommsat/server)
 "Gm" = (
 /obj/structure/chair/sofa/corner{
 	color = "#666666";
@@ -5168,6 +5345,12 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/library)
+"JI" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 5
+	},
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "JL" = (
 /obj/effect/turf_decal/weather/splinefancycorner{
 	dir = 8
@@ -5303,6 +5486,9 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
+"KJ" = (
+/turf/closed/indestructible/riveted,
+/area/f13/caves)
 "KM" = (
 /obj/structure/spacevine,
 /turf/open/indestructible/ground/outside/dirt{
@@ -5418,6 +5604,10 @@
 /obj/item/reagent_containers/rag/towel/random,
 /turf/open/floor/plasteel/cafeteria,
 /area/arfs/mansion/pool)
+"LD" = (
+/obj/machinery/telecomms/server/presets/science,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "LF" = (
 /obj/structure/table/glass,
 /turf/open/floor/plasteel/f13/whitemarble,
@@ -5743,6 +5933,13 @@
 /obj/structure/decoration/vent,
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion/pool)
+"MU" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 5
+	},
+/obj/machinery/telecomms/bus/preset_two,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "MW" = (
 /obj/structure/flora/ausbushes/leafybush,
 /obj/effect/turf_decal/weather/grassedgevirgo{
@@ -5950,6 +6147,13 @@
 	},
 /turf/open/floor/carpet/arcade,
 /area/arfs/mansion/arcade)
+"On" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 8
+	},
+/obj/machinery/telecomms/receiver/preset_left,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "Oo" = (
 /obj/machinery/light{
 	light_color = "#e8eaff";
@@ -5959,6 +6163,10 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
+"Oq" = (
+/obj/machinery/telecomms/relay/preset/station,
+/turf/open/indestructible,
+/area/f13/caves)
 "Ov" = (
 /obj/structure/rack/shelf_metal/modern,
 /obj/item/reagent_containers/food/drinks/bottle/kahlua,
@@ -6048,6 +6256,12 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/arfs/mansion)
+"OU" = (
+/obj/machinery/telecomms/server/presets/medical,
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/tcommsat/server)
 "OW" = (
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/effect/decal/cleanable/glitter/blue,
@@ -6177,6 +6391,12 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
+"PH" = (
+/obj/effect/turf_decal/stripes/asteroid/corner{
+	dir = 4
+	},
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "PK" = (
 /obj/machinery/door/airlock,
 /turf/open/floor/plasteel/freezer,
@@ -6208,6 +6428,13 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/library)
+"PU" = (
+/obj/machinery/telecomms/processor/preset_four,
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/tcommsat/server)
 "PW" = (
 /obj/structure/table/abductor,
 /turf/open/indestructible/ground/outside/civ/woodalt{
@@ -6229,6 +6456,14 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
+"Qe" = (
+/obj/machinery/telecomms/server/presets/security,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"Qj" = (
+/obj/machinery/telecomms/server/presets/town,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "Qo" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-10"
@@ -6259,6 +6494,10 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
+"Qx" = (
+/obj/machinery/telecomms/hub/preset,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "QA" = (
 /obj/structure/curtain,
 /obj/structure/window/reinforced/survival_pod{
@@ -6559,6 +6798,14 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/arfs/mansion)
+"St" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/tcommsat/server)
 "Su" = (
 /obj/effect/turf_decal/weather/grassedgevirgo,
 /obj/structure/destructible/tribal_torch/lit{
@@ -6680,6 +6927,14 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/bar)
+"Ts" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/tcommsat/server)
 "Tt" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 8
@@ -6716,6 +6971,13 @@
 /obj/item/stack/f13Cash/caps/threezerozero,
 /turf/open/floor/plasteel/dark,
 /area/f13/caves)
+"TF" = (
+/obj/machinery/telecomms/processor/preset_two,
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/tcommsat/server)
 "TH" = (
 /obj/machinery/door/airlock,
 /turf/open/indestructible/ground/outside/civ/woodalt{
@@ -6730,6 +6992,11 @@
 	},
 /turf/open/floor/carpet,
 /area/arfs/mansion)
+"TK" = (
+/obj/effect/turf_decal/stripes/asteroid/line,
+/obj/machinery/telecomms/message_server,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "TL" = (
 /obj/machinery/door/airlock/diamond,
 /turf/open/floor/plating/wooden2,
@@ -6990,6 +7257,10 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion/library)
+"VE" = (
+/obj/machinery/telecomms/server/presets/legion,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "VG" = (
 /obj/structure/rack/shelf_metal/modern,
 /obj/item/stack/sheet/mineral/silver/fifty{
@@ -7303,6 +7574,12 @@
 /obj/item/reagent_containers/food/condiment/enzyme,
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/arfs/mansion)
+"Xj" = (
+/obj/effect/turf_decal/stripes/asteroid/corner{
+	dir = 8
+	},
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "Xt" = (
 /obj/machinery/washing_machine,
 /obj/structure/bedsheetbin/towel{
@@ -7475,10 +7752,23 @@
 	color = "#b8884e"
 	},
 /area/arfs/mansion)
+"YO" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 4
+	},
+/obj/machinery/telecomms/broadcaster/preset_right,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "YT" = (
 /obj/structure/falsewall/iron,
 /turf/closed/wall/mineral/iron,
 /area/arfs/mansion)
+"YU" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 9
+	},
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "YY" = (
 /mob/living/simple_animal/cow/brahmin/motorbike{
 	dir = 4
@@ -7530,6 +7820,12 @@
 	},
 /turf/open/floor/carpet/orange,
 /area/arfs/mansion)
+"Zv" = (
+/obj/effect/turf_decal/stripes/asteroid/corner{
+	dir = 1
+	},
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "Zx" = (
 /obj/structure/chair/office/dark{
 	dir = 8
@@ -7781,11 +8077,11 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
+KJ
+KJ
+KJ
+KJ
+KJ
 "}
 (2,1,1) = {"
 cr
@@ -7933,11 +8229,11 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
+KJ
+CH
+CH
+CH
+KJ
 "}
 (3,1,1) = {"
 cr
@@ -8085,11 +8381,11 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
+KJ
+CH
+Oq
+CH
+KJ
 "}
 (4,1,1) = {"
 cr
@@ -8237,11 +8533,11 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
+KJ
+CH
+CH
+CH
+KJ
 "}
 (5,1,1) = {"
 cr
@@ -8384,16 +8680,16 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
 "}
 (6,1,1) = {"
 cr
@@ -8536,16 +8832,16 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
+KJ
+te
+uw
+On
+dF
+Ts
+rJ
+kH
+ye
+PU
 "}
 (7,1,1) = {"
 cr
@@ -8688,16 +8984,16 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
+KJ
+YU
+PH
+sU
+sU
+pg
+sU
+sU
+Zv
+ek
 "}
 (8,1,1) = {"
 cr
@@ -8840,16 +9136,16 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
+KJ
+iy
+uT
+fD
+OU
+sU
+Gl
+LD
+kO
+fN
 "}
 (9,1,1) = {"
 cr
@@ -8992,16 +9288,16 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
+KJ
+qG
+jY
+jr
+lO
+Qx
+lO
+jr
+zV
+TK
 "}
 (10,1,1) = {"
 cr
@@ -9144,16 +9440,16 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
+KJ
+iy
+nv
+VE
+mO
+sU
+dc
+Qe
+Qj
+fN
 "}
 (11,1,1) = {"
 cr
@@ -9296,16 +9592,16 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
+KJ
+JI
+Xj
+sU
+sU
+pg
+sU
+sU
+fa
+lC
 "}
 (12,1,1) = {"
 cr
@@ -9448,16 +9744,16 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
+KJ
+TF
+MU
+zI
+wy
+St
+kK
+YO
+qX
+Gh
 "}
 (13,1,1) = {"
 cr
@@ -9600,16 +9896,16 @@ cr
 cr
 cr
 cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
-cr
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
 "}
 (14,1,1) = {"
 cr
